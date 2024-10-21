@@ -198,7 +198,7 @@ The first line here is just there to clean up your dataframe a little bit, since
 
 ```{r}
 Data <- DataQA %>%
-    select(Sample.Name, Sample.type, Sample.group, Matrix, Location, Compound, concentration, Normalization.Factor)
+    select(Sample.Name, Sample.type, Sample.group, Matrix, Location, Compound, concentration, Normalization.factor)
 
 #Your code here to normalize your data to get volume and mass concentration
 ```
