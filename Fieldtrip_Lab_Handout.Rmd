@@ -29,9 +29,9 @@ library(ggpmisc)
 Let's import the lab data! We have written out the code for you below. If you want a refresher on how to import data, please read Chapter 10 of the R4EnvChem textbook. Note: make sure that you have set the right working directory! At the moment, this is set up to import an example dataset from a previous year to practice analysis on. 
 
 ```{r include=FALSE}
-data <- as_tibble(read.csv("Data/ExampleFieldTripData.csv"))
+Data <- as_tibble(read.csv("Data/ExampleFieldTripData.csv"))
 
-data
+Data
 ```
 
 Open the Excel sheet & the tibble and compare - does it make sense to you?
