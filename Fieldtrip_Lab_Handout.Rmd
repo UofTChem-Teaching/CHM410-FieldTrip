@@ -214,7 +214,7 @@ DataOut <- Data %>%
   pivot_wider(names_from = Compound, values_from = Normalized.concentration)
 
 DataAll <- Data %>%
-  select(Sample.Name, Compound, concentration) %>%
+  select(Sample.Name, Compound, Normalized.concentration) %>%
   pivot_wider(names_from = Compound, values_from = Normalized.concentration)
         
 
