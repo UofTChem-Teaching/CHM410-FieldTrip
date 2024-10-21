@@ -38,6 +38,7 @@ Open the Excel sheet & the tibble and compare - does it make sense to you?
 
 Throughout this analysis we will be making extensive use of R's data filtration settings, which is why we have so many sample description columns. The most important ones are: 
 - "Sample.group", which tells you whether your water and sediment samples were from the field or the lab (i.e. which blank applies most directly) or how the biota sample was prepared, which again tells you which blank to use.
+- "Sample.type", which tells you what type of sample was measured (i.e. blank vs calibraition vs sample)
 - "Matrix", which tells you whether you are dealing with water, sediment, or biota, 
 - "Location", which tells you whether the sample is from 20 Mile Creek or Lake Niapenco, and
 - "Compound", which tells you what compound you're working with.
