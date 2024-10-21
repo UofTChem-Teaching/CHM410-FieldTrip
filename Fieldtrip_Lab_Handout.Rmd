@@ -81,8 +81,10 @@ For the purposes of calculating LOD/LOQ, we want a linear calibration curve. Luc
 ```{r}
 linear <- 2 #This defines the highest value concentration we want to use for the linear portion of this calibration curve
 
-CalData <- CalData %>% 
-  #Write code to take the sample names and determine concentrations from those sample names %>%
+CalDataconc <- CalData %>% 
+  #Write code to take the sample names and determine concentrations from those sample names
+
+CalDatafiltered <- CalDataconc %>%
   #Write code to filter out concentrations greater than 2 ppm 
 
 QAmodels <- #Write code to create linear calibration curves for each analyte and get slopes and residual standard deviations (or standard deviation of the intercepts) in accessible form
