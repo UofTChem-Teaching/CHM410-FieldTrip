@@ -170,7 +170,7 @@ kable(blanks, digits = 3, caption = 'Calculated Blank Concentrations')
 You will most likely find that some of your blanks have appreciable concentrations, so you need to subtract out some blanks. Let's do that automatically to all groups of compounds and blank types (note that even if you blank concentration is 0, this is fine since subtracting zero doesn't do anything. For each type of sample (i.e. field blank, lab blank, and biota blank) we want to subtract the maximum value we got in an applicable blank from the remaining values. The code below will get that maximum blank value for each sample type (note the use of group_by and summarize). Join this dataframe to your existing dataframe and subtract the maximum blank values from the concentrations, then filter out the blanks from your dataset. You might also need to make sure that if your blank recorded a measurement <LOQ but your sample recorded a measurement <LOD you don't get a negative result.
 
 ```{r}
-maxBlanks <- Data %>
+maxBlanks <- Data %>%
     #Your code here to calculate the maximum concentration of blank for each type of sample
 
 #Your code here to join datasets, subtract blanks, and filter blanks out
