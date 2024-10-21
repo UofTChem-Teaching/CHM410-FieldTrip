@@ -135,7 +135,7 @@ Now all we need to do is create calibration curves for each compound! Below, wri
 
 ### Calculating  concentrations in each vial
 
-Now let's use those handy calibration curves to calculate the concentrations of our blanks, samples and spikes! First thing you should do is extract all data that are not from the calibration curves and assign that dataframe to the variable "Data". Consider using the 'filter' function on the 'Sample.type' column. Then, calculate the ratio of each analyte to its internal standard as above and apply the above functions on the 'ratio' column to fill out a new 'concentration' column. The best way to do this is probably to use the 'full_join' function on your two datasets. We also recommend renaming the calibration coefficients. 
+Now let's use those handy calibration curves to calculate the concentrations of our blanks, samples and spikes! First thing you should do is extract all data that are not from the calibration curves and assign that dataframe to the variable "Data". Consider using the 'filter' function on the 'Sample.type' column. Then, calculate the ratio of each analyte to its internal standard as above and apply the above functions on the 'ratio' column to fill out a new 'concentration' column. The best way to do this is probably to use the 'full_join' function on your two datasets. We also recommend renaming the calibration coefficients. Finally, ensure you have no negative concentration values. 
 
 Remember, we constructed inverse calibration curves above, so the quadratic function should take your measured value (ratio) as an input. 
 
