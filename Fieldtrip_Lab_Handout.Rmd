@@ -135,7 +135,7 @@ Now all we need to do is create calibration curves for each compound! Below, wri
 
 ### Calculating  concentrations in each vial
 
-Now let's use those handy calibration curves to calculate the concentrations of our blanks, samples and spikes! First thing you should do is extract all data that are not from the calibration curves and assign that dataframe to the variable "Data". Consider using the 'filter' function on the 'Sample.type' column. Then, calculate the ratio of each analyte to its internal standard as above and apply the above functions on the 'ratio' column to fill out a new 'concentration' column. The best way to do this is probably to use the 'full_join' function on your two datasets. We also recommend renaming the calibration coefficients. Finally, ensure you have no negative concentration values. 
+Now let's use those handy calibration curves to calculate the concentrations of our blanks, samples and spikes! First thing you should do is extract all data that are not from the calibration curves and assign that dataframe to the variable "Data". Consider using the 'filter' function on the 'Sample.type' column. Then, calculate the ratio of each analyte to its internal standard as above and apply the above functions on the 'ratio' column to fill out a new 'concentration' column. The best way to do this is probably to use the 'full_join' function on your two datasets. We also recommend renaming the calibration coefficients. We will deal with any negative concentration values in the next step.
 
 Remember, we constructed inverse calibration curves above, so the quadratic function should take your measured value (ratio) as an input. 
 
@@ -153,7 +153,7 @@ Data <- #Your code here to calculate concentrations
 Next, let's use our LOD and LOQs. In general, you can think of values that are below the LOD as 0 and values that are below the LOQ as some value, but we can't be certain what it is. A common practice for samples that are above the LOD and below the LOQ is to set the concentration to 1/2 the LOQ. Using the above concepts, assign any value with a concentration < LOD to a concentration of 0 and any value with a concentration < LOQ to a concentration of 1/2LOQ. You might find the full_join function useful again, this time by combining the 'Data' and 'QA' datasets. You might also want to add another column that states that you've done this, i.e. it contains "<LOD" and "<LOQ" so that you have a record of these changes to your dataset. However, for future work we will need the 'concentration' column to be numeric, so we don't want to put these values in there directly.
 
 ```{r}
-#Your code here to use LOD/LOQ
+DataQA <- #Your code here to use LOD/LOQ
 ```
 
 ### Assessing blanks
@@ -161,13 +161,13 @@ Next, let's use our LOD and LOQs. In general, you can think of values that are b
 Now that you have concentrations for all your samples, we can take a look at what our blanks are telling us. We've written out the code to make an organized table of these values below.
 
 ```{r}
-blanks <- Data %>%
+blanks <- DataQA %>%
     #Your code to filter out select only blanks and generate a summary table
 
 kable(blanks, digits = 3, caption = 'Calculated Blank Concentrations')
 ```
 
-You will most likely find that some of your blanks have appreciable concentrations, so you need to subtract out some blanks. Let's do that automatically to all groups of compounds and blank types (note that even if you blank concentration is 0, this is fine since subtracting zero doesn't do anything. For each type of sample (i.e. field blank, lab blank, and biota blank) we want to subtract the maximum value we got in an applicable blank from the remaining values. The code below will get that maximum blank value for each sample type (note the use of group_by and summarize). Join this dataframe to your existing dataframe and subtract the maximum blank values from the concentrations, then filter out the blanks from your dataset. You might also need to make sure that if your blank recorded a measurement <LOQ but your sample recorded a measurement <LOD you don't get a negative result.
+You will most likely find that some of your blanks have appreciable concentrations, so you need to subtract out some blanks. Let's do that automatically to all groups of compounds and blank types (note that even if you blank concentration is 0, this is fine since subtracting zero doesn't do anything. For each type of sample (i.e. field blank, lab blank, and biota blank) we want to subtract the maximum value we got in an applicable blank from the remaining values. Write code below to get that maximum blank value for each sample type. Then, join this dataframe to your existing dataframe and subtract the maximum blank values from the concentrations, then filter out the blanks from your dataset. You might also need to make sure that if your blank recorded a measurement <LOQ but your sample recorded a measurement <LOD you don't get a negative result.
 
 ```{r}
 maxBlanks <- blanks %>%
@@ -187,7 +187,7 @@ Our final step of QA/QC is to make sure our extraction procedure worked effectiv
 Let's also just save a raw version of our data to use in case you want to do the rest of the analysis in excel, or you just want to look through to see what we've done so far.
 
 ```{r}
-write.csv(Data, 'Data/FieldTrip_Data_Raw.csv')
+write.csv(DataQA, 'Data/FieldTrip_Data_Raw.csv')
 ```
 
 # Calculating usable data
@@ -197,7 +197,7 @@ Great! Now that we've finished our QA/QC and we have a robust dataset, let's fin
 The first line here is just there to clean up your dataframe a little bit, since it has a lot of columns you don't need anymore. You might need to adjust the select function depending on what you've named your columns.  
 
 ```{r}
-Data <- Data %>%
+Data <- DataQA %>%
     select(Sample.Name, Sample.type, Sample.group, Matrix, Location, Compound, concentration, Normalization.Factor)
 
 #Your code here to normalize your data to get volume and mass concentration
