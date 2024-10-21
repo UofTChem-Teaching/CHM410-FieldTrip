@@ -1,0 +1,226 @@
+---
+title: "Lab 2: Field trip report"
+author: ''
+date: ''
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+This R markdown document will walk through the steps for analyzing the field trip data. You may follow along or write your own code as you feel is necessary. For reference on how to generate calibration curves and calculate LOD and LOQ in R, you may wish to revist Chapters 19 and 20 of the [R4EnvChem textbook][https://uoftchem-teaching.github.io/R4EnvChem/]. For reference on data analysis, filtration, and transformations, consider revisiting Chapters 12-14.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+#Import all the packages you may need
+library(tidyverse)
+library(tinytex)
+library(broom)
+library(knitr)
+library(rmarkdown)
+library(stringr)
+if (!('zfit' %in% installed.packages()[,"Package"])) install.packages('zfit')
+library(zfit)
+library(ggpmisc)
+```
+
+## Importing your data
+
+Let's import the lab data! We have written out the code for you below. If you want a refresher on how to import data, please read Chapter 10 of the R4EnvChem textbook. Note: make sure that you have set the right working directory! At the moment, this is set up to import an example dataset from a previous year to practice analysis on. 
+
+```{r include=FALSE}
+data <- as_tibble(read.csv("Data/ExampleFieldTripData.csv"))
+
+data
+```
+
+Open the Excel sheet & the tibble and compare - does it make sense to you?
+
+Throughout this analysis we will be making extensive use of R's data filtration settings, which is why we have so many sample description columns. The most important ones are: 
+- "Sample.group", which tells you whether your water and sediment samples were from the field or the lab (i.e. which blank applies most directly) or how the biota sample was prepared, which again tells you which blank to use.
+- "Matrix", which tells you whether you are dealing with water, sediment, or biota, 
+- "Location", which tells you whether the sample is from 20 Mile Creek or Lake Niapenco, and
+- "Compound", which tells you what compound you're working with.
+
+If at any point in this lab you want to export your data to look at it in excel, use the following line (just uncomment it):
+
+```{r}
+#write.csv(Data, 'Data/FieldTrip_Data_Raw.csv')
+```
+
+Now we can get into our analysis. Let's start from the beginning: QA/QC and calibration.
+
+# QA/QC and calibration
+
+### Calculating the LOD and LOQ of our chemicals
+
+There are several things we need to understand about our dataset before we can start analyzing our data and making plots. The first thing we need to understand is whether we measured anything at all in each of our samples. We do this by calculating our limit of detection (LOD) and limit of quantification (LOQ). We will be using the International Committee on Harmonization's approach, where 
+$$LOD = 3.3\frac{\sigma}{S} \ \ \ \ \ \ LOQ = 10\frac{\sigma}{S}$$
+
+where $\sigma$ is the standard error of the response and $S$ is the slope of the linear region of the calibration curve. We will use the standard error of the calibration curve we use to calculate $S$ as our measurement of $\sigma$. For additional discussion of calculating LOD and LOQ, please refer to the R4Envchem textbook, section 20.6. 
+
+First, let's separate out our calibration curve data from the rest of our data, using the `filter` function. 
+
+```{r}
+CalData <- Data %>% #Your code here
+
+CalData
+```
+
+Now we have some data with just our calibration data in it. Let's go on to our next step!
+
+Because we have an internal standard (as most quantitative LC-MS data will), we want to use the ratio of our analyte peak area to our internal standard peak area. Write some R code to create a new column of the CalData table containing this ratio, called 'ratio'.
+
+```{r}
+CalData <- #Your code to calculate the analyte to internal standard peak area ratio
+```
+
+For the purposes of calculating LOD/LOQ, we want a linear calibration curve. Luckily, at low concentrations our response should be relatively linear. Let's take our first five points for each analyte and use them to calculate S and $\sigma$. You can choose whether to use the standard deviation of the intercept or the residual standard deviation for this purpose, but remember that in R, these are called standard errors! Generate a table of LOD and LOQ and print it our (we recommend using kable for a publication-quality table). The code template below will guide you through the necessary steps.
+
+```{r}
+linear <- 2 #This defines the highest value concentration we want to use for the linear portion of this calibration curve
+
+CalData <- CalData %>% 
+  #Write code to take the sample names and determine concentrations from those sample names %>%
+  #Write code to filter out concentrations greater than 2 ppm 
+
+QAmodels <- #Write code to create linear calibration curves for each analyte and get slopes and residual standard deviations (or standard deviation of the intercepts) in accessible form
+
+QA <- tibble(compounds, LOD = #Your equation here, LOQ = #Your equation here)
+
+kable("your table name here", col.names = c("Compound", "LOD (ng/mL)", "LOQ (ng/mL)"),  align = 'lcc', digits = 2, caption = "LOD and LOQ of Chemicals or Interest")
+```
+
+How do these LOQ and LOD look? Are they reasonable for your compounds? Think about what this means for each of your measurements.
+
+### Creating a Calibration Curve 
+
+Now that we have LOD and LOQ, let's move on to making our actual calibration curve. A more in-depth discussion of regressions for calibration curves can be found in Chapters 19 and 20. The first step is usually to try a linear fit for your compounds, so let's try that below. Create a calibration plot for one chemical over all the different concentrations along with the linear regression. Remember to only plot values > LOQ!
+
+
+```{r echo=FALSE}
+# Your code here to generate a plotted calibration curve with a LOQ cutoff for your chosen chemical
+```
+
+Does this calibration curve look linear to you? Let's try visualizing this another way. We can look at the residuals plot to understand where the deviations in the fit come from. The background for residual plots is in Section 20.1 of the textbook.
+
+Make a residual plot here:
+
+```{r echo=FALSE}
+
+#Your code here.
+
+```
+
+If a linear function accurately describes this calibration curve, then the residuals should be randomly distributed about 0 (i.e. you cannot find any pattern in the value of residuals vs. concentration). It's possible this is the case for your compound, but it's unlikely, as our calibration range spans 3 orders of magnitude. Instead, you probably see something that looks like a parabola. This indicates that there is some second-order behavior in our signal response. If you don't see that, try some other compounds and plot them instead.
+
+We can correct for this second-order behavior by fitting a second-order calibration function to our data. Note that this actually applies whether we have second-order behavior or not; if a linear fit is the best possible option, then our fitting function will just set the second-order term to zero. Let's try plotting this second-order function and its residual plot below. We are also going to add weights for this calibration curve - - that's because we want to make sure that the residuals of our highest concentration standards don't dominate the fitting of the function and cause the calibration curve to fit the lowest concentration standards poorly. Ignore the warnings that pop up, they aren't actually a problem. 
+
+```{r}
+# Create plots of a quadratic weighted calibration curve and its residuals. You can add weights to a geom_smooth call by adding a call to "mapping = aes(weight = 'your weighting function here'). 
+```
+
+If all has gone well, then the residual should look more randomly distributed, your calibration curve should be slightly nonlinear, and your R^2 value should be higher than it was before.
+
+Now all we need to do is create calibration curves for each compound! Below, write code to generate a weighted quadratic calibration curve for each compound. The code should be very similar to what we did for the linear calibration curve we used to calculate LOD and LOQ, but let's generate inverse calibration curves instead so that we don't have to solve the quadratic equation every time we want to use these calibration curves. Background on inverse calibration curves is given in Section 20.7 of the textbook. Generate a summary of the calibration curves as a table.
+
+```{r echo=FALSE}
+
+# Your code here
+
+```
+
+### Calculating  concentrations in each vial
+
+Now let's use those handy calibration curves to calculate the concentrations of our blanks, samples and spikes! First thing you should do is extract all data that are not from the calibration curves and assign that dataframe to the variable "Data". Consider using the 'filter' function on the 'Sample.Type' column. Then, calculate the ratio of each analyte to its internal standard as above and apply the above functions on the 'ratio' column to fill out a new 'concentration' column. The best way to do this is probably to use the 'full_join' function on your two datasets. We also recommend renaming the calibration coefficients. 
+
+Remember, we constructed inverse calibration curves above, so the quadratic function should take your measured value (ratio) as an input. 
+
+```{r}
+#Careful not to run this multiple times
+Data <- full_join(#Your code here to add your calibration dataset to your main dataset) 
+```
+
+```{r echo=TRUE}
+#Your code here to filter your dataframe and calculate ratio
+
+Data$concentration <- #Your code here to calculate concentrations
+```
+
+Next, let's use our LOD and LOQs. In general, you can think of values that are below the LOD as 0 and values that are below the LOQ as some value, but we can't be certain what it is. A common practice for samples that are above the LOD and below the LOQ is to set the concentration to 1/2 the LOQ. Using the above concepts, assign any value with a concentration < LOD to a concentration of 0 and any value with a concentration < LOQ to a concentration of 1/2LOQ. You might find the full_join function useful again, this time by combining the 'Data' and 'QA' datasets. You might also want to add another column that states that you've done this, i.e. it contains "<LOD" and "<LOQ" so that you have a record of these changes to your dataset. However, for future work we will need the 'concentration' column to be numeric, so we don't want to put these values in there directly.
+
+```{r}
+#Your code here to use LOD/LOQ
+```
+
+### Assessing blanks
+
+Now that you have concentrations for all your samples, we can take a look at what our blanks are telling us. We've written out the code to make an organized table of these values below.
+
+```{r}
+blanks <- Data %>%
+    #Your code to filter out select only blanks and generate a summary tablefilter(Sample.type == 'Blank')
+
+kable(blanks, digits = 3, caption = 'Calculated Blank Concentrations')
+```
+
+You will most likely find that some of your blanks have appreciable concentrations, so you need to subtract out some blanks. Let's do that automatically to all groups of compounds and blank types (note that even if you blank concentration is 0, this is fine since subtracting zero doesn't do anything. For each type of sample (i.e. field blank, lab blank, and biota blank) we want to subtract the maximum value we got in an applicable blank from the remaining values. The code below will get that maximum blank value for each sample type (note the use of group_by and summarize). Join this dataframe to your existing dataframe and subtract the maximum blank values from the concentrations, then filter out the blanks from your dataset. You might also need to make sure that if your blank recorded a measurement <LOQ but your sample recorded a measurement <LOD you don't get a negative result.
+
+```{r}
+maxBlanks <- Data %>
+    #Your code here to calculate the maximum concentration of blank for each type of sample
+
+#Your code here to join datasets, subtract blanks, and filter blanks out
+```
+
+### Calculating % recovery
+
+Our final step of QA/QC is to make sure our extraction procedure worked effectively. We do this by using the spike/recovery samples and calculating a % recovery by taking the ratio of the measured concentration in our spikes to the known concentration we added. First, calculate the concentration of each PFAS compound you expect to be in your spike samples. Conveniently, it should be the same for all of them. Then, extract the 'Spike' samples using the filter function and pipes and calculate % recovery for each sample. Give a table containing % recoveries - you may wish to average them among different groups using the 'summarize' function as shown in the blanks section.
+
+```{r}
+#Your code here for % recovery
+```
+
+Let's also just save a raw version of our data to use in case you want to do the rest of the analysis in excel, or you just want to look through to see what we've done so far.
+
+```{r}
+write.csv(Data, 'Data/FieldTrip_Data_Raw.csv')
+```
+
+# Calculating usable data
+
+Great! Now that we've finished our QA/QC and we have a robust dataset, let's finalize our concentrations so that you can start making some interesting plots and analyzing your data. For this part, you'll need to go into the .csv file and fill out the 'normalization factor' column with the mass of water, sediment, or biota present in each of the samples. Rerun the entire Rmd file so that your 'Data' dataframe has the correct normalization factors and then use them (along with any dilutions you performed in your experiment) to calculate a final mass or volume concentration for each sample. Call this new column "Normalized.concentration". 
+
+The first line here is just there to clean up your dataframe a little bit, since it has a lot of columns you don't need anymore. You might need to adjust the select function depending on what you've named your columns.  
+
+```{r}
+Data <- Data %>%
+    select(Sample.Name, Sample.type, Sample.group, Matrix, Location, Compound, concentration, Normalization.Factor)
+
+#Your code here to normalize your data to get volume and mass concentration
+```
+
+The last thing we're going to help you write is some code to get a more human-readable output of your data table with the concentrations of each compound in columns. To do this, we're going to do some data manipulation, along with removing extraneous data descriptor columns. They might be useful when you're filtering and plotting data in R, but all that information is actually contained in Sample.Name, so we won't need it anymore! We'll also make a separate sheet containing your blanks, spikes, and calibrations in case you want those too. 
+
+This is how we've written it. There's almost certainly a better way to do this in R, but this works. If you get an error, check your column names and change the code block below to match. 
+
+```{r}
+DataOut <- Data %>%
+  filter(Sample.type != "Blank" & Sample.type != "Calibration Curve" & Sample.type != "Spike") %>%
+  select(Sample.Name, Compound, Normalized.concentration) %>%
+  pivot_wider(names_from = Compound, values_from = Normalized.concentration)
+
+DataAll <- Data %>%
+  select(Sample.Name, Compound, concentration) %>%
+  pivot_wider(names_from = Compound, values_from = Normalized.concentration)
+        
+
+write.csv(DataOut, 'Data/Clean_FieldTrip_Data_Analyzed.csv')
+write.csv(DataAll, 'Data/All_FieldTrip_Data_Analyzed.csv')
+```
+
+And there we have it! You now have a dataset that is fully analyzed and ready for plotting. We recommend doing further analysis and plotting here in R, but you can also use the exported data and do it yourself in another program if you wish.
+
+```{r}
+
+```
