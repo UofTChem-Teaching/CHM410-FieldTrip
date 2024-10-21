@@ -120,7 +120,7 @@ If a linear function accurately describes this calibration curve, then the resid
 We can correct for this second-order behavior by fitting a second-order calibration function to our data. Note that this actually applies whether we have second-order behavior or not; if a linear fit is the best possible option, then our fitting function will just set the second-order term to zero. Let's try plotting this second-order function and its residual plot below. We are also going to add weights for this calibration curve - - that's because we want to make sure that the residuals of our highest concentration standards don't dominate the fitting of the function and cause the calibration curve to fit the lowest concentration standards poorly. Ignore the warnings that pop up, they aren't actually a problem. 
 
 ```{r}
-# Create plots of a quadratic weighted calibration curve and its residuals. You can add weights to a geom_smooth call by adding a call to "mapping = aes(weight = 'your weighting function here'). 
+# Create plots of a quadratic weighted calibration curve and its residuals. You can add weights to a plot by adding `weight` in the aes() call. 
 ```
 
 If all has gone well, then the residual should look more randomly distributed, your calibration curve should be slightly nonlinear, and your R^2 value should be higher than it was before.
