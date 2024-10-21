@@ -135,7 +135,7 @@ Now all we need to do is create calibration curves for each compound! Below, wri
 
 ### Calculating  concentrations in each vial
 
-Now let's use those handy calibration curves to calculate the concentrations of our blanks, samples and spikes! First thing you should do is extract all data that are not from the calibration curves and assign that dataframe to the variable "Data". Consider using the 'filter' function on the 'Sample.Type' column. Then, calculate the ratio of each analyte to its internal standard as above and apply the above functions on the 'ratio' column to fill out a new 'concentration' column. The best way to do this is probably to use the 'full_join' function on your two datasets. We also recommend renaming the calibration coefficients. 
+Now let's use those handy calibration curves to calculate the concentrations of our blanks, samples and spikes! First thing you should do is extract all data that are not from the calibration curves and assign that dataframe to the variable "Data". Consider using the 'filter' function on the 'Sample.type' column. Then, calculate the ratio of each analyte to its internal standard as above and apply the above functions on the 'ratio' column to fill out a new 'concentration' column. The best way to do this is probably to use the 'full_join' function on your two datasets. We also recommend renaming the calibration coefficients. 
 
 Remember, we constructed inverse calibration curves above, so the quadratic function should take your measured value (ratio) as an input. 
 
@@ -147,7 +147,7 @@ Data <- full_join(#Your code here to add your calibration dataset to your main d
 ```{r echo=TRUE}
 #Your code here to filter your dataframe and calculate ratio
 
-Data$concentration <- #Your code here to calculate concentrations
+Data <- #Your code here to calculate concentrations
 ```
 
 Next, let's use our LOD and LOQs. In general, you can think of values that are below the LOD as 0 and values that are below the LOQ as some value, but we can't be certain what it is. A common practice for samples that are above the LOD and below the LOQ is to set the concentration to 1/2 the LOQ. Using the above concepts, assign any value with a concentration < LOD to a concentration of 0 and any value with a concentration < LOQ to a concentration of 1/2LOQ. You might find the full_join function useful again, this time by combining the 'Data' and 'QA' datasets. You might also want to add another column that states that you've done this, i.e. it contains "<LOD" and "<LOQ" so that you have a record of these changes to your dataset. However, for future work we will need the 'concentration' column to be numeric, so we don't want to put these values in there directly.
