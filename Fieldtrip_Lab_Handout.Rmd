@@ -162,7 +162,7 @@ Now that you have concentrations for all your samples, we can take a look at wha
 
 ```{r}
 blanks <- Data %>%
-    #Your code to filter out select only blanks and generate a summary tablefilter(Sample.type == 'Blank')
+    #Your code to filter out select only blanks and generate a summary table
 
 kable(blanks, digits = 3, caption = 'Calculated Blank Concentrations')
 ```
