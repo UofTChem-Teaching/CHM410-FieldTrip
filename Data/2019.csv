@@ -1,4 +1,4 @@
-Sample Name,Sample type,Sample group,Matrix,Location,Compound,Analyte Peak Area,Analyte Retention Time,Internal Standard Peak Area,Internal Standard Retention Time,Normalization factor
+Sample name ,Sample type,Sample group,Matrix,Location,Compound,Analyte peak area,Analyte retention time (min),Internal standard peak area,Internal standard retention time (min),Normalization factor
 20MC_0ppb,Calibration Curve,Lab,N/A,20MC,PFHxA,0.00E+00,1.97,1.60E+05,3.65,1
 20MC_0.2ppb,Calibration Curve,Lab,N/A,20MC,PFHxA,2.84E+04,3.62,1.74E+05,3.62,1
 20MC_0.4ppb,Calibration Curve,Lab,N/A,20MC,PFHxA,4.51E+04,3.62,1.69E+05,3.61,1

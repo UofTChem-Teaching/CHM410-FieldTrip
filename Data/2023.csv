@@ -1,4 +1,4 @@
-﻿Sample Name ,Sample type,Sample Group,Matrix,Location,Compound,Analyte Peak Area,Analyte Retention Time (min),Internal Standard Peak Area,Normalization factor
+﻿Sample name ,Sample type,Sample group,Matrix,Location,Compound,Analyte peak area,Analyte retention time (min),Internal standard peak area,Normalization factor
 20MC-W-field blank,blank,Field,Water,20MC,PFHxA,2.01E+04,2.43,2.13E+05,1
 20MC-W-lab blank,blank,Lab,Water,20MC,PFHxA,0.00E+00,0,4.34E+04,1
 20MC-W-spike 1,spike,Field,Water,20MC,PFHxA,1.89E+06,2.45,1.72E+05,1
