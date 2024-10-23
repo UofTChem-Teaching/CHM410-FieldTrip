@@ -1,14 +1,14 @@
 Sample name ,Date,Sample type,Sample group,Matrix,Location,Compound,Analyte peak area,Analyte retention time (min),Internal standard peak area,Normalization factor
-0 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,0,0,208000,1
-0.2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,9280,4.28,281000,1
-0.4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,18800,4.28,324000,1
-1 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,42900,4.27,227000,1
-2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,74800,4.27,252000,1
-4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,190000,4.27,175000,1
-10 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,465000,4.27,176000,1
-20 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,870000,4.25,172000,1
-40 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,1410000,4.25,186000,1
-100 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,3550000,4.24,190000,1
+101921_0 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,0,0,208000,1
+101921_0.2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,9280,4.28,281000,1
+101921_0.4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,18800,4.28,324000,1
+101921_1 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,42900,4.27,227000,1
+101921_2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,74800,4.27,252000,1
+101921_4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,190000,4.27,175000,1
+101921_10 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,465000,4.27,176000,1
+101921_20 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,870000,4.25,172000,1
+101921_40 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,1410000,4.25,186000,1
+101921_100 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,3550000,4.24,190000,1
 101921_Water_20MC_LabBlank,101921,Blank,Lab,Water,20MC,PFDA,31200,4.25,160000,1
 101921_Water_20MC_FieldBlank,101921,Blank,Field,Water,20MC,PFDA,24100,4.25,157000,1
 101921_Water_20MC_Sample1,101921,Sample,Field,Water,20MC,PFDA,20300,4.24,175000,100
@@ -24,16 +24,16 @@ Sample name ,Date,Sample type,Sample group,Matrix,Location,Compound,Analyte peak
 101921_Water_NIA__Sample4,101921,Sample,Field,Water,20MC,PFDA,0,4.17,118000,100
 101921_Water_NIA__Spike1,101921,Spike,Field,Water,20MC,PFDA,390000,4.17,100000,1
 101921_Water_NIA__Spike2,101921,Spike,Field,Water,20MC,PFDA,475000,4.17,73900,1
-0 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,1960,0,244000,1
-0.2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,8370,3.78,302000,1
-0.4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,15300,3.79,255000,1
-1 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,35500,3.78,230000,1
-2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,68700,3.78,270000,1
-4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,161000,3.77,211000,1
-10 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,437000,3.77,237000,1
-20 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,760000,3.76,255000,1
-40 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,1420000,3.76,260000,1
-100 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,3340000,3.77,356000,1
+101921_0 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,1960,0,244000,1
+101921_0.2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,8370,3.78,302000,1
+101921_0.4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,15300,3.79,255000,1
+101921_1 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,35500,3.78,230000,1
+101921_2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,68700,3.78,270000,1
+101921_4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,161000,3.77,211000,1
+101921_10 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,437000,3.77,237000,1
+101921_20 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,760000,3.76,255000,1
+101921_40 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,1420000,3.76,260000,1
+101921_100 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHpA,3340000,3.77,356000,1
 101921_Water_20MC_LabBlank,101921,Blank,Lab,Water,20MC,PFHpA,6100,3.75,226000,1
 101921_Water_20MC_FieldBlank,101921,Blank,Field,Water,20MC,PFHpA,2000,3.76,215000,1
 101921_Water_20MC_Sample1,101921,Sample,Field,Water,20MC,PFHpA,4020,3.74,198000,100
@@ -49,16 +49,16 @@ Sample name ,Date,Sample type,Sample group,Matrix,Location,Compound,Analyte peak
 101921_Water_NIA__Sample4,101921,Sample,Field,Water,20MC,PFHpA,12400,3.71,230000,100
 101921_Water_NIA__Spike1,101921,Spike,Field,Water,20MC,PFHpA,745000,3.71,270000,1
 101921_Water_NIA__Spike2,101921,Spike,Field,Water,20MC,PFHpA,842000,3.7,211000,1
-0 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,0,0,160000,1
-0.2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,3710,3.58,174000,1
-0.4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,8420,3.55,169000,1
-1 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,17700,3.56,168000,1
-2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,36200,3.56,174000,1
-4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,101000,3.55,141000,1
-10 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,240000,3.59,151000,1
-20 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,448000,3.54,170000,1
-40 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,884000,3.58,146000,1
-100 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,2200000,3.55,153000,1
+101921_0 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,0,0,160000,1
+101921_0.2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,3710,3.58,174000,1
+101921_0.4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,8420,3.55,169000,1
+101921_1 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,17700,3.56,168000,1
+101921_2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,36200,3.56,174000,1
+101921_4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,101000,3.55,141000,1
+101921_10 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,240000,3.59,151000,1
+101921_20 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,448000,3.54,170000,1
+101921_40 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,884000,3.58,146000,1
+101921_100 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxA,2200000,3.55,153000,1
 101921_Water_20MC_LabBlank,101921,Blank,Lab,Water,20MC,PFHxA,13400,3.55,147000,1
 101921_Water_20MC_FieldBlank,101921,Blank,Field,Water,20MC,PFHxA,12500,3.57,156000,1
 101921_Water_20MC_Sample1,101921,Sample,Field,Water,20MC,PFHxA,61500,3.58,156000,100
@@ -74,16 +74,16 @@ Sample name ,Date,Sample type,Sample group,Matrix,Location,Compound,Analyte peak
 101921_Water_NIA__Sample4,101921,Sample,Field,Water,20MC,PFHxA,267000,3.54,174000,100
 101921_Water_NIA__Spike1,101921,Spike,Field,Water,20MC,PFHxA,825000,3.58,141000,1
 101921_Water_NIA__Spike2,101921,Spike,Field,Water,20MC,PFHxA,1060000,3.55,151000,1
-0 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,0,0,10500,1
-0.2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,249,3.81,11500,1
-0.4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,562,3.77,10600,1
-1 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,1460,3.8,9670,1
-2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,428,3.77,12000,1
-4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,7010,3.77,8510,1
-10 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,21400,3.78,9040,1
-20 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,36600,3.76,8870,1
-40 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,61900,3.75,7320,1
-100 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,141000,3.75,7310,1
+101921_0 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,0,0,10500,1
+101921_0.2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,249,3.81,11500,1
+101921_0.4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,562,3.77,10600,1
+101921_1 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,1460,3.8,9670,1
+101921_2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,428,3.77,12000,1
+101921_4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,7010,3.77,8510,1
+101921_10 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,21400,3.78,9040,1
+101921_20 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,36600,3.76,8870,1
+101921_40 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,61900,3.75,7320,1
+101921_100 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFHxS,141000,3.75,7310,1
 101921_Water_20MC_LabBlank,101921,Blank,Lab,Water,20MC,PFHxS,0,3.77,8600,1
 101921_Water_20MC_FieldBlank,101921,Blank,Field,Water,20MC,PFHxS,3120,3.82,8370,1
 101921_Water_20MC_Sample1,101921,Sample,Field,Water,20MC,PFHxS,0,3.81,7180,100
@@ -99,16 +99,16 @@ Sample name ,Date,Sample type,Sample group,Matrix,Location,Compound,Analyte peak
 101921_Water_NIA__Sample4,101921,Sample,Field,Water,20MC,PFHxS,0,3.82,12000,100
 101921_Water_NIA__Spike1,101921,Spike,Field,Water,20MC,PFHxS,29900,3.81,8510,1
 101921_Water_NIA__Spike2,101921,Spike,Field,Water,20MC,PFHxS,24500,3.77,9040,1
-0 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,0,0,259000,1
-0.2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,8790,4.15,293000,1
-0.4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,14200,4.12,311000,1
-1 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,33800,4.12,255000,1
-2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,64200,4.12,288000,1
-4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,170000,4.11,208000,1
-10 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,411000,4.11,211000,1
-20 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,764000,4.11,206000,1
-40 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,1280000,4.09,198000,1
-100 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,3330000,4.09,182000,1
+101921_0 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,0,0,259000,1
+101921_0.2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,8790,4.15,293000,1
+101921_0.4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,14200,4.12,311000,1
+101921_1 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,33800,4.12,255000,1
+101921_2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,64200,4.12,288000,1
+101921_4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,170000,4.11,208000,1
+101921_10 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,411000,4.11,211000,1
+101921_20 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,764000,4.11,206000,1
+101921_40 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,1280000,4.09,198000,1
+101921_100 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFNA,3330000,4.09,182000,1
 101921_Water_20MC_LabBlank,101921,Blank,Lab,Water,20MC,PFNA,6870,4.09,207000,1
 101921_Water_20MC_FieldBlank,101921,Blank,Field,Water,20MC,PFNA,12500,4.1,202000,1
 101921_Water_20MC_Sample1,101921,Sample,Field,Water,20MC,PFNA,8850,4.08,202000,100
@@ -124,16 +124,16 @@ Sample name ,Date,Sample type,Sample group,Matrix,Location,Compound,Analyte peak
 101921_Water_NIA__Sample4,101921,Sample,Field,Water,20MC,PFNA,20100,4.11,288000,100
 101921_Water_NIA__Spike1,101921,Spike,Field,Water,20MC,PFNA,485000,4.11,208000,1
 101921_Water_NIA__Spike2,101921,Spike,Field,Water,20MC,PFNA,645000,4.11,211000,1
-0 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,2350,0,244000,1
-0.2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,7860,3.96,302000,1
-0.4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,13600,3.96,255000,1
-1 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,30400,3.96,230000,1
-2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,61700,3.96,270000,1
-4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,140000,3.95,211000,1
-10 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,385000,3.95,237000,1
-20 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,743000,3.93,255000,1
-40 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,1340000,3.93,260000,1
-100 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,3180000,3.93,356000,1
+101921_0 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,2350,0,244000,1
+101921_0.2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,7860,3.96,302000,1
+101921_0.4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,13600,3.96,255000,1
+101921_1 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,30400,3.96,230000,1
+101921_2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,61700,3.96,270000,1
+101921_4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,140000,3.95,211000,1
+101921_10 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,385000,3.95,237000,1
+101921_20 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,743000,3.93,255000,1
+101921_40 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,1340000,3.93,260000,1
+101921_100 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOA,3180000,3.93,356000,1
 101921_Water_20MC_LabBlank,101921,Blank,Lab,Water,20MC,PFOA,22600,3.93,226000,1
 101921_Water_20MC_FieldBlank,101921,Blank,Field,Water,20MC,PFOA,51600,3.92,215000,1
 101921_Water_20MC_Sample1,101921,Sample,Field,Water,20MC,PFOA,41300,3.91,198000,100
@@ -149,16 +149,16 @@ Sample name ,Date,Sample type,Sample group,Matrix,Location,Compound,Analyte peak
 101921_Water_NIA__Sample4,101921,Sample,Field,Water,20MC,PFOA,362000,3.97,270000,100
 101921_Water_NIA__Spike1,101921,Spike,Field,Water,20MC,PFOA,497000,3.96,211000,1
 101921_Water_NIA__Spike2,101921,Spike,Field,Water,20MC,PFOA,525000,3.96,237000,1
-0 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,0,0,6320,1
-0.2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,164,4.05,9210,1
-0.4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,811,4.01,9800,1
-1 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,2180,4.04,7340,1
-2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,3260,4.03,8750,1
-4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,9070,4.03,6910,1
-10 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,19900,4.04,6780,1
-20 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,35000,4.02,6980,1
-40 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,60800,4.03,6340,1
-100 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,142000,4.03,6340,1
+101921_0 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,0,0,6320,1
+101921_0.2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,164,4.05,9210,1
+101921_0.4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,811,4.01,9800,1
+101921_1 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,2180,4.04,7340,1
+101921_2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,3260,4.03,8750,1
+101921_4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,9070,4.03,6910,1
+101921_10 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,19900,4.04,6780,1
+101921_20 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,35000,4.02,6980,1
+101921_40 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,60800,4.03,6340,1
+101921_100 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFOS,142000,4.03,6340,1
 101921_Water_20MC_LabBlank,101921,Blank,Lab,Water,20MC,PFOS,205,4.02,6850,1
 101921_Water_20MC_FieldBlank,101921,Blank,Field,Water,20MC,PFOS,300,4.01,5590,1
 101921_Water_20MC_Sample1,101921,Sample,Field,Water,20MC,PFOS,191,4.02,7100,100
@@ -174,112 +174,112 @@ Sample name ,Date,Sample type,Sample group,Matrix,Location,Compound,Analyte peak
 101921_Water_NIA__Sample4,101921,Sample,Field,Water,20MC,PFOS,1270,4.02,8750,100
 101921_Water_NIA__Spike1,101921,Spike,Field,Water,20MC,PFOS,50500,4.01,6910,1
 101921_Water_NIA__Spike2,101921,Spike,Field,Water,20MC,PFOS,66800,4.02,6780,1
-0.2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,42600,4.3,281000,1
-0.4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,74800,4.28,324000,1
-0 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,0,0,208000,1
-100 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,6780000,4.25,116000,1
-10 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,963000,4.27,176000,1
-1 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,114000,4.28,227000,1
-20 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,1680000,4.27,172000,1
-2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,203000,4.27,252000,1
-40 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,2700000,4.25,186000,1
-4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,382000,4.27,175000,1
+102521_0.2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,42600,4.3,281000,1
+102521_0.4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,74800,4.28,324000,1
+102521_0 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,0,0,208000,1
+102521_100 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,6780000,4.25,116000,1
+102521_10 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,963000,4.27,176000,1
+102521_1 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,114000,4.28,227000,1
+102521_20 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,1680000,4.27,172000,1
+102521_2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,203000,4.27,252000,1
+102521_40 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,2700000,4.25,186000,1
+102521_4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFDA,382000,4.27,175000,1
 102521_CHM4110_GroupC_20MC_Sediment_Spike,102521,Spike,Field,Sediment,20MC,PFDA,154500,4.21,52400,1
 102521_CHM4110_GroupC_20MC_Sediment_FieldBlank,102521,Blank,Field,Sediment,20MC,PFDA,4580,4.2,87700,1
 102521_CHM4110_GroupC_20MC_Sediment_LabBlank,102521,Blank,Lab,Sediment,20MC,PFDA,3440,4.21,45600,1
 102521_CHM4110_GroupC_20MC_Sediment1,102521,Sample,Field,Sediment,20MC,PFDA,75090,4.17,73900,1.075
 102521_CHM4110_GroupC_20MC_Sediment2,102521,Sample,Field,Sediment,20MC,PFDA,70820,4.17,58100,0.9522
 102521_CHM4110_GroupC_20MC_Sediment3,102521,Sample,Field,Sediment,20MC,PFDA,21600,4.17,25000,0.9842
-0.2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,32900,3.8,302000,1
-0.4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,50600,3.78,255000,1
-0 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,0,0,244000,1
-100 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,6720000,3.76,356000,1
-10 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,956000,3.77,237000,1
-1 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,96500,3.79,230000,1
-20 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,1700000,3.77,255000,1
-2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,187000,3.78,270000,1
-40 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,2650000,3.76,260000,1
-4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,350000,3.78,211000,1
+102521_0.2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,32900,3.8,302000,1
+102521_0.4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,50600,3.78,255000,1
+102521_0 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,0,0,244000,1
+102521_100 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,6720000,3.76,356000,1
+102521_10 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,956000,3.77,237000,1
+102521_1 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,96500,3.79,230000,1
+102521_20 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,1700000,3.77,255000,1
+102521_2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,187000,3.78,270000,1
+102521_40 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,2650000,3.76,260000,1
+102521_4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHpA,350000,3.78,211000,1
 102521_CHM4110_GroupC_20MC_Sediment_Spike,102521,Spike,Field,Sediment,20MC,PFHpA,176000,3.77,62200,1
 102521_CHM4110_GroupC_20MC_Sediment_FieldBlank,102521,Blank,Field,Sediment,20MC,PFHpA,2013,4.2,145000,1
 102521_CHM4110_GroupC_20MC_Sediment_LabBlank,102521,Blank,Lab,Sediment,20MC,PFHpA,328,4.18,100000,1
 102521_CHM4110_GroupC_20MC_Sediment1,102521,Sample,Field,Sediment,20MC,PFHpA,11260,3.78,46700,1.075
 102521_CHM4110_GroupC_20MC_Sediment2,102521,Sample,Field,Sediment,20MC,PFHpA,9280,3.77,40900,0.9522
 102521_CHM4110_GroupC_20MC_Sediment3,102521,Sample,Field,Sediment,20MC,PFHpA,20500,3.78,42100,0.9842
-0.2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,28400,3.62,174000,1
-0.4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,45100,3.62,169000,1
-0 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,0,0,160000,1
-100 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,7210000,3.58,153000,1
-10 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,1100000,3.6,151000,1
-1 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,90900,3.61,168000,1
-20 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,1900000,3.6,170000,1
-2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,184000,3.6,174000,1
-40 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,3050000,3.59,146000,1
-4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,384000,3.61,141000,1
+102521_0.2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,28400,3.62,174000,1
+102521_0.4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,45100,3.62,169000,1
+102521_0 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,0,0,160000,1
+102521_100 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,7210000,3.58,153000,1
+102521_10 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,1100000,3.6,151000,1
+102521_1 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,90900,3.61,168000,1
+102521_20 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,1900000,3.6,170000,1
+102521_2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,184000,3.6,174000,1
+102521_40 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,3050000,3.59,146000,1
+102521_4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxA,384000,3.61,141000,1
 102521_CHM4110_GroupC_20MC_Sediment_Spike,102521,Spike,Field,Sediment,20MC,PFHxA,492900,3.55,162000,1
 102521_CHM4110_GroupC_20MC_Sediment_FieldBlank,102521,Blank,Field,Sediment,20MC,PFHxA,6560,3.61,77400,1
 102521_CHM4110_GroupC_20MC_Sediment_LabBlank,102521,Blank,Lab,Sediment,20MC,PFHxA,7170,3.6,89500,1
 102521_CHM4110_GroupC_20MC_Sediment1,102521,Sample,Field,Sediment,20MC,PFHxA,40000,3.58,86700,1.075
 102521_CHM4110_GroupC_20MC_Sediment2,102521,Sample,Field,Sediment,20MC,PFHxA,48763,3.59,58000,0.9522
 102521_CHM4110_GroupC_20MC_Sediment3,102521,Sample,Field,Sediment,20MC,PFHxA,78000,3.6,42100,0.9842
-0.2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,1640,3.81,174000,1
-0.4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,2230,3.77,169000,1
-0 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,0,0,160000,1
-100 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,340000,3.75,185000,1
-10 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,47000,3.78,151000,1
-1 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,5002,3.8,168000,1
-20 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,92600,3.76,170000,1
-2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,9650,3.77,174000,1
-40 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,150000,3.75,146000,1
-4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,20100,3.77,141000,1
+102521_0.2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,1640,3.81,174000,1
+102521_0.4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,2230,3.77,169000,1
+102521_0 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,0,0,160000,1
+102521_100 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,340000,3.75,185000,1
+102521_10 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,47000,3.78,151000,1
+102521_1 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,5002,3.8,168000,1
+102521_20 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,92600,3.76,170000,1
+102521_2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,9650,3.77,174000,1
+102521_40 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,150000,3.75,146000,1
+102521_4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFHxS,20100,3.77,141000,1
 102521_CHM4110_GroupC_20MC_Sediment_Spike,102521,Spike,Field,Sediment,20MC,PFHxS,1901,3.72,8600,1
 102521_CHM4110_GroupC_20MC_Sediment_FieldBlank,102521,Blank,Field,Sediment,20MC,PFHxS,0,0,87300,1
 102521_CHM4110_GroupC_20MC_Sediment_LabBlank,102521,Blank,Lab,Sediment,20MC,PFHxS,0,0,172000,1
 102521_CHM4110_GroupC_20MC_Sediment1,102521,Sample,Field,Sediment,20MC,PFHxS,1700,3.85,1320,1.075
 102521_CHM4110_GroupC_20MC_Sediment2,102521,Sample,Field,Sediment,20MC,PFHxS,281,3.85,2910,0.9522
 102521_CHM4110_GroupC_20MC_Sediment3,102521,Sample,Field,Sediment,20MC,PFHxS,277,3.85,1320,0.9842
-0.2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,52600,4.15,255000,1
-0.4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,71900,4.12,288000,1
-0 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,0,0,311000,1
-100 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,7610000,4.09,202000,1
-10 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,1130000,4.11,198000,1
-1 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,116000,4.12,208000,1
-20 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,1950000,4.11,182000,1
-2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,217000,4.12,211000,1
-40 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,3210000,4.09,207000,1
-4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,448000,4.11,206000,1
+102521_0.2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,52600,4.15,255000,1
+102521_0.4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,71900,4.12,288000,1
+102521_0 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,0,0,311000,1
+102521_100 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,7610000,4.09,202000,1
+102521_10 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,1130000,4.11,198000,1
+102521_1 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,116000,4.12,208000,1
+102521_20 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,1950000,4.11,182000,1
+102521_2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,217000,4.12,211000,1
+102521_40 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,3210000,4.09,207000,1
+102521_4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFNA,448000,4.11,206000,1
 102521_CHM4110_GroupC_20MC_Sediment_Spike,102521,Spike,Field,Sediment,20MC,PFNA,506500,4.02,132000,1
 102521_CHM4110_GroupC_20MC_Sediment_FieldBlank,102521,Blank,Field,Sediment,20MC,PFNA,2880,4.01,7281,1
 102521_CHM4110_GroupC_20MC_Sediment_LabBlank,102521,Blank,Lab,Sediment,20MC,PFNA,2500,4,8940,1
 102521_CHM4110_GroupC_20MC_Sediment1,102521,Sample,Field,Sediment,20MC,PFNA,72300,4.06,252000,1.075
 102521_CHM4110_GroupC_20MC_Sediment2,102521,Sample,Field,Sediment,20MC,PFNA,87020,4.06,212000,0.9522
 102521_CHM4110_GroupC_20MC_Sediment3,102521,Sample,Field,Sediment,20MC,PFNA,98210,0,155000,0.9842
-0.2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,44900,3.97,202000,1
-0.4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,54900,3.96,255000,1
-0 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,0,0,234000,1
-100 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,7880000,3.93,356000,1
-10 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,1080000,3.95,237000,1
-1 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,108000,3.96,230000,1
-20 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,2080000,3.95,255000,1
-2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,220000,3.96,270000,1
-40 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,3440000,3.93,260000,1
-4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,430000,3.96,211000,1
+102521_0.2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,44900,3.97,202000,1
+102521_0.4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,54900,3.96,255000,1
+102521_0 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,0,0,234000,1
+102521_100 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,7880000,3.93,356000,1
+102521_10 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,1080000,3.95,237000,1
+102521_1 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,108000,3.96,230000,1
+102521_20 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,2080000,3.95,255000,1
+102521_2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,220000,3.96,270000,1
+102521_40 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,3440000,3.93,260000,1
+102521_4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOA,430000,3.96,211000,1
 102521_CHM4110_GroupC_20MC_Sediment_Spike,102521,Spike,Field,Sediment,20MC,PFOA,640000,3.88,225000,1
 102521_CHM4110_GroupC_20MC_Sediment_FieldBlank,102521,Blank,Field,Sediment,20MC,PFOA,22500,3.89,155000,1
 102521_CHM4110_GroupC_20MC_Sediment_LabBlank,102521,Blank,Lab,Sediment,20MC,PFOA,24900,3.88,252000,1
 102521_CHM4110_GroupC_20MC_Sediment1,102521,Sample,Field,Sediment,20MC,PFOA,57000,3.91,86000,1.075
 102521_CHM4110_GroupC_20MC_Sediment2,102521,Sample,Field,Sediment,20MC,PFOA,56807,3.87,100000,0.9522
 102521_CHM4110_GroupC_20MC_Sediment3,102521,Sample,Field,Sediment,20MC,PFOA,35200,3.93,113000,0.9842
-0.2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,1260,4.12,8750,1
-0.4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,2420,4.11,6910,1
-0 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,0,0,7340,1
-100 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,278000,4.07,7100,1
-10 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,36200,4.09,6340,1
-1 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,3900,4.11,6780,1
-20 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,65100,4.09,6850,1
-2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,7970,4.1,6980,1
-40 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,120000,4.08,5590,1
-4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,16800,4.08,6340,1
+102521_0.2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,1260,4.12,8750,1
+102521_0.4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,2420,4.11,6910,1
+102521_0 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,0,0,7340,1
+102521_100 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,278000,4.07,7100,1
+102521_10 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,36200,4.09,6340,1
+102521_1 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,3900,4.11,6780,1
+102521_20 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,65100,4.09,6850,1
+102521_2 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,7970,4.1,6980,1
+102521_40 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,120000,4.08,5590,1
+102521_4 ng/mL,102521,Calibration curve,Lab,Sediment,N/A,PFOS,16800,4.08,6340,1
 102521_CHM4110_GroupC_20MC_Sediment_Spike,102521,Spike,Field,Sediment,20MC,PFOS,14360,4.02,3520,1
 102521_CHM4110_GroupC_20MC_Sediment_FieldBlank,102521,Blank,Field,Sediment,20MC,PFOS,4030,4.03,8700,1
 102521_CHM4110_GroupC_20MC_Sediment_LabBlank,102521,Blank,Lab,Sediment,20MC,PFOS,4710,4.03,9900,1
