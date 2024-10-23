@@ -1,0 +1,656 @@
+﻿Sample name ,Sample type,Sample group,Matrix,Location,Compound,Analyte peak area,Analyte retention time (min),Internal standard peak area,Normalization factor
+20MC-W-field blank,Blank,Field,Water,20MC,PFHxA,2.01E+04,2.43,2.13E+05,1
+20MC-W-lab blank,Blank,Lab,Water,20MC,PFHxA,0.00E+00,0,4.34E+04,1
+20MC-W-spike 1,Spike,Field,Water,20MC,PFHxA,1.89E+06,2.45,1.72E+05,1
+20MC-W-spike 2,Spike,Field,Water,20MC,PFHxA,1.89E+06,2.46,1.60E+05,1
+20MC-W-sample 1,Sample,Field,Water,20MC,PFHxA,0.00E+00,0.235,1.08E+05,100
+20MC-W-sample 2,Sample,Field,Water,20MC,PFHxA,0.00E+00,0,9.59E+04,100
+ 20MC-W-sample 3,Sample,Field,Water,20MC,PFHxA,2.08E+04,2.47,1.33E+05,100
+NIA-W- field blank 1,Blank,Field,Water,NIA,PFHxA,2.22E+04,2.43,7.78E+04,1
+ NIA-W- field blank 2,Blank,Field,Water,NIA,PFHxA,7.38E+03,2.44,1.01E+05,1
+NIA-W- lab blank,Blank,Lab,Water,NIA,PFHxA,2.57E+04,2.43,1.30E+05,1
+NIA-W-spike 1,Spike,Field,Water,NIA,PFHxA,9.34E+05,2.45,8.09E+04,1
+NIA-W-spike 2,Spike,Field,Water,NIA,PFHxA,8.05E+05,2.44,7.16E+04,1
+NIA-W-sample 1,Sample,Field,Water,NIA,PFHxA,9.86E+04,2.45,9.93E+04,100
+NIA-W-sample 2,Sample,Field,Water,NIA,PFHxA,1.44E+05,2.43,7.95E+04,100
+NIA-W-sample 3,Sample,Field,Water,NIA,PFHxA,8.68E+04,2.46,6.15E+04,100
+20MC-S-GA-field blank,Blank,Field,Sediment,20MC,PFHxA,0.00E+00,0,4.43E+03,1
+20MC-S-GA-sample 1,Sample,Field,Sediment,20MC,PFHxA,0.00E+00,0,1.62E+04,1.0121
+20MC-S-GA-sample 2,Sample,Field,Sediment,20MC,PFHxA,0.00E+00,0,9.07E+03,1.053
+20MC-S-GA-sample 3,Sample,Field,Sediment,20MC,PFHxA,0.00E+00,0,8.28E+03,1.0155
+20MC-S-GA-sample A2-1,Sample,Field,Sediment,20MC,PFHxA,0.00E+00,0,1.54E+03,0.9904
+20MC-S-GC-lab blank,Blank,Lab,Sediment,20MC,PFHxA,2.59E+03,2.45,1.73E+04,1
+20MC-S-GC-field blank,Blank,Field,Sediment,20MC,PFHxA,5.70E+03,2.42,1.54E+04,1
+20MC-S-GC-spike,Spike,Field,Sediment,20MC,PFHxA,1.51E+04,2.49,2.17E+03,1
+20MC-S-GC-sample 1,Sample,Field,Sediment,20MC,PFHxA,1.46E+03,2.43,1.15E+04,1.0141
+20MC-S-GC-sample 2,Sample,Field,Sediment,20MC,PFHxA,1.27E+03,2.42,5.27E+03,1.0831
+20MC-B-GA-snail 1,Sample,Pestle,Biota,20MC,PFHxA,5.84E+02,2.45,1.51E+04,0.6301
+20MC-B-GA-snail 2,Sample,Pestle,Biota,20MC,PFHxA,1.17E+03,2.44,1.54E+04,0.7424
+20MC-B-GB-lab blank,Blank,Lab,Biota,20MC,PFHxA,0.00E+00,0,2.88E+03,1
+20MC-B-GB-spike,Spike,Pestle,Biota,20MC,PFHxA,8.16E+04,2.43,2.12E+04,1
+20MC-B-GB-roach 2,Sample,Pestle,Biota,20MC,PFHxA,1.03E+03,2.42,7.49E+03,0.6256
+20MC-B-GB-roach 3,Sample,Pestle,Biota,20MC,PFHxA,8.81E+02,2.43,6.28E+03,0.7145
+20MC-B-GB-roach 4,Sample,Pestle,Biota,20MC,PFHxA,0.00E+00,0,4.23E+03,0.8094
+20MC-B-GB-roach 5,Sample,Pestle,Biota,20MC,PFHxA,0.00E+00,0,4.17E+03,0.7467
+20MC-B-GB-stickbug,Sample,Pestle,Biota,20MC,PFHxA,0.00E+00,0,7.11E+03,0.1968
+20MC-B-GB-sunfish 2,Sample,Blender ,Biota,20MC,PFHxA,0.00E+00,0,4.18E+03,0.7269
+20MC-B-GB-soft 1,Sample,Homogenizer,Biota,20MC,PFHxA,0.00E+00,0,8.59E+03,0.643
+20MC-B-GB-soft 2,Sample,Homogenizer,Biota,20MC,PFHxA,8.76E+02,2.43,1.19E+04,0.8031
+20MC-B-GB-soft 3,Sample,Homogenizer,Biota,20MC,PFHxA,6.05E+02,2.43,9.42E+03,0.5117
+20MC-B-GC-lab blank,Blank,Lab,Biota,20MC,PFHxA,0.00E+00,0,6.67E+03,1
+20MC-B-GC-pestle blank 1,Blank,Pestle,Biota,20MC,PFHxA,0.00E+00,0,1.73E+03,1
+20MC-B-GC-pestle blank 2,Blank,Pestle,Biota,20MC,PFHxA,0.00E+00,0,1.21E+04,1
+20MC-B-GC-spike,Spike,Pestle,Biota,20MC,PFHxA,3.34E+04,2.44,7.53E+03,1
+20MC-B-GC-catfish 1,Sample,Blender ,Biota,20MC,PFHxA,0.00E+00,0,6.35E+03,0.6004
+20MC-B-GC-catfish 2,Sample,Blender ,Biota,20MC,PFHxA,0.00E+00,0,7.20E+03,1.0468
+20MC-B-GC-catfish 3,Sample,Blender ,Biota,20MC,PFHxA,0.00E+00,0,5.10E+03,1.1744
+20MC-B-GC-crayfish 1,Sample,Pestle,Biota,20MC,PFHxA,0.00E+00,0,4.10E+03,1
+20MC-B-GC-crayfish 2,Sample,Pestle,Biota,20MC,PFHxA,0.00E+00,0,2.88E+03,1
+20MC-B-GC-crayfish 3,Sample,Pestle,Biota,20MC,PFHxA,0.00E+00,0,1.99E+03,1
+0 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,0.00E+00,0,1.13E+04,1
+0.2 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,2.68E+03,2.46,1.21E+04,1
+0.4 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,6.44E+03,2.45,1.21E+04,1
+1 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,1.55E+04,2.41,1.29E+04,1
+2 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,3.47E+04,2.44,1.79E+04,1
+4 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,7.94E+04,2.42,1.58E+04,1
+10 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,2.16E+05,2.45,1.75E+04,1
+20 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,4.38E+05,2.45,2.34E+04,1
+40 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,8.52E+05,2.43,2.34E+04,1
+100 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,1.77E+06,2.45,1.84E+04,1
+NIA-S-GE-lab blank 1,Blank,Lab,Sediment,NIA,PFHxA,0.00E+00,0,1.88E+03,1
+NIA-S-GE-lab blank 2,Blank,Lab,Sediment,NIA,PFHxA,0.00E+00,0,1.91E+03,1
+NIA-S-GE-field blank 1,Blank,Field,Sediment,NIA,PFHxA,0.00E+00,0,2.32E+03,1
+NIA-S-GE-field blank 2,Blank,Field,Sediment,NIA,PFHxA,0.00E+00,0,2.85E+03,1
+NIA-S-GE-spike 1,Spike,Field,Sediment,NIA,PFHxA,7.54E+03,2.47,1.30E+03,1
+NIA-S-GE-spike 2,Spike,Field,Sediment,NIA,PFHxA,7.42E+03,2.48,2.09E+03,1
+NIA-S-GE-sample 1,Sample,Field,Sediment,NIA,PFHxA,0.00E+00,0,1.05E+03,1
+NIA-S-GE-sample 2 ,Sample,Field,Sediment,NIA,PFHxA,0.00E+00,0,1.11E+03,1
+NIA-S-GE-sample 3,Sample,Field,Sediment,NIA,PFHxA,0.00E+00,2.68,1.89E+03,1
+NIA-B-GE- homogen blank,Blank,Homogenizer,Biota,NIA,PFHxA,0.00E+00,0,5.27E+03,1
+NIA-B-GE- blender blank,Blank,Blender ,Biota,NIA,PFHxA,3.32E+02,2.45,1.12E+03,1
+NIA-B-GE- spike 1,Spike,Homogenizer,Biota,NIA,PFHxA,5.85E+04,2.45,9.60E+03,1
+NIA-B-GE- spike 2,Spike,Blender ,Biota,NIA,PFHxA,3.14E+03,2.5,1.95E+03,1
+NIA-B-GE- catfish 1,Sample,Blender ,Biota,NIA,PFHxA,9.83E+02,2.43,5.91E+03,0.8545
+NIA-B-GE- catfish 2,Sample,Blender ,Biota,NIA,PFHxA,0.00E+00,0,4.69E+03,0.856
+NIA-B-GE- catfish 3,Sample,Blender ,Biota,NIA,PFHxA,0.00E+00,0,3.24E+03,0.7441
+NIA-B-GE- catfish 1 (20x),Sample,Blender ,Biota,NIA,PFHxA,4.38E+02,2.42,4.12E+03,0.8545
+NIA-B-GE- catfish 2 (20x),Sample,Blender ,Biota,NIA,PFHxA,0.00E+00,0,1.76E+03,0.856
+NIA-B-GE- catfish 3 (20x),Sample,Blender ,Biota,NIA,PFHxA,0.00E+00,0,2.44E+03,0.7441
+NIA-B-GF- pestle blank,Blank,Pestle,Biota,NIA,PFHxA,6.68E+02,2.43,4.71E+03,1
+NIA-B-GF- blender blank,Blank,Blender ,Biota,NIA,PFHxA,8.34E+02,2.44,1.04E+04,1
+NIA-B-GF-spike,Spike,Pestle,Biota,NIA,PFHxA,4.03E+04,2.44,8.04E+03,1
+NIA-B-GF-crayfish 1,Sample,Pestle,Biota,NIA,PFHxA,0.00E+00,0,3.22E+03,1.0505
+NIA-B-GF-crayfish 2,Sample,Pestle,Biota,NIA,PFHxA,0.00E+00,0,2.70E+03,1.0872
+NIA-B-GF-crayfish 3,Sample,Pestle,Biota,NIA,PFHxA,1.36E+03,2.42,3.92E+03,1.0251
+NIA-B-GF-sunfish 2,Sample,Blender ,Biota,NIA,PFHxA,0.00E+00,0,2.53E+03,0.9781
+NIA-B-GD-lab blank,Blank,Lab,Biota,NIA,PFHxA,4.39E+02,2.43,6.06E+03,1
+NIA-B-GD-spike ,Spike,Lab,Biota,NIA,PFHxA,5.67E+03,2.42,4.26E+03,1
+NIA-B-GD-shrimp 3,Sample,Homogenizer,Biota,NIA,PFHxA,6.84E+02,2.42,2.67E+03,0.9024
+NIA-B-GD-snail 1,Sample,Pestle,Biota,NIA,PFHxA,0.00E+00,0,5.11E+03,0.7
+NIA-B-GD-snail 2,Sample,Pestle,Biota,NIA,PFHxA,0.00E+00,0,6.10E+03,0.51
+NIA-B-GD-catfish 1 (20x),Sample,Blender ,Biota,NIA,PFHxA,0.00E+00,0,2.24E+03,1
+NIA-B-GD-catfish 2 (20x),Sample,Blender ,Biota,NIA,PFHxA,3.06E+02,2.43,3.71E+03,1
+NIA-B-GD-catfish 1,Sample,Blender ,Biota,NIA,PFHxA,0.00E+00,0,2.52E+03,1
+20MC-W-field blank,Blank,Field,Water,20MC,PFHpA,2.36E+04,2.54,3.20E+05,1
+20MC-W-lab blank,Blank,Lab,Water,20MC,PFHpA,9.74E+03,2.58,2.39E+05,1
+20MC-W-spike 1,Spike,Field,Water,20MC,PFHpA,2.80E+06,2.56,2.70E+05,1
+20MC-W-spike 2,Spike,Field,Water,20MC,PFHpA,2.72E+06,2.54,2.63E+05,1
+20MC-W-sample 1,Sample,Field,Water,20MC,PFHpA,1.62E+04,2.58,2.15E+05,100
+20MC-W-sample 2,Sample,Field,Water,20MC,PFHpA,1.21E+04,2.56,1.95E+05,100
+ 20MC-W-sample 3,Sample,Field,Water,20MC,PFHpA,2.43E+04,2.54,1.95E+05,100
+NIA-W- field blank 1,Blank,Field,Water,NIA,PFHpA,2.23E+04,2.55,1.57E+05,1
+ NIA-W- field blank 2,Blank,Field,Water,NIA,PFHpA,1.21E+04,2.55,1.88E+05,1
+NIA-W- lab blank,Blank,Lab,Water,NIA,PFHpA,2.18E+04,2.54,1.81E+05,1
+NIA-W-spike 1,Spike,Field,Water,NIA,PFHpA,1.33E+06,2.54,1.42E+05,1
+NIA-W-spike 2,Spike,Field,Water,NIA,PFHpA,1.05E+06,2.54,1.15E+05,1
+NIA-W-sample 1,Sample,Field,Water,NIA,PFHpA,5.47E+04,2.55,1.03E+05,100
+NIA-W-sample 2,Sample,Field,Water,NIA,PFHpA,1.10E+05,2.53,9.41E+04,100
+NIA-W-sample 3,Sample,Field,Water,NIA,PFHpA,4.75E+04,2.56,9.54E+04,100
+20MC-S-GA-field blank,Blank,Field,Sediment,20MC,PFHpA,1.56E+03,2.55,1.92E+04,1
+20MC-S-GA-sample 1,Sample,Field,Sediment,20MC,PFHpA,1.51E+03,2.57,6.19E+04,1.0121
+20MC-S-GA-sample 2,Sample,Field,Sediment,20MC,PFHpA,1.43E+03,2.57,3.97E+04,1.053
+20MC-S-GA-sample 3,Sample,Field,Sediment,20MC,PFHpA,2.08E+03,2.57,3.31E+04,1.0155
+20MC-S-GA-sample A2-1,Sample,Field,Sediment,20MC,PFHpA,2.92E+02,2.55,2.66E+03,0.9904
+20MC-S-GC-lab blank,Blank,Lab,Sediment,20MC,PFHpA,2.39E+03,2.55,2.94E+04,1
+20MC-S-GC-field blank,Blank,Field,Sediment,20MC,PFHpA,2.47E+03,2.56,2.45E+04,1
+20MC-S-GC-spike,Spike,Field,Sediment,20MC,PFHpA,3.34E+04,2.56,7.03E+03,1
+20MC-S-GC-sample 1,Sample,Field,Sediment,20MC,PFHpA,1.72E+03,2.54,2.22E+04,1.0141
+20MC-S-GC-sample 2,Sample,Field,Sediment,20MC,PFHpA,0.00E+00,0,1.86E+04,1.0831
+20MC-S-GC-sample 3,Sample,Field,Sediment,20MC,PFHpA,4.02E+03,2.57,1.36E+04,1.0827
+20MC-B-GA-snail 1,Sample,Pestle,Biota,20MC,PFHpA,0.00E+00,0,2.45E+04,0.6301
+20MC-B-GA-snail 2,Sample,Pestle,Biota,20MC,PFHpA,8.72E+02,2.51,2.62E+04,0.7424
+20MC-B-GB-lab blank,Blank,Lab,Biota,20MC,PFHpA,0.00E+00,0,8.51E+03,1
+20MC-B-GB-spike,Spike,Pestle,Biota,20MC,PFHpA,7.88E+04,2.55,2.80E+04,1
+20MC-B-GB-roach 2,Sample,Pestle,Biota,20MC,PFHpA,9.19E+02,2.59,2.71E+04,0.6256
+20MC-B-GB-roach 3,Sample,Pestle,Biota,20MC,PFHpA,4.66E+02,2.57,1.63E+04,0.7145
+20MC-B-GB-roach 4,Sample,Pestle,Biota,20MC,PFHpA,4.57E+02,2.57,1.44E+04,0.8094
+20MC-B-GB-roach 5,Sample,Pestle,Biota,20MC,PFHpA,3.90E+02,2.56,1.02E+04,0.7467
+20MC-B-GB-stickbug,Sample,Pestle,Biota,20MC,PFHpA,0.00E+00,0,9.76E+03,0.1968
+20MC-B-GB-sunfish 2,Sample,Blender ,Biota,20MC,PFHpA,4.13E+02,2.58,7.12E+03,0.7269
+20MC-B-GB-sunfish 3,Sample,Blender ,Biota,20MC,PFHpA,0.00E+00,0,7.62E+03,0.804
+20MC-B-GB-soft 1,Sample,Homogenizer,Biota,20MC,PFHpA,3.69E+02,2.56,8.94E+03,0.643
+20MC-B-GB-soft 2,Sample,Homogenizer,Biota,20MC,PFHpA,6.42E+02,2.59,1.42E+04,0.8031
+20MC-B-GB-soft 3,Sample,Homogenizer,Biota,20MC,PFHpA,0.00E+00,0,1.04E+04,0.5117
+20MC-B-GC-lab blank,Blank,Lab,Biota,20MC,PFHpA,0.00E+00,0,1.01E+04,1
+20MC-B-GC-pestle blank 1,Blank,Pestle,Biota,20MC,PFHpA,0.00E+00,0,5.81E+03,1
+20MC-B-GC-pestle blank 2,Blank,Pestle,Biota,20MC,PFHpA,1.57E+03,2.53,1.54E+04,1
+20MC-B-GC-spike,Spike,Pestle,Biota,20MC,PFHpA,5.67E+04,2.55,9.79E+03,1
+20MC-B-GC-catfish 1,Sample,Blender ,Biota,20MC,PFHpA,8.89E+02,2.57,1.04E+04,0.6004
+20MC-B-GC-catfish 2,Sample,Blender ,Biota,20MC,PFHpA,4.45E+02,2.57,7.51E+03,1.0468
+20MC-B-GC-catfish 3,Sample,Blender ,Biota,20MC,PFHpA,9.36E+02,2.55,5.80E+03,1.1744
+20MC-B-GC-crayfish 1,Sample,Pestle,Biota,20MC,PFHpA,0.00E+00,0,7.60E+03,1
+20MC-B-GC-crayfish 2,Sample,Pestle,Biota,20MC,PFHpA,1.96E+02,2.56,7.59E+03,1
+20MC-B-GC-crayfish 3,Sample,Pestle,Biota,20MC,PFHpA,9.76E+02,2.55,6.68E+03,1
+0 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,0.00E+00,0,1.44E+04,1
+0.2 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,4.03E+03,2.54,1.70E+04,1
+0.4 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,8.28E+03,2.5,2.00E+04,1
+1 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,2.21E+04,2.55,2.13E+04,1
+2 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,4.88E+04,2.54,2.06E+04,1
+4 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,1.14E+05,2.54,1.99E+04,1
+10 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,2.91E+05,2.55,2.19E+04,1
+20 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,5.67E+05,2.54,2.23E+04,1
+40 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,1.04E+06,2.53,2.12E+04,1
+100 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,1.94E+06,2.55,1.91E+04,1
+NIA-S-GE-lab blank 1,Blank,Lab,Sediment,NIA,PFHpA,0.00E+00,0,3.79E+03,1
+NIA-S-GE-lab blank 2,Blank,Lab,Sediment,NIA,PFHpA,0.00E+00,0,4.92E+03,1
+NIA-S-GE-field blank 1,Blank,Field,Sediment,NIA,PFHpA,0.00E+00,0,4.43E+03,1
+NIA-S-GE-field blank 2,Blank,Field,Sediment,NIA,PFHpA,4.46E+02,2.54,9.52E+03,1
+NIA-S-GE-spike 1,Spike,Field,Sediment,NIA,PFHpA,1.55E+04,2.56,3.16E+03,1
+NIA-S-GE-spike 2,Spike,Field,Sediment,NIA,PFHpA,1.90E+04,2.56,4.88E+03,1
+NIA-S-GE-sample 1,Sample,Field,Sediment,NIA,PFHpA,0.00E+00,0,4.08E+03,1
+NIA-S-GE-sample 2 ,Sample,Field,Sediment,NIA,PFHpA,0.00E+00,0,4.27E+03,1
+NIA-S-GE-sample 3,Sample,Field,Sediment,NIA,PFHpA,0.00E+00,0,3.92E+03,1
+NIA-B-GE- homogen blank,Blank,Homogenizer,Biota,NIA,PFHpA,0.00E+00,0,1.15E+04,1
+NIA-B-GE- blender blank,Blank,Blender ,Biota,NIA,PFHpA,0.00E+00,0,3.11E+03,1
+NIA-B-GE- spike 1,Spike,Homogenizer,Biota,NIA,PFHpA,8.52E+04,2.52,9.19E+03,1
+NIA-B-GE- spike 2,Spike,Blender ,Biota,NIA,PFHpA,6.58E+03,2.56,3.84E+03,1
+NIA-B-GE- catfish 1,Sample,Blender ,Biota,NIA,PFHpA,5.96E+02,2.56,1.08E+04,0.8545
+NIA-B-GE- catfish 2,Sample,Blender ,Biota,NIA,PFHpA,0.00E+00,0,7.22E+03,0.856
+NIA-B-GE- catfish 3,Sample,Blender ,Biota,NIA,PFHpA,0.00E+00,0,6.12E+03,0.7441
+NIA-B-GE- catfish 1 (20x),Sample,Blender ,Biota,NIA,PFHpA,0.00E+00,0,4.61E+03,0.8545
+NIA-B-GE- catfish 2 (20x),Sample,Blender ,Biota,NIA,PFHpA,0.00E+00,0,4.08E+03,0.856
+NIA-B-GE- catfish 3 (20x),Sample,Blender ,Biota,NIA,PFHpA,0.00E+00,0,4.96E+03,0.7441
+NIA-B-GF- pestle blank,Blank,Pestle,Biota,NIA,PFHpA,0.00E+00,0,6.83E+03,1
+NIA-B-GF- blender blank,Blank,Blender ,Biota,NIA,PFHpA,0.00E+00,0,1.34E+04,1
+NIA-B-GF-spike,Spike,Pestle,Biota,NIA,PFHpA,6.85E+04,2.54,1.18E+04,1
+NIA-B-GF-crayfish 1,Sample,Pestle,Biota,NIA,PFHpA,2.27E+03,2.56,8.41E+03,1.0505
+NIA-B-GF-crayfish 2,Sample,Pestle,Biota,NIA,PFHpA,1.49E+03,2.55,6.83E+03,1.0872
+NIA-B-GF-crayfish 3,Sample,Pestle,Biota,NIA,PFHpA,1.36E+03,2.57,9.08E+03,1.0251
+NIA-B-GF-sunfish 1,Sample,Blender ,Biota,NIA,PFHpA,0.00E+00,0,4.99E+03,0.9148
+NIA-B-GF-sunfish 2,Sample,Blender ,Biota,NIA,PFHpA,0.00E+00,0,4.85E+03,0.9781
+NIA-B-GF-sunfish 3,Sample,Blender ,Biota,NIA,PFHpA,0.00E+00,0,5.27E+03,0.9652
+NIA-B-GD-lab blank,Blank,Lab,Biota,NIA,PFHpA,0.00E+00,0,6.67E+03,1
+NIA-B-GD-spike ,Spike,Lab,Biota,NIA,PFHpA,3.98E+03,2.54,5.16E+03,1
+NIA-B-GD-shrimp 1,Sample,Homogenizer,Biota,NIA,PFHpA,0.00E+00,0,5.06E+03,0.8227
+NIA-B-GD-shrimp 2,Sample,Homogenizer,Biota,NIA,PFHpA,1.77E+02,2.55,4.84E+03,0.5472
+NIA-B-GD-shrimp 3,Sample,Homogenizer,Biota,NIA,PFHpA,0.00E+00,0,4.70E+03,0.9024
+NIA-B-GD-snail 1,Sample,Pestle,Biota,NIA,PFHpA,0.00E+00,0,8.00E+03,0.7
+NIA-B-GD-snail 2,Sample,Pestle,Biota,NIA,PFHpA,0.00E+00,0,9.10E+03,0.51
+NIA-B-GD-catfish 1 (20x),Sample,Blender ,Biota,NIA,PFHpA,0.00E+00,0,3.48E+03,1
+NIA-B-GD-catfish 2 (20x),Sample,Blender ,Biota,NIA,PFHpA,0.00E+00,0,4.64E+03,1
+NIA-B-GD-catfish 1,Sample,Blender ,Biota,NIA,PFHpA,0.00E+00,0,2.60E+03,1
+20MC-W-field blank,Blank,Field,Water,20MC,PFOA,1.41E+05,2.68,3.20E+05,1
+20MC-W-lab blank,Blank,Lab,Water,20MC,PFOA,9.21E+04,2.67,2.24E+05,1
+20MC-W-spike 1,Spike,Field,Water,20MC,PFOA,2.86E+06,2.67,2.70E+05,1
+20MC-W-spike 2,Spike,Field,Water,20MC,PFOA,3.24E+06,2.68,2.63E+05,1
+20MC-W-sample 1,Sample,Field,Water,20MC,PFOA,1.30E+05,2.66,2.15E+05,100
+20MC-W-sample 2,Sample,Field,Water,20MC,PFOA,1.17E+05,2.67,1.84E+05,100
+ 20MC-W-sample 3,Sample,Field,Water,20MC,PFOA,8.41E+04,2.65,1.62E+05,100
+NIA-W- field blank 1,Blank,Field,Water,NIA,PFOA,1.10E+05,2.67,1.57E+05,1
+ NIA-W- field blank 2,Blank,Field,Water,NIA,PFOA,9.57E+04,2.66,1.76E+05,1
+NIA-W- lab blank,Blank,Lab,Water,NIA,PFOA,7.24E+04,2.68,1.81E+05,1
+NIA-W-spike 1,Spike,Field,Water,NIA,PFOA,1.64E+06,2.66,1.42E+05,1
+NIA-W-spike 2,Spike,Field,Water,NIA,PFOA,1.25E+06,2.67,1.15E+05,1
+NIA-W-sample 1,Sample,Field,Water,NIA,PFOA,7.78E+04,2.66,1.03E+05,100
+NIA-W-sample 2,Sample,Field,Water,NIA,PFOA,1.38E+05,2.65,9.41E+04,100
+NIA-W-sample 3,Sample,Field,Water,NIA,PFOA,7.33E+04,2.66,8.47E+04,100
+20MC-S-GA-field blank,Blank,Field,Sediment,20MC,PFOA,1.23E+04,2.67,1.92E+04,1
+20MC-S-GA-sample 1,Sample,Field,Sediment,20MC,PFOA,5.53E+04,2.66,6.19E+04,1.0121
+20MC-S-GA-sample 2,Sample,Field,Sediment,20MC,PFOA,3.44E+04,2.67,3.97E+04,1.053
+20MC-S-GA-sample 3,Sample,Field,Sediment,20MC,PFOA,4.07E+04,2.65,3.31E+04,1.0155
+20MC-S-GA-sample A2-1,Sample,Field,Sediment,20MC,PFOA,2.83E+03,2.68,2.66E+03,0.9904
+20MC-S-GC-lab blank,Blank,Lab,Sediment,20MC,PFOA,2.76E+04,2.66,2.94E+04,1
+20MC-S-GC-field blank,Blank,Field,Sediment,20MC,PFOA,1.92E+04,2.66,2.45E+04,1
+20MC-S-GC-spike,Spike,Field,Sediment,20MC,PFOA,5.60E+04,2.65,7.03E+03,1
+20MC-S-GC-sample 1,Sample,Field,Sediment,20MC,PFOA,1.46E+04,2.65,2.22E+04,1.0141
+20MC-S-GC-sample 2,Sample,Field,Sediment,20MC,PFOA,1.34E+04,2.64,1.86E+04,1.0831
+20MC-S-GC-sample 3,Sample,Field,Sediment,20MC,PFOA,2.17E+04,2.65,1.36E+04,1.0827
+20MC-B-GA-snail 1,Sample,Pestle,Biota,20MC,PFOA,3.53E+03,2.66,2.45E+04,0.6301
+20MC-B-GA-snail 2,Sample,Pestle,Biota,20MC,PFOA,3.84E+03,2.64,2.62E+04,0.7424
+20MC-B-GB-lab blank,Blank,Lab,Biota,20MC,PFOA,1.99E+03,2.67,8.51E+03,1
+20MC-B-GB-spike,Spike,Pestle,Biota,20MC,PFOA,1.52E+05,2.66,2.80E+04,1
+20MC-B-GB-roach 2,Sample,Pestle,Biota,20MC,PFOA,4.81E+03,2.67,2.71E+04,0.6256
+20MC-B-GB-roach 3,Sample,Pestle,Biota,20MC,PFOA,1.88E+03,2.63,1.63E+04,0.7145
+20MC-B-GB-roach 4,Sample,Pestle,Biota,20MC,PFOA,2.74E+03,2.69,1.44E+04,0.8094
+20MC-B-GB-roach 5,Sample,Pestle,Biota,20MC,PFOA,1.70E+03,2.66,1.02E+04,0.7467
+20MC-B-GB-stickbug,Sample,Pestle,Biota,20MC,PFOA,1.38E+03,2.67,9.76E+03,0.1968
+20MC-B-GB-sunfish 2,Sample,Blender ,Biota,20MC,PFOA,9.26E+02,2.68,7.12E+03,0.7269
+20MC-B-GB-sunfish 3,Sample,Blender ,Biota,20MC,PFOA,7.27E+02,2.62,7.62E+03,0.804
+20MC-B-GB-soft 1,Sample,Homogenizer,Biota,20MC,PFOA,2.25E+03,2.66,8.18E+03,0.643
+20MC-B-GB-soft 2,Sample,Homogenizer,Biota,20MC,PFOA,2.67E+03,2.66,1.33E+04,0.8031
+20MC-B-GB-soft 3,Sample,Homogenizer,Biota,20MC,PFOA,3.26E+03,2.67,1.04E+04,0.5117
+20MC-B-GC-lab blank,Blank,Lab,Biota,20MC,PFOA,3.25E+03,2.67,9.18E+03,1
+20MC-B-GC-pestle blank 1,Blank,Pestle,Biota,20MC,PFOA,0.00E+00,0,5.33E+03,1
+20MC-B-GC-pestle blank 2,Blank,Pestle,Biota,20MC,PFOA,2.85E+03,2.65,1.54E+04,1
+20MC-B-GC-spike,Spike,Pestle,Biota,20MC,PFOA,6.45E+04,2.62,9.79E+03,1
+20MC-B-GC-catfish 1,Sample,Blender ,Biota,20MC,PFOA,1.93E+03,2.66,1.04E+04,0.6004
+20MC-B-GC-catfish 2,Sample,Blender ,Biota,20MC,PFOA,6.38E+02,2.68,7.51E+03,1.0468
+20MC-B-GC-catfish 3,Sample,Blender ,Biota,20MC,PFOA,2.18E+03,2.67,5.80E+03,1.1744
+20MC-B-GC-crayfish 1,Sample,Pestle,Biota,20MC,PFOA,2.18E+03,2.66,7.60E+03,1
+20MC-B-GC-crayfish 2,Sample,Pestle,Biota,20MC,PFOA,3.31E+03,2.67,7.59E+03,1
+20MC-B-GC-crayfish 3,Sample,Pestle,Biota,20MC,PFOA,3.71E+03,2.66,6.68E+03,1
+0 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,1.17E+03,2.65,1.44E+04,1
+0.2 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,4.56E+03,2.66,1.70E+04,1
+0.4 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,7.47E+03,2.66,2.00E+04,1
+1 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,2.69E+04,2.66,2.13E+04,1
+2 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,4.13E+04,2.66,2.06E+04,1
+4 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,9.94E+04,2.67,1.99E+04,1
+10 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,2.73E+05,2.66,2.19E+04,1
+20 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,5.29E+05,2.66,2.23E+04,1
+40 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,1.02E+06,2.65,2.12E+04,1
+100 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,1.77E+06,2.64,1.91E+04,1
+NIA-S-GE-lab blank 1,Blank,Lab,Sediment,NIA,PFOA,1.07E+03,2.65,3.79E+03,1
+NIA-S-GE-lab blank 2,Blank,Lab,Sediment,NIA,PFOA,5.62E+02,2.65,4.92E+03,1
+NIA-S-GE-field blank 1,Blank,Field,Sediment,NIA,PFOA,8.40E+02,2.66,4.43E+03,1
+NIA-S-GE-field blank 2,Blank,Field,Sediment,NIA,PFOA,1.57E+03,2.67,9.52E+03,1
+NIA-S-GE-spike 1,Spike,Field,Sediment,NIA,PFOA,2.42E+04,2.66,3.16E+03,1
+NIA-S-GE-spike 2,Spike,Field,Sediment,NIA,PFOA,3.76E+04,2.66,4.88E+03,1
+NIA-S-GE-sample 1,Sample,Field,Sediment,NIA,PFOA,4.44E+02,2.68,4.08E+03,1
+NIA-S-GE-sample 2 ,Sample,Field,Sediment,NIA,PFOA,1.17E+03,2.66,4.27E+03,1
+NIA-S-GE-sample 3,Sample,Field,Sediment,NIA,PFOA,1.72E+03,2.63,3.92E+03,1
+NIA-B-GE- homogen blank,Blank,Homogenizer,Biota,NIA,PFOA,1.93E+03,2.63,1.15E+04,1
+NIA-B-GE- blender blank,Blank,Blender ,Biota,NIA,PFOA,1.78E+02,2.65,3.11E+03,1
+NIA-B-GE- spike 1,Spike,Homogenizer,Biota,NIA,PFOA,8.16E+04,2.66,9.19E+03,1
+NIA-B-GE- spike 2,Spike,Blender ,Biota,NIA,PFOA,1.26E+04,2.66,3.60E+03,1
+NIA-B-GE- catfish 1,Sample,Blender ,Biota,NIA,PFOA,2.17E+03,2.66,1.08E+04,0.8545
+NIA-B-GE- catfish 2,Sample,Blender ,Biota,NIA,PFOA,2.10E+03,2.64,7.22E+03,0.856
+NIA-B-GE- catfish 3,Sample,Blender ,Biota,NIA,PFOA,1.59E+03,2.68,6.12E+03,0.7441
+NIA-B-GE- catfish 1 (20x),Sample,Blender ,Biota,NIA,PFOA,7.32E+02,2.67,4.61E+03,0.8545
+NIA-B-GE- catfish 2 (20x),Sample,Blender ,Biota,NIA,PFOA,9.56E+02,2.63,4.08E+03,0.856
+NIA-B-GE- catfish 3 (20x),Sample,Blender ,Biota,NIA,PFOA,4.58E+02,2.66,4.96E+03,0.7441
+NIA-B-GF- pestle blank,Blank,Pestle,Biota,NIA,PFOA,1.17E+03,2.66,6.83E+03,1
+NIA-B-GF- blender blank,Blank,Blender ,Biota,NIA,PFOA,7.47E+02,2.67,1.34E+04,1
+NIA-B-GF-spike,Spike,Pestle,Biota,NIA,PFOA,7.31E+04,2.66,1.18E+04,1
+NIA-B-GF-crayfish 1,Sample,Pestle,Biota,NIA,PFOA,5.53E+03,2.66,8.41E+03,1.0505
+NIA-B-GF-crayfish 2,Sample,Pestle,Biota,NIA,PFOA,6.56E+03,2.65,6.83E+03,1.0872
+NIA-B-GF-crayfish 3,Sample,Pestle,Biota,NIA,PFOA,4.84E+03,2.65,9.08E+03,1.0251
+NIA-B-GF-sunfish 1,Sample,Blender ,Biota,NIA,PFOA,1.87E+03,2.65,4.99E+03,0.9148
+NIA-B-GF-sunfish 2,Sample,Blender ,Biota,NIA,PFOA,1.14E+03,2.62,4.85E+03,0.9781
+NIA-B-GF-sunfish 3,Sample,Blender ,Biota,NIA,PFOA,9.44E+02,2.6,4.93E+03,0.9652
+NIA-B-GD-lab blank,Blank,Lab,Biota,NIA,PFOA,0.00E+00,0,6.67E+03,1
+NIA-B-GD-spike ,Spike,Lab,Biota,NIA,PFOA,1.31E+04,2.65,5.16E+03,1
+NIA-B-GD-shrimp 1,Sample,Homogenizer,Biota,NIA,PFOA,2.44E+03,2.66,5.06E+03,0.8227
+NIA-B-GD-shrimp 2,Sample,Homogenizer,Biota,NIA,PFOA,2.65E+03,2.67,4.84E+03,0.5472
+NIA-B-GD-shrimp 3,Sample,Homogenizer,Biota,NIA,PFOA,2.15E+03,2.63,4.70E+03,0.9024
+NIA-B-GD-snail 1,Sample,Pestle,Biota,NIA,PFOA,0.00E+00,0,8.00E+03,0.7
+NIA-B-GD-snail 2,Sample,Pestle,Biota,NIA,PFOA,1.45E+03,2.65,9.10E+03,0.51
+NIA-B-GD-catfish 1 (20x),Sample,Blender ,Biota,NIA,PFOA,5.41E+02,2.66,3.07E+03,1
+NIA-B-GD-catfish 2 (20x),Sample,Blender ,Biota,NIA,PFOA,0.00E+00,0,4.19E+03,1
+NIA-B-GD-catfish 1,Sample,Blender ,Biota,NIA,PFOA,1.08E+03,2.68,2.60E+03,1
+20MC-W-field blank,Blank,Field,Water,20MC,PFNA,0.00E+00,0,3.03E+05,1
+20MC-W-lab blank,Blank,Lab,Water,20MC,PFNA,9.37E+03,2.79,2.24E+05,1
+20MC-W-spike 1,Spike,Field,Water,20MC,PFNA,1.95E+06,2.79,2.20E+05,1
+20MC-W-spike 2,Spike,Field,Water,20MC,PFNA,2.22E+06,2.8,2.11E+05,1
+20MC-W-sample 1,Sample,Field,Water,20MC,PFNA,6.52E+03,2.77,1.68E+05,100
+20MC-W-sample 2,Sample,Field,Water,20MC,PFNA,1.92E+04,2.8,1.44E+05,100
+ 20MC-W-sample 3,Sample,Field,Water,20MC,PFNA,1.05E+04,2.8,1.37E+05,100
+NIA-W- field blank 1,Blank,Field,Water,NIA,PFNA,3.19E+04,2.78,1.48E+05,1
+ NIA-W- field blank 2,Blank,Field,Water,NIA,PFNA,6.05E+03,2.81,1.25E+05,1
+NIA-W- lab blank,Blank,Lab,Water,NIA,PFNA,1.35E+04,2.81,1.51E+05,1
+NIA-W-spike 1,Spike,Field,Water,NIA,PFNA,1.21E+06,2.79,1.04E+05,1
+NIA-W-spike 2,Spike,Field,Water,NIA,PFNA,9.33E+05,2.79,8.15E+04,1
+NIA-W-sample 1,Sample,Field,Water,NIA,PFNA,1.77E+04,2.78,7.00E+04,100
+NIA-W-sample 2,Sample,Field,Water,NIA,PFNA,4.52E+04,2.78,6.51E+04,100
+NIA-W-sample 3,Sample,Field,Water,NIA,PFNA,1.44E+04,2.79,6.00E+04,100
+20MC-S-GA-field blank,Blank,Field,Sediment,20MC,PFNA,8.37E+02,2.79,1.12E+04,1
+20MC-S-GA-sample 1,Sample,Field,Sediment,20MC,PFNA,7.77E+03,2.78,5.14E+04,1.0121
+20MC-S-GA-sample 2,Sample,Field,Sediment,20MC,PFNA,3.63E+03,2.79,4.02E+04,1.053
+20MC-S-GA-sample 3,Sample,Field,Sediment,20MC,PFNA,5.16E+03,2.78,3.65E+04,1.0155
+20MC-S-GA-sample A2-1,Sample,Field,Sediment,20MC,PFNA,0.00E+00,0,3.90E+03,0.9904
+20MC-S-GC-lab blank,Blank,Lab,Sediment,20MC,PFNA,1.82E+03,2.78,2.97E+04,1
+20MC-S-GC-field blank,Blank,Field,Sediment,20MC,PFNA,4.92E+03,2.78,2.84E+04,1
+20MC-S-GC-spike,Spike,Field,Sediment,20MC,PFNA,4.74E+04,2.77,6.64E+03,1
+20MC-S-GC-sample 1,Sample,Field,Sediment,20MC,PFNA,0.00E+00,0,2.27E+04,1.0141
+20MC-S-GC-sample 2,Sample,Field,Sediment,20MC,PFNA,0.00E+00,0,1.83E+04,1.0831
+20MC-S-GC-sample 3,Sample,Field,Sediment,20MC,PFNA,0.00E+00,0,1.18E+04,1.0827
+20MC-B-GA-snail 1,Sample,Pestle,Biota,20MC,PFNA,9.24E+02,2.78,1.79E+04,0.6301
+20MC-B-GA-snail 2,Sample,Pestle,Biota,20MC,PFNA,1.54E+03,2.75,1.85E+04,0.7424
+20MC-B-GB-lab blank,Blank,Lab,Biota,20MC,PFNA,1.90E+03,2.76,6.71E+03,1
+20MC-B-GB-spike,Spike,Pestle,Biota,20MC,PFNA,1.30E+05,2.78,2.93E+04,1
+20MC-B-GB-roach 2,Sample,Pestle,Biota,20MC,PFNA,1.26E+03,2.78,2.03E+04,0.6256
+20MC-B-GB-roach 3,Sample,Pestle,Biota,20MC,PFNA,3.26E+03,2.76,1.22E+04,0.7145
+20MC-B-GB-roach 4,Sample,Pestle,Biota,20MC,PFNA,1.31E+03,2.79,1.09E+04,0.8094
+20MC-B-GB-roach 5,Sample,Pestle,Biota,20MC,PFNA,7.23E+02,2.79,5.80E+03,0.7467
+20MC-B-GB-stickbug,Sample,Pestle,Biota,20MC,PFNA,6.07E+02,2.77,6.23E+03,0.1968
+20MC-B-GB-sunfish 2,Sample,Blender ,Biota,20MC,PFNA,2.17E+03,2.78,6.65E+03,0.7269
+20MC-B-GB-sunfish 3,Sample,Blender ,Biota,20MC,PFNA,2.30E+03,2.77,6.61E+03,0.804
+20MC-B-GB-soft 1,Sample,Homogenizer,Biota,20MC,PFNA,2.61E+03,2.78,6.49E+03,0.643
+20MC-B-GB-soft 2,Sample,Homogenizer,Biota,20MC,PFNA,3.51E+03,2.77,7.83E+03,0.8031
+20MC-B-GB-soft 3,Sample,Homogenizer,Biota,20MC,PFNA,2.22E+03,2.75,1.15E+04,0.5117
+20MC-B-GC-lab blank,Blank,Lab,Biota,20MC,PFNA,0.00E+00,0,6.04E+03,1
+20MC-B-GC-pestle blank 1,Blank,Pestle,Biota,20MC,PFNA,0.00E+00,0,4.38E+03,1
+20MC-B-GC-pestle blank 2,Blank,Pestle,Biota,20MC,PFNA,2.16E+03,2.77,9.62E+03,1
+20MC-B-GC-spike,Spike,Pestle,Biota,20MC,PFNA,6.44E+04,2.78,8.27E+03,1
+20MC-B-GC-catfish 1,Sample,Blender ,Biota,20MC,PFNA,2.08E+03,2.76,8.94E+03,0.6004
+20MC-B-GC-catfish 2,Sample,Blender ,Biota,20MC,PFNA,0.00E+00,0,8.76E+03,1.0468
+20MC-B-GC-catfish 3,Sample,Blender ,Biota,20MC,PFNA,2.26E+03,2.8,7.84E+03,1.1744
+20MC-B-GC-crayfish 2,Sample,Pestle,Biota,20MC,PFNA,1.51E+03,2.8,6.41E+03,1
+20MC-B-GC-crayfish 3,Sample,Pestle,Biota,20MC,PFNA,1.60E+03,2.79,6.74E+03,1
+0 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,0.00E+00,0,8.68E+03,1
+0.2 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,1.93E+03,2.8,1.15E+04,1
+0.4 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,5.92E+03,2.77,1.23E+04,1
+1 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,1.63E+04,2.77,1.32E+04,1
+2 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,4.10E+04,2.78,1.44E+04,1
+4 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,7.07E+04,2.77,1.35E+04,1
+10 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,1.86E+05,2.77,1.50E+04,1
+20 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,3.73E+05,2.78,1.66E+04,1
+40 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,6.34E+05,2.76,1.25E+04,1
+100 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,1.24E+06,2.78,9.17E+03,1
+NIA-S-GE-lab blank 1,Blank,Lab,Sediment,NIA,PFNA,3.29E+02,2.77,2.37E+03,1
+NIA-S-GE-lab blank 2,Blank,Lab,Sediment,NIA,PFNA,3.42E+02,2.78,2.54E+03,1
+NIA-S-GE-field blank 1,Blank,Field,Sediment,NIA,PFNA,1.12E+02,2.78,3.68E+03,1
+NIA-S-GE-field blank 2,Blank,Field,Sediment,NIA,PFNA,5.85E+02,2.78,9.19E+03,1
+NIA-S-GE-spike 1,Spike,Field,Sediment,NIA,PFNA,2.76E+04,2.77,2.89E+03,1
+NIA-S-GE-spike 2,Spike,Field,Sediment,NIA,PFNA,4.80E+04,2.79,6.39E+03,1
+NIA-S-GE-sample 1,Sample,Field,Sediment,NIA,PFNA,0.00E+00,0,2.44E+03,1
+NIA-S-GE-sample 2 ,Sample,Field,Sediment,NIA,PFNA,0.00E+00,0,3.70E+03,1
+NIA-S-GE-sample 3,Sample,Field,Sediment,NIA,PFNA,6.24E+02,2.78,4.42E+03,1
+NIA-B-GE- homogen blank,Blank,Homogenizer,Biota,NIA,PFNA,0.00E+00,0,7.37E+03,1
+NIA-B-GE- blender blank,Blank,Blender ,Biota,NIA,PFNA,0.00E+00,0,1.97E+03,1
+NIA-B-GE- spike 1,Spike,Homogenizer,Biota,NIA,PFNA,6.66E+04,2.76,8.16E+03,1
+NIA-B-GE- spike 2,Spike,Blender ,Biota,NIA,PFNA,1.33E+04,2.79,2.69E+03,1
+NIA-B-GE- catfish 1,Sample,Blender ,Biota,NIA,PFNA,1.76E+03,2.81,8.55E+03,0.8545
+NIA-B-GE- catfish 2,Sample,Blender ,Biota,NIA,PFNA,2.26E+03,2.8,7.19E+03,0.856
+NIA-B-GE- catfish 3,Sample,Blender ,Biota,NIA,PFNA,1.09E+03,2.81,7.36E+03,0.7441
+NIA-B-GE- catfish 1 (20x),Sample,Blender ,Biota,NIA,PFNA,5.40E+02,2.74,5.31E+03,0.8545
+NIA-B-GE- catfish 2 (20x),Sample,Blender ,Biota,NIA,PFNA,2.37E+03,2.78,4.19E+03,0.856
+NIA-B-GE- catfish 3 (20x),Sample,Blender ,Biota,NIA,PFNA,1.40E+03,2.74,5.49E+03,0.7441
+NIA-B-GF- pestle blank,Blank,Pestle,Biota,NIA,PFNA,2.42E+03,2.79,8.01E+03,1
+NIA-B-GF- blender blank,Blank,Blender ,Biota,NIA,PFNA,2.66E+03,2.77,9.52E+03,1
+NIA-B-GF-spike,Spike,Pestle,Biota,NIA,PFNA,5.91E+04,2.77,9.28E+03,1
+NIA-B-GF-crayfish 1,Sample,Pestle,Biota,NIA,PFNA,1.92E+03,2.8,7.01E+03,1.0505
+NIA-B-GF-crayfish 2,Sample,Pestle,Biota,NIA,PFNA,3.95E+03,2.79,6.02E+03,1.0872
+NIA-B-GF-crayfish 3,Sample,Pestle,Biota,NIA,PFNA,3.56E+03,2.79,7.91E+03,1.0251
+NIA-B-GF-sunfish 1,Sample,Blender ,Biota,NIA,PFNA,3.43E+03,2.76,2.84E+03,0.9148
+NIA-B-GF-sunfish 2,Sample,Blender ,Biota,NIA,PFNA,2.35E+03,2.79,2.11E+03,0.9781
+NIA-B-GF-sunfish 3,Sample,Blender ,Biota,NIA,PFNA,2.26E+03,2.8,2.82E+03,0.9652
+NIA-B-GD-lab blank,Blank,Lab,Biota,NIA,PFNA,3.33E+02,2.78,6.24E+03,1
+NIA-B-GD-spike ,Spike,Lab,Biota,NIA,PFNA,1.89E+04,2.78,4.75E+03,1
+NIA-B-GD-shrimp 1,Sample,Homogenizer,Biota,NIA,PFNA,6.50E+03,2.8,4.04E+03,0.8227
+NIA-B-GD-shrimp 2,Sample,Homogenizer,Biota,NIA,PFNA,2.61E+03,2.77,4.23E+03,0.5472
+NIA-B-GD-shrimp 3,Sample,Homogenizer,Biota,NIA,PFNA,4.58E+03,2.75,2.86E+03,0.9024
+NIA-B-GD-snail 1,Sample,Pestle,Biota,NIA,PFNA,0.00E+00,0,5.86E+03,0.7
+NIA-B-GD-snail 2,Sample,Pestle,Biota,NIA,PFNA,1.75E+02,2.74,6.00E+03,0.51
+NIA-B-GD-catfish 1 (20x),Sample,Blender ,Biota,NIA,PFNA,0.00E+00,0,2.81E+03,1
+NIA-B-GD-catfish 2 (20x),Sample,Blender ,Biota,NIA,PFNA,0.00E+00,0,6.37E+03,1
+NIA-B-GD-catfish 1,Sample,Blender ,Biota,NIA,PFNA,2.01E+03,2.81,2.45E+03,1
+20MC-W-field blank,Blank,Field,Water,20MC,PFDA,5.83E+03,2.96,2.47E+05,1
+20MC-W-lab blank,Blank,Lab,Water,20MC,PFDA,4.03E+03,2.93,1.24E+05,1
+20MC-W-spike 1,Spike,Field,Water,20MC,PFDA,1.14E+06,2.94,2.16E+05,1
+20MC-W-spike 2,Spike,Field,Water,20MC,PFDA,1.48E+06,2.94,2.03E+05,1
+20MC-W-sample 1,Sample,Field,Water,20MC,PFDA,1.41E+04,2.93,1.40E+05,100
+20MC-W-sample 2,Sample,Field,Water,20MC,PFDA,0.00E+00,0,1.15E+05,100
+ 20MC-W-sample 3,Sample,Field,Water,20MC,PFDA,8.26E+03,2.93,1.18E+05,100
+NIA-W- field blank 1,Blank,Field,Water,NIA,PFDA,2.51E+04,2.93,1.25E+05,1
+ NIA-W- field blank 2,Blank,Field,Water,NIA,PFDA,1.17E+04,2.93,1.09E+05,1
+NIA-W- lab blank,Blank,Lab,Water,NIA,PFDA,9.35E+03,2.94,1.36E+05,1
+NIA-W-spike 1,Spike,Field,Water,NIA,PFDA,1.01E+06,2.94,1.16E+05,1
+NIA-W-spike 2,Spike,Field,Water,NIA,PFDA,6.14E+05,2.93,8.92E+04,1
+NIA-W-sample 1,Sample,Field,Water,NIA,PFDA,2.34E+03,2.95,6.57E+04,100
+NIA-W-sample 2,Sample,Field,Water,NIA,PFDA,1.85E+04,2.93,5.33E+04,100
+NIA-W-sample 3,Sample,Field,Water,NIA,PFDA,0.00E+00,0,5.23E+04,100
+20MC-S-GA-field blank,Blank,Field,Sediment,20MC,PFDA,0.00E+00,0,1.15E+04,1
+20MC-S-GA-sample 1,Sample,Field,Sediment,20MC,PFDA,3.89E+03,2.91,2.79E+04,1.0121
+20MC-S-GA-sample 2,Sample,Field,Sediment,20MC,PFDA,2.48E+03,2.91,1.61E+04,1.053
+20MC-S-GA-sample 3,Sample,Field,Sediment,20MC,PFDA,4.42E+03,2.91,1.96E+04,1.0155
+20MC-S-GA-sample A2-1,Sample,Field,Sediment,20MC,PFDA,0.00E+00,0,4.96E+03,0.9904
+20MC-S-GC-lab blank,Blank,Lab,Sediment,20MC,PFDA,6.84E+02,2.92,1.76E+04,1
+20MC-S-GC-field blank,Blank,Field,Sediment,20MC,PFDA,3.73E+03,2.92,1.61E+04,1
+20MC-S-GC-spike,Spike,Field,Sediment,20MC,PFDA,2.72E+04,2.92,3.84E+03,1
+20MC-S-GC-sample 1,Sample,Field,Sediment,20MC,PFDA,3.09E+03,2.95,1.69E+04,1.0141
+20MC-S-GC-sample 2,Sample,Field,Sediment,20MC,PFDA,1.20E+03,2.94,1.53E+04,1.0831
+20MC-S-GC-sample 3,Sample,Field,Sediment,20MC,PFDA,2.08E+03,2.94,7.84E+03,1.0827
+20MC-B-GA-snail 1,Sample,Pestle,Biota,20MC,PFDA,0.00E+00,0,1.76E+04,0.6301
+20MC-B-GA-snail 2,Sample,Pestle,Biota,20MC,PFDA,0.00E+00,0,1.53E+04,0.7424
+20MC-B-GB-lab blank,Blank,Lab,Biota,20MC,PFDA,0.00E+00,0,4.36E+03,1
+20MC-B-GB-spike,Spike,Pestle,Biota,20MC,PFDA,8.98E+04,2.93,1.74E+04,1
+20MC-B-GB-roach 2,Sample,Pestle,Biota,20MC,PFDA,2.36E+03,2.95,1.33E+04,0.6256
+20MC-B-GB-roach 3,Sample,Pestle,Biota,20MC,PFDA,1.54E+03,2.91,1.05E+04,0.7145
+20MC-B-GB-roach 4,Sample,Pestle,Biota,20MC,PFDA,1.13E+03,2.92,1.00E+04,0.8094
+20MC-B-GB-roach 5,Sample,Pestle,Biota,20MC,PFDA,1.32E+03,2.92,6.10E+03,0.7467
+20MC-B-GB-stickbug,Sample,Pestle,Biota,20MC,PFDA,4.68E+02,2.9,4.49E+03,0.1968
+20MC-B-GB-sunfish 2,Sample,Blender ,Biota,20MC,PFDA,2.69E+03,2.91,5.19E+03,0.7269
+20MC-B-GB-sunfish 3,Sample,Blender ,Biota,20MC,PFDA,4.42E+03,2.92,5.76E+03,0.804
+20MC-B-GB-soft 1,Sample,Homogenizer,Biota,20MC,PFDA,1.35E+03,2.93,5.82E+03,0.643
+20MC-B-GB-soft 2,Sample,Homogenizer,Biota,20MC,PFDA,1.30E+03,2.92,7.69E+03,0.8031
+20MC-B-GB-soft 3,Sample,Homogenizer,Biota,20MC,PFDA,8.40E+02,2.92,7.94E+03,0.5117
+20MC-B-GC-lab blank,Blank,Lab,Biota,20MC,PFDA,2.10E+02,2.92,5.48E+03,1
+20MC-B-GC-pestle blank 1,Blank,Pestle,Biota,20MC,PFDA,0.00E+00,0,2.76E+03,1
+20MC-B-GC-pestle blank 2,Blank,Pestle,Biota,20MC,PFDA,0.00E+00,0,1.11E+04,1
+20MC-B-GC-spike,Spike,Pestle,Biota,20MC,PFDA,4.06E+04,2.93,6.17E+03,1
+20MC-B-GC-catfish 1,Sample,Blender ,Biota,20MC,PFDA,1.01E+03,2.92,5.50E+03,0.6004
+20MC-B-GC-catfish 2,Sample,Blender ,Biota,20MC,PFDA,3.02E+03,2.92,7.16E+03,1.0468
+20MC-B-GC-catfish 3,Sample,Blender ,Biota,20MC,PFDA,2.62E+03,2.9,6.40E+03,1.1744
+20MC-B-GC-crayfish 1,Sample,Pestle,Biota,20MC,PFDA,7.45E+02,2.89,5.46E+03,1
+20MC-B-GC-crayfish 2,Sample,Pestle,Biota,20MC,PFDA,5.74E+02,2.89,6.82E+03,1
+20MC-B-GC-crayfish 3,Sample,Lab,Biota,20MC,PFDA,2.76E+02,2.92,3.04E+03,1
+0 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,0.00E+00,0,1.01E+04,1
+0.2 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,2.16E+03,2.95,1.09E+04,1
+0.4 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,3.07E+03,2.91,9.88E+03,1
+1 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,1.14E+04,2.91,1.02E+04,1
+2 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,2.66E+04,2.93,1.33E+04,1
+4 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,5.44E+04,2.92,1.19E+04,1
+10 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,1.45E+05,2.93,1.30E+04,1
+20 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,3.01E+05,2.92,1.49E+04,1
+40 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,5.58E+05,2.93,1.43E+04,1
+100 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,1.04E+06,2.91,1.22E+04,1
+NIA-S-GE-lab blank 1,Blank,Lab,Sediment,NIA,PFDA,0.00E+00,0,2.17E+03,1
+NIA-S-GE-lab blank 2,Blank,Field,Sediment,NIA,PFDA,0.00E+00,0,1.82E+03,1
+NIA-S-GE-field blank 1,Blank,Field,Sediment,NIA,PFDA,0.00E+00,0,1.39E+03,1
+NIA-S-GE-field blank 2,Blank,Field,Sediment,NIA,PFDA,0.00E+00,0,5.80E+03,1
+NIA-S-GE-spike 1,Spike,Field,Sediment,NIA,PFDA,1.12E+04,2.94,1.68E+03,1
+NIA-S-GE-spike 2,Spike,Field,Sediment,NIA,PFDA,2.57E+04,2.91,5.18E+03,1
+NIA-S-GE-sample 1,Sample,Field,Sediment,NIA,PFDA,6.09E+01,2.9,2.50E+03,1
+NIA-S-GE-sample 2 ,Sample,Field,Sediment,NIA,PFDA,1.76E+02,2.92,2.19E+03,1
+NIA-S-GE-sample 3,Sample,Homogenizer,Sediment,NIA,PFDA,0.00E+00,0,1.68E+03,1
+NIA-B-GE- homogen blank,Blank,Blender ,Biota,NIA,PFDA,0.00E+00,0,5.64E+03,1
+NIA-B-GE- blender blank,Blank,Homogenizer,Biota,NIA,PFDA,0.00E+00,0,8.47E+02,1
+NIA-B-GE- spike 1,Spike,Blender ,Biota,NIA,PFDA,5.62E+04,2.93,7.02E+03,1
+NIA-B-GE- spike 2,Spike,Blender ,Biota,NIA,PFDA,5.90E+03,2.93,1.10E+03,1
+NIA-B-GE- catfish 1,Sample,Blender ,Biota,NIA,PFDA,1.73E+03,2.95,9.17E+03,0.8545
+NIA-B-GE- catfish 2,Sample,Blender ,Biota,NIA,PFDA,1.88E+03,2.92,6.12E+03,0.856
+NIA-B-GE- catfish 3,Sample,Blender ,Biota,NIA,PFDA,1.35E+03,2.92,5.35E+03,0.7441
+NIA-B-GE- catfish 1 (20x),Sample,Blender ,Biota,NIA,PFDA,0.00E+00,0,3.83E+03,0.8545
+NIA-B-GE- catfish 2 (20x),Sample,Blender ,Biota,NIA,PFDA,3.64E+02,2.9,1.96E+03,0.856
+NIA-B-GE- catfish 3 (20x),Sample,Pestle,Biota,NIA,PFDA,1.66E+02,2.92,3.00E+03,0.7441
+NIA-B-GF- pestle blank,Blank,Blender ,Biota,NIA,PFDA,0.00E+00,0,6.48E+03,1
+NIA-B-GF- blender blank,Blank,Pestle,Biota,NIA,PFDA,3.78E+02,2.94,1.05E+04,1
+NIA-B-GF-spike,Spike,Pestle,Biota,NIA,PFDA,2.55E+04,2.91,9.65E+03,1
+NIA-B-GF-crayfish 1,Sample,Pestle,Biota,NIA,PFDA,3.12E+03,2.93,5.56E+03,1.0505
+NIA-B-GF-crayfish 2,Sample,Pestle,Biota,NIA,PFDA,1.05E+03,2.92,4.73E+03,1.0872
+NIA-B-GF-crayfish 3,Sample,Blender ,Biota,NIA,PFDA,4.80E+02,2.89,6.18E+03,1.0251
+NIA-B-GF-sunfish 1,Sample,Blender ,Biota,NIA,PFDA,7.51E+03,2.93,2.40E+03,0.9148
+NIA-B-GF-sunfish 2,Sample,Blender ,Biota,NIA,PFDA,4.04E+03,2.91,3.74E+03,0.9781
+NIA-B-GF-sunfish 3,Sample,Lab,Biota,NIA,PFDA,4.00E+03,2.94,3.69E+03,0.9652
+NIA-B-GD-lab blank,Blank,Lab,Biota,NIA,PFDA,1.95E+02,2.94,3.84E+03,1
+NIA-B-GD-spike ,Spike,Homogenizer,Biota,NIA,PFDA,2.19E+04,2.9,2.94E+03,1
+NIA-B-GD-shrimp 2,Sample,Homogenizer,Biota,NIA,PFDA,7.51E+02,2.93,3.86E+03,0.5472
+NIA-B-GD-shrimp 3,Sample,Homogenizer,Biota,NIA,PFDA,1.07E+03,2.9,3.38E+03,0.9024
+NIA-B-GD-snail 1,Sample,Pestle,Biota,NIA,PFDA,0.00E+00,0,5.01E+03,0.7
+NIA-B-GD-snail 2,Sample,Pestle,Biota,NIA,PFDA,0.00E+00,0,4.74E+03,0.51
+NIA-B-GD-catfish 1 (20x),Sample,Blender ,Biota,NIA,PFDA,3.21E+02,2.89,2.35E+03,1
+NIA-B-GD-catfish 2 (20x),Sample,Blender ,Biota,NIA,PFDA,8.49E+02,2.89,4.07E+03,1
+NIA-B-GD-catfish 1,Sample,Blender ,Biota,NIA,PFDA,2.77E+03,2.9,1.76E+03,1
+20MC-W-field blank,Blank,Field,Water,20MC,PFHxS,0.00E+00,0,1.39E+04,1
+20MC-W-lab blank,Blank,Lab,Water,20MC,PFHxS,0.00E+00,0,3.59E+03,1
+20MC-W-spike 1,Spike,Field,Water,20MC,PFHxS,1.46E+05,2.54,8.69E+03,1
+20MC-W-spike 2,Spike,Field,Water,20MC,PFHxS,1.43E+05,2.56,9.88E+03,1
+20MC-W-sample 1,Sample,Field,Water,20MC,PFHxS,0.00E+00,0,3.28E+03,100
+20MC-W-sample 2,Sample,Field,Water,20MC,PFHxS,0.00E+00,0,1.93E+03,100
+ 20MC-W-sample 3,Sample,Field,Water,20MC,PFHxS,0.00E+00,0,7.21E+03,100
+NIA-W- field blank 1,Blank,Field,Water,NIA,PFHxS,0.00E+00,0,1.86E+03,1
+ NIA-W- field blank 2,Blank,Field,Water,NIA,PFHxS,0.00E+00,0,5.00E+03,1
+NIA-W- lab blank,Blank,Lab,Water,NIA,PFHxS,0.00E+00,0,6.40E+03,1
+NIA-W-spike 1,Spike,Field,Water,NIA,PFHxS,8.78E+04,2.54,6.34E+03,1
+NIA-W-spike 2,Spike,Field,Water,NIA,PFHxS,6.37E+04,2.55,3.55E+03,1
+NIA-W-sample 1,Sample,Field,Water,NIA,PFHxS,7.14E+03,2.51,4.66E+03,100
+NIA-W-sample 2,Sample,Field,Water,NIA,PFHxS,6.73E+03,2.51,4.19E+03,100
+NIA-W-sample 3,Sample,Field,Water,NIA,PFHxS,5.08E+03,2.54,2.21E+03,100
+20MC-S-GA-field blank,Blank,Field,Sediment,20MC,PFHxS,0.00E+00,0,3.58E+02,1
+20MC-S-GA-sample 2,Sample,Field,Sediment,20MC,PFHxS,0.00E+00,0,4.04E+02,1.053
+20MC-S-GA-sample 3,Sample,Field,Sediment,20MC,PFHxS,0.00E+00,0,3.28E+02,1.0155
+20MC-S-GC-lab blank,Blank,Lab,Sediment,20MC,PFHxS,0.00E+00,0,3.23E+02,1
+20MC-S-GC-field blank,Blank,Field,Sediment,20MC,PFHxS,0.00E+00,0,2.08E+02,1
+20MC-S-GC-spike,Spike,Field,Sediment,20MC,PFHxS,6.08E+02,2.55,1.49E+02,1
+20MC-S-GC-sample 1,Sample,Field,Sediment,20MC,PFHxS,0.00E+00,0,4.99E+02,1
+20MC-S-GC-sample 2,Sample,Field,Sediment,20MC,PFHxS,0.00E+00,0,1.93E+02,1
+20MC-S-GC-sample 3,Sample,Field,Sediment,20MC,PFHxS,0.00E+00,0,3.25E+02,1
+20MC-B-GA-snail 1,Sample,Pestle,Biota,20MC,PFHxS,0.00E+00,0,2.69E+02,0.6301
+20MC-B-GA-snail 2,Sample,Pestle,Biota,20MC,PFHxS,0.00E+00,0,6.36E+02,0.7424
+20MC-B-GB-lab blank,Blank,Homogenizer,Biota,20MC,PFHxS,0.00E+00,0,2.17E+02,1
+20MC-B-GB-spike,Spike,Pestle,Biota,20MC,PFHxS,2.85E+03,2.51,8.25E+02,1
+20MC-B-GB-roach 2,Sample,Pestle,Biota,20MC,PFHxS,0.00E+00,0,4.98E+02,0.6256
+20MC-B-GB-roach 3,Sample,Pestle,Biota,20MC,PFHxS,0.00E+00,0,1.70E+02,0.7145
+20MC-B-GB-roach 4,Sample,Pestle,Biota,20MC,PFHxS,0.00E+00,0,1.94E+02,0.8094
+20MC-B-GB-roach 5,Sample,Pestle,Biota,20MC,PFHxS,0.00E+00,0,4.37E+01,0.7467
+20MC-B-GB-stickbug,Sample,Pestle,Biota,20MC,PFHxS,7.76E+01,2.52,2.65E+02,0.1968
+20MC-B-GB-sunfish 2,Sample,Blender ,Biota,20MC,PFHxS,0.00E+00,0,1.07E+02,0.7269
+20MC-B-GB-sunfish 3,Sample,Blender ,Biota,20MC,PFHxS,0.00E+00,0,4.80E+01,0.804
+20MC-B-GB-soft 1,Sample,Homogenizer,Biota,20MC,PFHxS,0.00E+00,0,6.73E+01,0.643
+20MC-B-GB-soft 2,Sample,Homogenizer,Biota,20MC,PFHxS,6.60E+01,2.58,1.88E+02,0.8031
+20MC-B-GB-soft 3,Sample,Homogenizer,Biota,20MC,PFHxS,8.39E+01,2.59,2.66E+02,0.5117
+20MC-B-GC-lab blank,Blank,Lab,Biota,20MC,PFHxS,0.00E+00,0,2.70E+02,1
+20MC-B-GC-pestle blank 1,Blank,Pestle,Biota,20MC,PFHxS,0.00E+00,0,1.27E+01,1
+20MC-B-GC-pestle blank 2,Blank,Pestle,Biota,20MC,PFHxS,0.00E+00,0,7.84E+02,1
+20MC-B-GC-spike,Spike,Pestle,Biota,20MC,PFHxS,2.07E+03,2.49,2.48E+02,1
+20MC-B-GC-catfish 1,Sample,Blender ,Biota,20MC,PFHxS,1.07E+02,2.55,2.54E+01,0.6004
+20MC-B-GC-catfish 2,Sample,Blender ,Biota,20MC,PFHxS,0.00E+00,0,1.45E+02,1.0468
+20MC-B-GC-catfish 3,Sample,Blender ,Biota,20MC,PFHxS,0.00E+00,0,1.56E+02,1.1744
+20MC-B-GC-crayfish 1,Sample,Pestle,Biota,20MC,PFHxS,0.00E+00,0,1.31E+02,1
+20MC-B-GC-crayfish 2,Sample,Pestle,Biota,20MC,PFHxS,0.00E+00,0,5.19E+01,1
+0 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,0.00E+00,0,8.95E+02,1
+0.2 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,7.95E+01,2.54,7.00E+02,1
+0.4 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,5.57E+02,2.5,8.17E+02,1
+1 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,1.35E+03,2.54,1.17E+03,1
+2 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,2.43E+03,2.52,1.19E+03,1
+4 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,3.90E+03,2.54,1.28E+03,1
+10 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,1.22E+04,2.51,1.19E+03,1
+20 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,2.25E+04,2.54,9.70E+02,1
+40 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,3.58E+04,2.53,4.70E+02,1
+100 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,6.66E+04,2.5,3.77E+02,1
+NIA-S-GE-field blank 1,Blank,Field,Sediment,NIA,PFHxS,0.00E+00,0,2.29E+02,1
+NIA-S-GE-field blank 2,Blank,Field,Sediment,NIA,PFHxS,0.00E+00,0,1.34E+02,1
+NIA-S-GE-spike 1,Spike,Field,Sediment,NIA,PFHxS,6.10E+02,2.56,6.65E+01,1
+NIA-S-GE-spike 2,Spike,Field,Sediment,NIA,PFHxS,5.37E+02,2.54,2.46E+01,1
+NIA-S-GE-sample 1,Sample,Field,Sediment,NIA,PFHxS,3.94E+01,2.58,1.42E+02,1
+NIA-S-GE-sample 2 ,Sample,Field,Sediment,NIA,PFHxS,0.00E+00,0,1.06E+02,1
+NIA-S-GE-sample 3,Sample,Field,Sediment,NIA,PFHxS,0.00E+00,0,6.67E+01,1
+NIA-B-GE- blender blank,Blank,Blender ,Biota,NIA,PFHxS,0.00E+00,0,1.14E+02,1
+NIA-B-GE- spike 1,Spike,Blender ,Biota,NIA,PFHxS,2.58E+03,2.54,2.42E+02,1
+NIA-B-GE- spike 2,Spike,Homogenizer,Biota,NIA,PFHxS,6.01E+02,2.54,5.80E+01,1
+NIA-B-GE- catfish 1,Sample,Blender ,Biota,NIA,PFHxS,1.44E+02,2.5,1.66E+02,0.8545
+NIA-B-GE- catfish 2,Sample,Blender ,Biota,NIA,PFHxS,0.00E+00,0,3.22E+01,0.856
+NIA-B-GE- catfish 3 (20x),Sample,Blender ,Biota,NIA,PFHxS,0.00E+00,0,2.42E+02,0.7441
+NIA-B-GF- blender blank,Blank,Blender ,Biota,NIA,PFHxS,0.00E+00,0,6.20E+02,1
+NIA-B-GF-spike,Spike,Blender ,Biota,NIA,PFHxS,5.28E+03,2.53,5.48E+02,1
+NIA-B-GF-crayfish 1,Sample,Pestle,Biota,NIA,PFHxS,0.00E+00,0,5.19E+02,1.0505
+NIA-B-GF-sunfish 1,Sample,Blender ,Biota,NIA,PFHxS,1.61E+02,2.53,2.42E+01,0.9148
+NIA-B-GF-sunfish 2,Sample,Blender ,Biota,NIA,PFHxS,0.00E+00,0,1.23E+01,0.9781
+NIA-B-GF-sunfish 3,Sample,Blender ,Biota,NIA,PFHxS,0.00E+00,0,1.58E+02,0.9652
+NIA-B-GD-lab blank,Blank,Lab,Biota,NIA,PFHxS,0.00E+00,0,3.35E+02,1
+NIA-B-GD-snail 2,Sample,Pestle,Biota,NIA,PFHxS,0.00E+00,0,1.03E+02,0.51
+NIA-B-GD-catfish 1,Sample,Blender ,Biota,NIA,PFHxS,0.00E+00,0,1.59E+02,1
+20MC-W-field blank,Blank,Field,Water,20MC,PFOS,0.00E+00,0,1.78E+04,1
+20MC-W-lab blank,Blank,Lab,Water,20MC,PFOS,0.00E+00,0,7.04E+03,1
+20MC-W-spike 1,Spike,Field,Water,20MC,PFOS,9.78E+04,2.77,1.42E+04,1
+20MC-W-spike 2,Spike,Field,Water,20MC,PFOS,1.26E+05,2.78,1.42E+04,1
+20MC-W-sample 1,Sample,Field,Water,20MC,PFOS,9.42E+02,2.77,9.02E+03,100
+20MC-W-sample 2,Sample,Field,Water,20MC,PFOS,0.00E+00,0,7.55E+03,100
+ 20MC-W-sample 3,Sample,Field,Water,20MC,PFOS,9.09E+02,2.78,8.81E+03,100
+NIA-W- field blank 1,Blank,Field,Water,NIA,PFOS,0.00E+00,0,1.01E+04,1
+ NIA-W- field blank 2,Blank,Field,Water,NIA,PFOS,0.00E+00,0,5.26E+03,1
+NIA-W- lab blank,Blank,Lab,Water,NIA,PFOS,3.08E+02,2.77,1.07E+04,1
+NIA-W-spike 1,Spike,Field,Water,NIA,PFOS,6.36E+04,2.78,6.95E+03,1
+NIA-W-spike 2,Spike,Field,Water,NIA,PFOS,4.14E+04,2.77,3.74E+03,1
+NIA-W-sample 1,Sample,Field,Water,NIA,PFOS,1.54E+04,2.77,4.09E+03,100
+NIA-W-sample 2,Sample,Field,Water,NIA,PFOS,1.19E+04,2.76,2.77E+03,100
+NIA-W-sample 3,Sample,Field,Water,NIA,PFOS,1.23E+04,2.76,2.78E+03,100
+20MC-S-GA-field blank,Blank,Field,Sediment,20MC,PFOS,0.00E+00,0,3.05E+02,1
+20MC-S-GA-sample 1,Sample,Field,Sediment,20MC,PFOS,2.07E+03,2.74,1.61E+03,1.0121
+20MC-S-GA-sample 2,Sample,Field,Sediment,20MC,PFOS,1.06E+03,2.72,1.90E+03,1.053
+20MC-S-GA-sample 3,Sample,Field,Sediment,20MC,PFOS,1.15E+03,2.74,1.62E+03,1.0155
+20MC-S-GA-sample A2-1,Sample,Field,Sediment,20MC,PFOS,0.00E+00,0,2.33E+01,0.9904
+20MC-S-GC-lab blank,Blank,Lab,Sediment,20MC,PFOS,1.44E+02,2.77,1.64E+03,1
+20MC-S-GC-field blank,Blank,Field,Sediment,20MC,PFOS,1.87E+02,2.77,1.27E+03,1
+20MC-S-GC-spike,Spike,Field,Sediment,20MC,PFOS,1.29E+03,2.75,3.63E+02,1
+20MC-S-GC-sample 1,Sample,Field,Sediment,20MC,PFOS,0.00E+00,0,1.27E+03,1.0141
+20MC-S-GC-sample 2,Sample,Field,Sediment,20MC,PFOS,1.48E+02,2.75,7.77E+02,1.0831
+20MC-S-GC-sample 3,Sample,Field,Sediment,20MC,PFOS,2.04E+02,2.76,6.72E+02,1.0827
+20MC-B-GA-snail 1,Sample,Pestle,Biota,20MC,PFOS,0.00E+00,0,1.38E+03,0.6301
+20MC-B-GA-snail 2,Sample,Pestle,Biota,20MC,PFOS,9.91E+01,2.78,1.69E+03,0.7424
+20MC-B-GB-lab blank,Blank,Lab,Biota,20MC,PFOS,0.00E+00,0,7.02E+01,1
+20MC-B-GB-spike,Spike,Pestle,Biota,20MC,PFOS,4.67E+03,2.78,1.15E+03,1
+20MC-B-GB-roach 2,Sample,Pestle,Biota,20MC,PFOS,1.23E+03,2.74,9.14E+02,0.6256
+20MC-B-GB-roach 3,Sample,Pestle,Biota,20MC,PFOS,5.77E+02,2.77,2.78E+02,0.7145
+20MC-B-GB-roach 4,Sample,Pestle,Biota,20MC,PFOS,1.07E+03,2.76,8.05E+02,0.8094
+20MC-B-GB-roach 5,Sample,Pestle,Biota,20MC,PFOS,0.00E+00,0,5.47E+02,0.7467
+20MC-B-GB-stickbug,Sample,Pestle,Biota,20MC,PFOS,2.80E+02,2.77,1.06E+02,0.1968
+20MC-B-GB-sunfish 2,Sample,Blender ,Biota,20MC,PFOS,1.30E+03,2.76,3.16E+02,0.7269
+20MC-B-GB-sunfish 3,Sample,Blender ,Biota,20MC,PFOS,1.98E+03,2.77,2.46E+02,0.804
+20MC-B-GB-soft 1,Sample,Homogenizer,Biota,20MC,PFOS,2.02E+02,2.74,1.44E+02,0.643
+20MC-B-GB-soft 2,Sample,Homogenizer,Biota,20MC,PFOS,0.00E+00,0,2.68E+02,0.8031
+20MC-B-GB-soft 3,Sample,Homogenizer,Biota,20MC,PFOS,2.36E+02,2.77,5.87E+02,0.5117
+20MC-B-GC-lab blank,Blank,Lab,Biota,20MC,PFOS,4.86E+01,2.76,2.98E+02,1
+20MC-B-GC-pestle blank 1,Blank,Pestle,Biota,20MC,PFOS,0.00E+00,0,1.30E+02,1
+20MC-B-GC-pestle blank 2,Blank,Pestle,Biota,20MC,PFOS,0.00E+00,0,6.33E+02,1
+20MC-B-GC-spike,Spike,Pestle,Biota,20MC,PFOS,2.62E+03,2.74,6.62E+02,1
+20MC-B-GC-catfish 1,Sample,Blender ,Biota,20MC,PFOS,6.90E+02,2.78,6.59E+02,0.6004
+20MC-B-GC-catfish 2,Sample,Blender ,Biota,20MC,PFOS,3.85E+02,2.78,4.63E+02,1.0468
+20MC-B-GC-catfish 3,Sample,Blender ,Biota,20MC,PFOS,1.00E+03,2.78,1.71E+02,1.1744
+20MC-B-GC-crayfish 1,Sample,Pestle,Biota,20MC,PFOS,0.00E+00,0,2.73E+02,1
+20MC-B-GC-crayfish 2,Sample,Pestle,Biota,20MC,PFOS,3.73E+02,2.74,2.41E+02,1
+20MC-B-GC-crayfish 3,Sample,Pestle,Biota,20MC,PFOS,1.64E+03,2.77,2.73E+02,1
+0 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,0.00E+00,0,5.63E+02,1
+0.2 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,9.11E+01,2.77,6.28E+02,1
+0.4 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,1.56E+02,2.79,6.55E+02,1
+1 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,6.08E+02,2.77,7.91E+02,1
+2 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,1.60E+03,2.74,4.85E+02,1
+4 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,3.31E+03,2.75,8.19E+02,1
+10 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,8.26E+03,2.74,6.61E+02,1
+20 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,1.79E+04,2.77,6.04E+02,1
+40 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,2.89E+04,2.76,8.31E+02,1
+100 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,5.82E+04,2.77,1.43E+02,1
+NIA-S-GE-lab blank 2,Blank,Lab,Sediment,NIA,PFOS,5.13E+01,2.73,8.27E+01,1
+NIA-S-GE-field blank 2,Blank,Field,Sediment,NIA,PFOS,1.04E+02,2.78,1.21E+02,1
+NIA-S-GE-spike 1,Spike,Field,Sediment,NIA,PFOS,7.99E+02,2.74,5.56E+01,1
+NIA-S-GE-spike 2,Spike,Field,Sediment,NIA,PFOS,2.02E+03,2.78,1.32E+02,1
+NIA-S-GE-sample 1,Sample,Field,Sediment,NIA,PFOS,1.04E+02,2.68,6.40E+01,1
+NIA-S-GE-sample 2 ,Sample,Field,Sediment,NIA,PFOS,1.07E+02,2.74,5.39E+01,1
+NIA-S-GE-sample 3,Sample,Field,Sediment,NIA,PFOS,2.37E+02,2.76,1.00E+02,1
+NIA-B-GE- homogen blank,Blank,Homogenizer,Biota,NIA,PFOS,0.00E+00,0,6.09E+02,1
+NIA-B-GE- spike 1,Spike,Blender ,Biota,NIA,PFOS,2.71E+03,2.76,3.28E+02,1
+NIA-B-GE- spike 2,Spike,Homogenizer,Biota,NIA,PFOS,2.32E+02,2.79,7.64E+01,1
+NIA-B-GE- catfish 1,Sample,Blender ,Biota,NIA,PFOS,5.80E+03,2.74,3.96E+02,0.8545
+NIA-B-GE- catfish 2,Sample,Blender ,Biota,NIA,PFOS,9.40E+03,2.74,1.44E+02,0.856
+NIA-B-GE- catfish 3,Sample,Blender ,Biota,NIA,PFOS,6.73E+03,2.75,2.13E+02,0.7441
+NIA-B-GE- catfish 1 (20x),Sample,Blender ,Biota,NIA,PFOS,1.36E+02,2.77,7.89E+01,0.8545
+NIA-B-GE- catfish 2 (20x),Sample,Blender ,Biota,NIA,PFOS,1.89E+02,2.79,6.65E+01,0.856
+NIA-B-GE- catfish 3 (20x),Sample,Blender ,Biota,NIA,PFOS,0.00E+00,0,2.11E+02,0.7441
+NIA-B-GF- pestle blank,Blank,Pestle,Biota,NIA,PFOS,0.00E+00,0,4.05E+02,1
+NIA-B-GF- blender blank,Blank,Blender ,Biota,NIA,PFOS,2.22E+02,2.75,7.03E+02,1
+NIA-B-GF-spike,Spike,Pestle,Biota,NIA,PFOS,1.97E+03,2.77,2.73E+02,1
+NIA-B-GF-crayfish 1,Sample,Pestle,Biota,NIA,PFOS,4.00E+04,2.77,2.39E+02,1.0505
+NIA-B-GF-crayfish 2,Sample,Pestle,Biota,NIA,PFOS,2.42E+03,2.75,8.02E+01,1.0872
+NIA-B-GF-crayfish 3,Sample,Pestle,Biota,NIA,PFOS,1.44E+03,2.76,2.94E+02,1.0251
+NIA-B-GF-sunfish 1,Sample,Blender ,Biota,NIA,PFOS,9.38E+04,2.76,9.36E+01,0.9148
+NIA-B-GF-sunfish 2,Sample,Blender ,Biota,NIA,PFOS,6.26E+04,2.77,6.51E+01,0.9781
+NIA-B-GF-sunfish 3,Sample,Blender ,Biota,NIA,PFOS,5.71E+04,2.73,2.29E+02,0.9652
+NIA-B-GD-lab blank,Blank,Lab,Biota,NIA,PFOS,0.00E+00,0,1.33E+02,1
+NIA-B-GD-spike ,Spike,Lab,Biota,NIA,PFOS,1.29E+03,2.78,5.25E+01,1
+NIA-B-GD-shrimp 1,Sample,Homogenizer,Biota,NIA,PFOS,1.15E+04,2.77,1.33E+02,0.8227
+NIA-B-GD-shrimp 2,Sample,Homogenizer,Biota,NIA,PFOS,6.17E+03,2.77,1.88E+02,0.5472
+NIA-B-GD-shrimp 3,Sample,Homogenizer,Biota,NIA,PFOS,6.80E+03,2.78,1.19E+02,0.9024
+NIA-B-GD-snail 1,Sample,Pestle,Biota,NIA,PFOS,0.00E+00,0,1.73E+02,0.7
+NIA-B-GD-snail 2,Sample,Pestle,Biota,NIA,PFOS,0.00E+00,0,2.94E+02,0.51
+NIA-B-GD-catfish 2 (20x),Sample,Blender ,Biota,NIA,PFOS,1.59E+02,2.78,1.44E+02,1
+NIA-B-GD-catfish 1,Sample,Blender ,Biota,NIA,PFOS,0.00E+00,0,1.28E+02,1
