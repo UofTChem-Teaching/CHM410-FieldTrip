@@ -1,14 +1,14 @@
 ﻿Sample Name,Sample type,Sample group,Matrix,Location,Compound,Analyte Peak Area,Analyte Retention Time (min),Internal Standard Peak Area,Internal Standard Retention Time (min),Normalization factor
-0 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxA,0.00E+00,2.38,8.01E+04,2.38,1.00E+00
-0.2 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxA,1.66E+04,2.38,4.80E+04,2.41,1.00E+00
-0.4 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxA,2.24E+04,2.41,4.97E+04,2.41,1.00E+00
-1 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxA,5.22E+04,2.41,5.11E+04,2.41,1.00E+00
-2 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxA,1.03E+05,2.41,4.82E+04,2.39,1.00E+00
-4 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxA,1.64E+05,2.41,4.57E+04,2.41,1.00E+00
-10 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxA,3.55E+05,2.41,4.62E+04,2.39,1.00E+00
-20 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxA,7.79E+05,2.4,4.56E+04,2.41,1.00E+00
-40 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxA,1.12E+06,2.41,3.70E+04,2.4,1.00E+00
-100 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxA,2.67E+06,2.43,3.20E+04,2.42,1.00E+00
+0 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,0.00E+00,2.38,8.01E+04,2.38,1.00E+00
+0.2 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,1.66E+04,2.38,4.80E+04,2.41,1.00E+00
+0.4 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,2.24E+04,2.41,4.97E+04,2.41,1.00E+00
+1 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,5.22E+04,2.41,5.11E+04,2.41,1.00E+00
+2 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,1.03E+05,2.41,4.82E+04,2.39,1.00E+00
+4 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,1.64E+05,2.41,4.57E+04,2.41,1.00E+00
+10 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,3.55E+05,2.41,4.62E+04,2.39,1.00E+00
+20 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,7.79E+05,2.4,4.56E+04,2.41,1.00E+00
+40 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,1.12E+06,2.41,3.70E+04,2.4,1.00E+00
+100 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxA,2.67E+06,2.43,3.20E+04,2.42,1.00E+00
 2022_20MCWater_FieldBlank,Blank,Field,Water,20MC,PFHxA,0.00E+00,0,2.73E+04,2.39,1.00E+00
 2022_20MCWater_FieldSpike1,Spike,Field,Water,20MC,PFHxA,1.06E+04,2.43,2.11E+04,2.43,1.00E+00
 2022_20MCWater_FieldSpike2,Spike,Field,Water,20MC,PFHxA,1.09E+04,2.42,2.30E+04,2.39,1.00E+00
@@ -126,16 +126,16 @@
 2021_20MCBiota_GroupI_Slug,Sample,Blender,Biota,20MC,PFHxA,2255.559156,2.4,3000,2.4,1.00E+00
 2021_20MCBiota_GroupI_Beetle1,Sample,Mortar,Biota,20MC,PFHxA,4916.052829,2.4,3000,2.4,1.00E+00
 2021_20MCBiota_GroupI_Beetle2,Sample,Mortar,Biota,20MC,PFHxA,2289.464562,2.4,3000,2.4,1.00E+00
-0 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHpA,0.00E+00,2.48,1.32E+05,2.6,1.00E+00
-0.2 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHpA,2.70E+04,2.5,1.05E+05,2.6,1.00E+00
-0.4 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHpA,4.62E+04,2.5,1.08E+05,2.6,1.00E+00
-1 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHpA,9.94E+04,2.5,1.20E+05,2.61,1.00E+00
-2 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHpA,2.27E+05,2.5,1.17E+05,2.61,1.00E+00
-4 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHpA,3.34E+05,2.5,1.19E+05,2.62,1.00E+00
-10 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHpA,8.14E+05,2.51,1.08E+05,2.62,1.00E+00
-20 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHpA,1.88E+06,2.5,9.58E+04,2.62,1.00E+00
-40 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHpA,2.90E+06,2.51,8.20E+04,2.61,1.00E+00
-100 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHpA,5.23E+06,2.51,6.88E+04,2.62,1.00E+00
+0 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,0.00E+00,2.48,1.32E+05,2.6,1.00E+00
+0.2 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,2.70E+04,2.5,1.05E+05,2.6,1.00E+00
+0.4 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,4.62E+04,2.5,1.08E+05,2.6,1.00E+00
+1 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,9.94E+04,2.5,1.20E+05,2.61,1.00E+00
+2 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,2.27E+05,2.5,1.17E+05,2.61,1.00E+00
+4 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,3.34E+05,2.5,1.19E+05,2.62,1.00E+00
+10 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,8.14E+05,2.51,1.08E+05,2.62,1.00E+00
+20 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,1.88E+06,2.5,9.58E+04,2.62,1.00E+00
+40 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,2.90E+06,2.51,8.20E+04,2.61,1.00E+00
+100 ng/mL,Calibration curve,Lab,N/A,N/A,PFHpA,5.23E+06,2.51,6.88E+04,2.62,1.00E+00
 2022_20MCWater_FieldBlank,Blank,Field,Water,20MC,PFHpA,8.91E+03,2.51,5.46E+04,2.61,1.00E+00
 2022_20MCWater_FieldSpike1,Spike,Field,Water,20MC,PFHpA,2.05E+04,2.5,6.21E+04,2.62,1.00E+00
 2022_20MCWater_FieldSpike2,Spike,Field,Water,20MC,PFHpA,2.01E+04,2.52,4.73E+04,2.63,1.00E+00
@@ -253,16 +253,16 @@
 2021_20MCBiota_GroupI_Slug,Sample,Blender,Biota,20MC,PFHpA,281.1507882,2.55,3000,2.65,1.00E+00
 2021_20MCBiota_GroupI_Beetle1,Sample,Mortar,Biota,20MC,PFHpA,750.1245999,2.55,3000,2.65,1.00E+00
 2021_20MCBiota_GroupI_Beetle2,Sample,Mortar,Biota,20MC,PFHpA,492.1561241,2.55,3000,2.65,1.00E+00
-0 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOA,0.00E+00,2.62,1.32E+05,2.6,1.00E+00
-0.2 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOA,2.43E+05,2.62,1.05E+05,2.6,1.00E+00
-0.4 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOA,3.89E+05,2.63,1.08E+05,2.6,1.00E+00
-1 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOA,8.10E+05,2.63,1.20E+05,2.61,1.00E+00
-2 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOA,1.28E+06,2.63,1.17E+05,2.61,1.00E+00
-4 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOA,1.29E+06,2.63,1.19E+05,2.62,1.00E+00
-10 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOA,1.86E+06,2.62,1.08E+05,2.62,1.00E+00
-20 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOA,2.46E+06,2.62,9.58E+04,2.62,1.00E+00
-40 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOA,3.75E+06,2.63,8.20E+04,2.61,1.00E+00
-100 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOA,5.89E+06,2.63,6.88E+04,2.62,1.00E+00
+0 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,0.00E+00,2.62,1.32E+05,2.6,1.00E+00
+0.2 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,2.43E+05,2.62,1.05E+05,2.6,1.00E+00
+0.4 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,3.89E+05,2.63,1.08E+05,2.6,1.00E+00
+1 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,8.10E+05,2.63,1.20E+05,2.61,1.00E+00
+2 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,1.28E+06,2.63,1.17E+05,2.61,1.00E+00
+4 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,1.29E+06,2.63,1.19E+05,2.62,1.00E+00
+10 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,1.86E+06,2.62,1.08E+05,2.62,1.00E+00
+20 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,2.46E+06,2.62,9.58E+04,2.62,1.00E+00
+40 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,3.75E+06,2.63,8.20E+04,2.61,1.00E+00
+100 ng/mL,Calibration curve,Lab,N/A,N/A,PFOA,5.89E+06,2.63,6.88E+04,2.62,1.00E+00
 2022_20MCWater_FieldBlank,Blank,Field,Water,20MC,PFOA,5.71E+05,2.64,5.46E+04,2.61,1.00E+00
 2022_20MCWater_FieldSpike1,Spike,Field,Water,20MC,PFOA,3.28E+05,2.64,6.21E+04,2.62,1.00E+00
 2022_20MCWater_FieldSpike2,Spike,Field,Water,20MC,PFOA,5.09E+05,2.64,4.73E+04,2.63,1.00E+00
@@ -380,16 +380,16 @@
 2021_20MCBiota_GroupI_Slug,Sample,Blender,Biota,20MC,PFOA,8659.959116,2.65,3000,2.65,1.00E+00
 2021_20MCBiota_GroupI_Beetle1,Sample,Mortar,Biota,20MC,PFOA,5900.461414,2.65,3000,2.65,1.00E+00
 2021_20MCBiota_GroupI_Beetle2,Sample,Mortar,Biota,20MC,PFOA,10199.2897,2.65,3000,2.65,1.00E+00
-0 ng/mL,Calibration Curve,Lab,N/A,N/A,PFNA,0.00E+00,2.74,1.40E+05,2.74,1.00E+00
-0.2 ng/mL,Calibration Curve,Lab,N/A,N/A,PFNA,3.90E+04,2.75,1.11E+05,2.74,1.00E+00
-0.4 ng/mL,Calibration Curve,Lab,N/A,N/A,PFNA,5.89E+04,2.74,1.08E+05,2.75,1.00E+00
-1 ng/mL,Calibration Curve,Lab,N/A,N/A,PFNA,1.09E+05,2.75,1.07E+05,2.73,1.00E+00
-2 ng/mL,Calibration Curve,Lab,N/A,N/A,PFNA,1.85E+05,2.75,8.08E+04,2.73,1.00E+00
-4 ng/mL,Calibration Curve,Lab,N/A,N/A,PFNA,3.26E+05,2.74,7.76E+04,2.74,1.00E+00
-10 ng/mL,Calibration Curve,Lab,N/A,N/A,PFNA,6.36E+05,2.76,7.80E+04,2.74,1.00E+00
-20 ng/mL,Calibration Curve,Lab,N/A,N/A,PFNA,1.26E+06,2.75,6.26E+04,2.74,1.00E+00
-40 ng/mL,Calibration Curve,Lab,N/A,N/A,PFNA,2.03E+06,2.76,6.00E+04,2.75,1.00E+00
-100 ng/mL,Calibration Curve,Lab,N/A,N/A,PFNA,3.75E+06,2.76,4.40E+04,2.77,1.00E+00
+0 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,0.00E+00,2.74,1.40E+05,2.74,1.00E+00
+0.2 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,3.90E+04,2.75,1.11E+05,2.74,1.00E+00
+0.4 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,5.89E+04,2.74,1.08E+05,2.75,1.00E+00
+1 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,1.09E+05,2.75,1.07E+05,2.73,1.00E+00
+2 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,1.85E+05,2.75,8.08E+04,2.73,1.00E+00
+4 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,3.26E+05,2.74,7.76E+04,2.74,1.00E+00
+10 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,6.36E+05,2.76,7.80E+04,2.74,1.00E+00
+20 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,1.26E+06,2.75,6.26E+04,2.74,1.00E+00
+40 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,2.03E+06,2.76,6.00E+04,2.75,1.00E+00
+100 ng/mL,Calibration curve,Lab,N/A,N/A,PFNA,3.75E+06,2.76,4.40E+04,2.77,1.00E+00
 2022_20MCWater_FieldBlank,Blank,Field,Water,20MC,PFNA,5.94E+03,2.79,5.26E+04,2.76,1.00E+00
 2022_20MCWater_FieldSpike1,Spike,Field,Water,20MC,PFNA,2.03E+04,2.76,4.49E+04,2.75,1.00E+00
 2022_20MCWater_FieldSpike2,Spike,Field,Water,20MC,PFNA,2.23E+04,2.77,4.71E+04,2.76,1.00E+00
@@ -507,16 +507,16 @@
 2021_20MCBiota_GroupI_Slug,Sample,Blender,Biota,20MC,PFNA,1210.343051,2.8,3000,2.8,1.00E+00
 2021_20MCBiota_GroupI_Beetle1,Sample,Mortar,Biota,20MC,PFNA,2196.22454,2.8,3000,2.8,1.00E+00
 2021_20MCBiota_GroupI_Beetle2,Sample,Mortar,Biota,20MC,PFNA,1250.251593,2.8,3000,2.8,1.00E+00
-0 ng/mL,Calibration Curve,Lab,N/A,N/A,PFDA,0.00E+00,2.92,1.01E+05,2.89,1.00E+00
-0.2 ng/mL,Calibration Curve,Lab,N/A,N/A,PFDA,2.19E+04,2.89,8.61E+04,2.88,1.00E+00
-0.4 ng/mL,Calibration Curve,Lab,N/A,N/A,PFDA,3.48E+04,2.9,7.96E+04,2.9,1.00E+00
-1 ng/mL,Calibration Curve,Lab,N/A,N/A,PFDA,7.81E+04,2.89,7.56E+04,2.9,1.00E+00
-2 ng/mL,Calibration Curve,Lab,N/A,N/A,PFDA,1.14E+05,2.9,6.20E+04,2.89,1.00E+00
-4 ng/mL,Calibration Curve,Lab,N/A,N/A,PFDA,1.98E+05,2.9,5.39E+04,2.91,1.00E+00
-10 ng/mL,Calibration Curve,Lab,N/A,N/A,PFDA,5.05E+05,2.91,5.73E+04,2.9,1.00E+00
-20 ng/mL,Calibration Curve,Lab,N/A,N/A,PFDA,7.10E+05,2.91,5.49E+04,2.9,1.00E+00
-40 ng/mL,Calibration Curve,Lab,N/A,N/A,PFDA,1.24E+06,2.9,5.65E+04,2.9,1.00E+00
-100 ng/mL,Calibration Curve,Lab,N/A,N/A,PFDA,3.06E+06,2.9,5.68E+04,2.9,1.00E+00
+0 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,0.00E+00,2.92,1.01E+05,2.89,1.00E+00
+0.2 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,2.19E+04,2.89,8.61E+04,2.88,1.00E+00
+0.4 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,3.48E+04,2.9,7.96E+04,2.9,1.00E+00
+1 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,7.81E+04,2.89,7.56E+04,2.9,1.00E+00
+2 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,1.14E+05,2.9,6.20E+04,2.89,1.00E+00
+4 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,1.98E+05,2.9,5.39E+04,2.91,1.00E+00
+10 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,5.05E+05,2.91,5.73E+04,2.9,1.00E+00
+20 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,7.10E+05,2.91,5.49E+04,2.9,1.00E+00
+40 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,1.24E+06,2.9,5.65E+04,2.9,1.00E+00
+100 ng/mL,Calibration curve,Lab,N/A,N/A,PFDA,3.06E+06,2.9,5.68E+04,2.9,1.00E+00
 2022_20MCWater_FieldBlank,Blank,Field,Water,20MC,PFDA,2.81E+03,2.94,3.25E+04,2.92,1.00E+00
 2022_20MCWater_FieldSpike1,Spike,Field,Water,20MC,PFDA,7.73E+03,2.92,2.95E+04,2.92,1.00E+00
 2022_20MCWater_FieldSpike2,Spike,Field,Water,20MC,PFDA,9.87E+03,2.95,2.56E+04,2.92,1.00E+00
@@ -634,16 +634,16 @@
 2021_20MCBiota_GroupI_Slug,Sample,Blender,Biota,20MC,PFDA,1203.422825,2.95,3000,2.95,1.00E+00
 2021_20MCBiota_GroupI_Beetle1,Sample,Mortar,Biota,20MC,PFDA,2582.753714,2.95,3000,2.95,1.00E+00
 2021_20MCBiota_GroupI_Beetle2,Sample,Mortar,Biota,20MC,PFDA,1283.452268,2.95,3000,2.95,1.00E+00
-0 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxS,0.00E+00,0,1.11E+04,2.48,1.00E+00
-0.2 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxS,2.24E+03,2.48,9.65E+03,2.47,1.00E+00
-0.4 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxS,4.97E+03,2.46,8.97E+03,2.51,1.00E+00
-1 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxS,1.10E+04,2.5,9.20E+03,2.48,1.00E+00
-2 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxS,2.17E+04,2.51,1.01E+04,2.49,1.00E+00
-4 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxS,3.41E+04,2.49,7.78E+03,2.5,1.00E+00
-10 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxS,8.67E+04,2.48,9.25E+03,2.47,1.00E+00
-20 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxS,1.68E+05,2.5,6.98E+03,2.48,1.00E+00
-40 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxS,2.86E+05,2.49,7.14E+03,2.49,1.00E+00
-100 ng/mL,Calibration Curve,Lab,N/A,N/A,PFHxS,5.64E+05,2.48,5.01E+03,2.5,1.00E+00
+0 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,0.00E+00,0,1.11E+04,2.48,1.00E+00
+0.2 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,2.24E+03,2.48,9.65E+03,2.47,1.00E+00
+0.4 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,4.97E+03,2.46,8.97E+03,2.51,1.00E+00
+1 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,1.10E+04,2.5,9.20E+03,2.48,1.00E+00
+2 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,2.17E+04,2.51,1.01E+04,2.49,1.00E+00
+4 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,3.41E+04,2.49,7.78E+03,2.5,1.00E+00
+10 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,8.67E+04,2.48,9.25E+03,2.47,1.00E+00
+20 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,1.68E+05,2.5,6.98E+03,2.48,1.00E+00
+40 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,2.86E+05,2.49,7.14E+03,2.49,1.00E+00
+100 ng/mL,Calibration curve,Lab,N/A,N/A,PFHxS,5.64E+05,2.48,5.01E+03,2.5,1.00E+00
 2022_20MCWater_FieldBlank,Blank,Field,Water,20MC,PFHxS,0.00E+00,0,5.71E+03,2.52,1.00E+00
 2022_20MCWater_FieldSpike1,Spike,Field,Water,20MC,PFHxS,2.40E+03,0,5.80E+03,2.51,1.00E+00
 2022_20MCWater_FieldSpike2,Spike,Field,Water,20MC,PFHxS,2.00E+03,0,4.46E+03,2.51,1.00E+00
@@ -761,16 +761,16 @@
 2021_20MCBiota_GroupI_Slug,Sample,Blender,Biota,20MC,PFHxS,0,2.5,3000,2.5,1.00E+00
 2021_20MCBiota_GroupI_Beetle1,Sample,Mortar,Biota,20MC,PFHxS,0,2.5,3000,2.5,1.00E+00
 2021_20MCBiota_GroupI_Beetle2,Sample,Mortar,Biota,20MC,PFHxS,0,2.5,3000,2.5,1.00E+00
-0 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOS,0.00E+00,0,9.84E+03,2.72,1.00E+00
-0.2 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOS,1.71E+03,2.72,8.23E+03,2.71,1.00E+00
-0.4 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOS,3.43E+03,2.73,7.89E+03,2.73,1.00E+00
-1 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOS,7.10E+03,2.72,7.60E+03,2.72,1.00E+00
-2 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOS,1.29E+04,2.73,6.14E+03,2.72,1.00E+00
-4 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOS,1.94E+04,2.74,5.16E+03,2.72,1.00E+00
-10 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOS,4.96E+04,2.74,5.66E+03,2.73,1.00E+00
-20 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOS,1.04E+05,2.73,5.27E+03,2.74,1.00E+00
-40 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOS,1.85E+05,2.75,5.16E+03,2.72,1.00E+00
-100 ng/mL,Calibration Curve,Lab,N/A,N/A,PFOS,3.06E+05,2.73,3.05E+03,2.72,1.00E+00
+0 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,0.00E+00,0,9.84E+03,2.72,1.00E+00
+0.2 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,1.71E+03,2.72,8.23E+03,2.71,1.00E+00
+0.4 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,3.43E+03,2.73,7.89E+03,2.73,1.00E+00
+1 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,7.10E+03,2.72,7.60E+03,2.72,1.00E+00
+2 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,1.29E+04,2.73,6.14E+03,2.72,1.00E+00
+4 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,1.94E+04,2.74,5.16E+03,2.72,1.00E+00
+10 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,4.96E+04,2.74,5.66E+03,2.73,1.00E+00
+20 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,1.04E+05,2.73,5.27E+03,2.74,1.00E+00
+40 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,1.85E+05,2.75,5.16E+03,2.72,1.00E+00
+100 ng/mL,Calibration curve,Lab,N/A,N/A,PFOS,3.06E+05,2.73,3.05E+03,2.72,1.00E+00
 2022_20MCWater_FieldBlank,Blank,Field,Water,20MC,PFOS,0.00E+00,0,3.90E+03,2.75,1.00E+00
 2022_20MCWater_FieldSpike1,Spike,Field,Water,20MC,PFOS,1.82E+03,0,3.78E+03,2.74,1.00E+00
 2022_20MCWater_FieldSpike2,Spike,Field,Water,20MC,PFOS,9.84E+02,0,3.55E+03,2.75,1.00E+00
