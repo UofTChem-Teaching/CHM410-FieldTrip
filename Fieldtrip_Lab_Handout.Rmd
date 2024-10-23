@@ -14,13 +14,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 #Import all the packages you may need
 library(tidyverse)
-library(tinytex)
 library(broom)
 library(knitr)
-library(rmarkdown)
-library(stringr)
-if (!('zfit' %in% installed.packages()[,"Package"])) install.packages('zfit')
-library(zfit)
 library(ggpmisc)
 ```
 
@@ -76,7 +71,7 @@ Because we have an internal standard (as most quantitative LC-MS data will), we 
 CalData <- #Your code to calculate the analyte to internal standard peak area ratio
 ```
 
-For the purposes of calculating LOD/LOQ, we want a linear calibration curve. Luckily, at low concentrations our response should be relatively linear. Let's take our first five points for each analyte and use them to calculate S and $\sigma$. You can choose whether to use the standard deviation of the intercept or the residual standard deviation for this purpose, but remember that in R, these are called standard errors! Generate a table of LOD and LOQ and print it our (we recommend using kable for a publication-quality table). The code template below will guide you through the necessary steps.
+For the purposes of calculating LOD/LOQ, we want a linear calibration curve. Luckily, at low concentrations our response should be relatively linear. First, let's select the first five points for each analyte, choose an analyte, and plot it to make sure the data make sense. You may need to remove the point at concentration = 0 as well. 
 
 ```{r}
 linear <- 2 #This defines the highest value concentration we want to use for the linear portion of this calibration curve
@@ -86,7 +81,15 @@ CalDataconc <- CalData %>%
 
 CalDatafiltered <- CalDataconc %>%
   #Write code to filter out concentrations greater than 2 ppm 
+  
 
+#Write code to make a plot of instrument response vs concentration for one analyte
+
+```
+
+Now let's take our first five points for each analyte and use them to calculate S and $\sigma$. You can choose whether to use the standard deviation of the intercept or the residual standard deviation for this purpose, but remember that in R, these are called standard errors! Generate a table of LOD and LOQ and print it our (we recommend using kable for a publication-quality table). The code template below will guide you through the necessary steps.
+
+```{r}
 QAmodels <- #Write code to create linear calibration curves for each analyte and get slopes and residual standard deviations (or standard deviation of the intercepts) in accessible form
 
 QA <- tibble(compounds, LOD = #Your equation here, LOQ = #Your equation here)
@@ -105,7 +108,7 @@ Now that we have LOD and LOQ, let's move on to making our actual calibration cur
 # Your code here to generate a plotted calibration curve with a LOQ cutoff for your chosen chemical
 ```
 
-Does this calibration curve look linear to you? Let's try visualizing this another way. We can look at the residuals plot to understand where the deviations in the fit come from. The background for residual plots is in Section 20.1 of the textbook.
+Does this calibration curve look linear to you? Are there any outliers that you need to remove? Let's try visualizing this another way. We can look at the residuals plot to understand where the deviations in the fit come from. The background for residual plots is in Section 20.1 of the textbook.
 
 Make a residual plot here:
 
