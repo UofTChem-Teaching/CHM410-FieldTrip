@@ -1,0 +1,617 @@
+Sample name,Sample type,Sample group,Matrix,Location,Compound,Analyte peak area,Internal standard peak area,Normalization factor
+0 ng/mL,Calibration curve,A,N/A,N/A,PFHxA,0,790000,1
+0.2 ng/mL,Calibration curve,A,N/A,N/A,PFHxA,59300,719000,1
+0.5 ng/mL,Calibration curve,A,N/A,N/A,PFHxA,205000,800000,1
+1 ng/mL,Calibration curve,A,N/A,N/A,PFHxA,336000,556000,1
+2.5 ng/mL,Calibration curve,A,N/A,N/A,PFHxA,903000,892000,1
+10 ng/mL,Calibration curve,A,N/A,N/A,PFHxA,1730000,730000,1
+25 ng/mL,Calibration curve,A,N/A,N/A,PFHxA,4290000,558000,1
+Nedo SED 6,Sample,Field,Sediment,20MC,PFHxA,0,991000,5.4135
+NEBO Sed 5,Sample,Field,Sediment,20MC,PFHxA,0,734000,5.2932
+NEBO Sed Field Blank,Blank,Field,Sediment,20MC,PFHxA,0,786000,1
+NEBO Sed Lab Blank,Blank,Lab,Sediment,20MC,PFHxA,0,839000,1
+DI H2O Nianp blank lab 1,Blank,Lab,Water,NIA,PFHxA,0,1060000,1
+NEBO Water 1,Sample,Field,Water,20MC,PFHxA,0,1160000,100
+Niap water 3,Sample,Field,Water,NIA,PFHxA,475000,964000,100
+Niap water 6,Sample,Field,Water,NIA,PFHxA,471000,990000,100
+Ni H2O Spike 1 ,Spike,Field,Water,NIA,PFHxA,2350000,906000,1
+Ni H2O 5,Sample,Field,Water,NIA,PFHxA,414000,1010000,100
+Ni H2O lab blank 2,Blank,Lab,Water,NIA,PFHxA,0,1150000,1
+Ne H2O 3 ,Sample,Field,Water,20MC,PFHxA,0,724000,100
+Ne Dam Fly,Sample,Field,Biota,20MC,PFHxA,0,1320000,0.2822
+Ne Boat,Sample,Field,Biota,20MC,PFHxA,0,990000,0.1503
+Ne Nymph,Sample,Field,Biota,20MC,PFHxA,0,1270000,0.0158
+Biological Lab Blan,Blank,Field,Biota,20MC,PFHxA,0,1120000,1
+Nebo Sed. 2,Sample,Field,Sediment,20MC,PFHxA,0,783000,5.1364
+Sand Lab Blank,Blank,Lab,Sediment,20MC,PFHxA,0,848000,1
+Nebo Sed 1,Sample,Field,Sediment,20MC,PFHxA,0,950000,5.2524
+Nebo Field Blank 1,Blank,Field,Sediment,20MC,PFHxA,0,918000,1
+Niapenco Water Field Blank 1,Blank,Field,Water,NIA,PFHxA,0,1400000,1
+Niapenco Water 2,Sample,Field,Water,NIA,PFHxA,458000,1130000,100
+Nebo Water 6,Sample,Field,Water,20MC,PFHxA,0,972000,100
+Niapenco Water 4,Sample,Field,Water,NIA,PFHxA,483000,900000,100
+Nebo Sed 3,Sample,Field,Sediment,20MC,PFHxA,0,648000,5.0345
+Nebo Sed 4,Sample,Field,Sediment,20MC,PFHxA,0,965000,5.2308
+Nebo Sed Lab Blank,Blank,Lab,Sediment,20MC,PFHxA,0,906000,1
+Nebo Sed Field Blank,Blank,Field,Sediment,20MC,PFHxA,0,967000,1
+Nebo Sucker 1C,Sample,Field,Biota,20MC,PFHxA,0,1090000,0.7998
+Nebo Sucker 2 C,Sample,Field,Biota,20MC,PFHxA,0,911000,1.0383
+Nebo Sucker 3 C,Sample,Field,Biota,20MC,PFHxA,77600,1190000,1.4575
+Nebo Arthropods C,Sample,Field,Biota,20MC,PFHxA,0,929000,0.0198
+Nebo Beetle C,Sample,Field,Biota,20MC,PFHxA,0,755000,0.0845
+Nebo boatmen 1,Sample,Field,Biota,20MC,PFHxA,0,1100000,0.1661
+Nebo catfish 1,Sample,Field,Biota,20MC,PFHxA,0,1110000,1.7887
+Nebo nymph other,Sample,Field,Biota,20MC,PFHxA,0,1030000,0.1419
+Nebo catfish 2,Sample,Field,Biota,20MC,PFHxA,0,1030000,0.8903
+Nebo catfish 3,Sample,Field,Biota,20MC,PFHxA,0,802000,1.0315
+Nebo dragonfly nymph,Sample,Field,Biota,20MC,PFHxA,0,1000000,0.4087
+0 ng/mL,Calibration curve,B,N/A,N/A,PFHxA,0,517000,1
+0.2 ng/mL,Calibration curve,B,N/A,N/A,PFHxA,62900,586000,1
+0.5 ng/mL,Calibration curve,B,N/A,N/A,PFHxA,143000,653000,1
+1 ng/mL,Calibration curve,B,N/A,N/A,PFHxA,191000,631000,1
+2.5 ng/mL,Calibration curve,B,N/A,N/A,PFHxA,594000,609000,1
+10 ng/mL,Calibration curve,B,N/A,N/A,PFHxA,2390000,626000,1
+25 ng/mL,Calibration curve,B,N/A,N/A,PFHxA,3880000,494000,1
+Water Nebo 2 (E),Sample,Field,Water,20MC,PFHxA,0,1080000,100
+Water Nebo 5 (E),Sample,Field,Water,20MC,PFHxA,0,935000,100
+Water Nebo Spike 2 (E),Spike,Field,Water,20MC,PFHxA,2060000,840000,1
+Water Nebo Spike 3 (E),Spike,Field,Water,20MC,PFHxA,1740000,796000,1
+Niapenco Sediment 5 (E),Sample,Field,Sediment,NIA,PFHxA,0,700000,5.8966
+Niapenco Lab Blank (E),Blank,Lab,Sediment,NIA,PFHxA,0,814000,1
+Niapenco Field Blank (E),Blank,Field,Sediment,NIA,PFHxA,0,814000,1
+Niapenco Sediment 6 (E),Sample,Field,Sediment,NIA,PFHxA,0,600000,5.0275
+Bio Niapenco Lab Blank (D),Blank,Field,Biota,NIA,PFHxA,0,1180000,1
+Bio Niapenco Slug (D),Sample,Field,Biota,NIA,PFHxA,0,1370000,0.071
+Bio Niapenco Catfish 1 (D),Sample,Field,Biota,NIA,PFHxA,0,1180000,0.3824
+Bio Niapenco Catfish 2 (D),Sample,Field,Biota,NIA,PFHxA,0,1150000,0.3916
+Bio Niapenco Tadpole 1 (D),Sample,Field,Biota,NIA,PFHxA,0,1190000,0.6797
+Bio Niapenco Tadpole 2 (D),Sample,Field,Biota,NIA,PFHxA,0,1400000,0.6595
+Water Nebo Lab Blank (D),Blank,Lab,Water,20MC,PFHxA,0,786000,1
+Water Nebo Field Blank 1 (D),Blank,Field,Water,20MC,PFHxA,12900,716000,1
+Water Nebo Field Blank 2 (D),Blank,Field,Water,20MC,PFHxA,20400,908000,1
+Sediment Niapenco Lab Blank (D),Blank,Lab,Sediment,NIA,PFHxA,0,619000,1
+Sediment Niapenco Field Blank 1 (D),Blank,Field,Sediment,NIA,PFHxA,0,622000,1
+Sediment Niapenco 1 (D),Sample,Field,Sediment,NIA,PFHxA,0,563000,5.8357
+Sediment Niapenco 2 (D) ,Sample,Field,Sediment,NIA,PFHxA,0,550000,5.0227
+Niapenco bug 3 (E),Sample,Field,Biota,NIA,PFHxA,0,2560000,1.0693
+Niapenco shrimp 2 (E),Sample,Field,Biota,NIA,PFHxA,0,805000,1.0486
+Niapenco bug 1 (E),Sample,Field,Biota,NIA,PFHxA,0,1490000,1.0788
+Niapenco bug 2 (E),Sample,Field,Biota,NIA,PFHxA,0,1170000,1.3479
+Niapenco fish 3 (E),Sample,Field,Biota,NIA,PFHxA,0,943000,0.9073
+Niapenco fish 2 (E),Sample,Field,Biota,NIA,PFHxA,0,1050000,0.9693
+Niapenco shrimp 1 (E),Sample,Field,Biota,NIA,PFHxA,0,1220000,1.0392
+Niapenco fish 1 (E),Sample,Field,Biota,NIA,PFHxA,0,867000,1.2625
+Niapenco nymph 1 (F),Sample,Field,Biota,NIA,PFHxA,0,1270000,0.2044
+Niapenco bass 1 (F),Sample,Field,Biota,NIA,PFHxA,0,803000,0.986
+Niapenco shrimp 3 (F),Sample,Field,Biota,NIA,PFHxA,0,719000,1.0196
+Niapenco bass 2 (F),Sample,Field,Biota,NIA,PFHxA,0,764000,1.0479
+niapenco nymph 2 (F),Sample,Field,Biota,NIA,PFHxA,0,1070000,0.4954
+Niapenco bass 3 (F),Sample,Field,Biota,NIA,PFHxA,0,623000,1.014
+0 ng/mL,Calibration curve,A,N/A,N/A,PFHpA,0,754000,1
+0.2 ng/mL,Calibration curve,A,N/A,N/A,PFHpA,30000,976000,1
+0.5 ng/mL,Calibration curve,A,N/A,N/A,PFHpA,72600,1030000,1
+1 ng/mL,Calibration curve,A,N/A,N/A,PFHpA,140000,897000,1
+2.5 ng/mL,Calibration curve,A,N/A,N/A,PFHpA,315000,900000,1
+10 ng/mL,Calibration curve,A,N/A,N/A,PFHpA,822000,616000,1
+25 ng/mL,Calibration curve,A,N/A,N/A,PFHpA,1680000,747000,1
+Nedo SED 6,Sample,Field,Sediment,20MC,PFHpA,0,1320000,5.4135
+NEBO Sed 5,Sample,Field,Sediment,20MC,PFHpA,0,1070000,5.2932
+NEBO Sed Field Blank,Blank,Field,Sediment,20MC,PFHpA,0,955000,1
+NEBO Sed Lab Blank,Blank,Lab,Sediment,20MC,PFHpA,0,1010000,1
+DI H2O Nianp blank lab 1,Blank,Lab,Water,NIA,PFHpA,0,1100000,1
+NEBO Water 1,Sample,Field,Water,20MC,PFHpA,0,1430000,100
+Niap water 3,Sample,Field,Water,NIA,PFHpA,101000,1070000,100
+Niap water 6,Sample,Field,Water,NIA,PFHpA,109000,1250000,100
+Ni H2O Spike 1 ,Spike,Field,Water,NIA,PFHpA,1500000,1200000,1
+Ni H2O 5,Sample,Field,Water,NIA,PFHpA,71200,1150000,100
+Ni H2O lab blank 2,Blank,Lab,Water,NIA,PFHpA,0,1150000,1
+Ne H2O 3 ,Sample,Field,Water,20MC,PFHpA,0,1170000,100
+Ne Dam Fly,Sample,Field,Biota,20MC,PFHpA,3680,1410000,0.2822
+Ne Boat,Sample,Field,Biota,20MC,PFHpA,3090,1310000,0.1503
+Ne Nymph,Sample,Field,Biota,20MC,PFHpA,0,1660000,0.0158
+Biological Lab Blan,Blank,Field,Biota,20MC,PFHpA,0,1430000,1
+Nebo Sed. 2,Sample,Field,Sediment,20MC,PFHpA,0,1170000,5.1364
+Sand Lab Blank,Blank,Lab,Sediment,20MC,PFHpA,0,910000,1
+Nebo Sed 1,Sample,Field,Sediment,20MC,PFHpA,0,956000,5.2524
+Nebo Field Blank 1,Blank,Field,Sediment,20MC,PFHpA,0,987000,1
+Niapenco Water Field Blank 1,Blank,Field,Water,NIA,PFHpA,0,1090000,1
+Niapenco Water 2,Sample,Field,Water,NIA,PFHpA,98300,1220000,100
+Nebo Water 6,Sample,Field,Water,20MC,PFHpA,0,1000000,100
+Niapenco Water 4,Sample,Field,Water,NIA,PFHpA,119000,1000000,100
+Nebo Sed 3,Sample,Field,Sediment,20MC,PFHpA,0,1040000,5.0345
+Nebo Sed 4,Sample,Field,Sediment,20MC,PFHpA,0,1020000,5.2308
+Nebo Sed Lab Blank,Blank,Lab,Sediment,20MC,PFHpA,0,638000,1
+Nebo Sed Field Blank,Blank,Field,Sediment,20MC,PFHpA,0,966000,1
+Nebo Sucker 1C,Sample,Field,Biota,20MC,PFHpA,0,1190000,0.7998
+Nebo Sucker 2 C,Sample,Field,Biota,20MC,PFHpA,0,879000,1.0383
+Nebo Sucker 3 C,Sample,Field,Biota,20MC,PFHpA,0,895000,1.4575
+Nebo Arthropods C,Sample,Field,Biota,20MC,PFHpA,0,1080000,0.0198
+Nebo Beetle C,Sample,Field,Biota,20MC,PFHpA,0,1280000,0.0845
+Nebo boatmen 1,Sample,Field,Biota,20MC,PFHpA,0,1290000,0.1661
+Nebo catfish 1,Sample,Field,Biota,20MC,PFHpA,0,1020000,1.7887
+Nebo nymph other,Sample,Field,Biota,20MC,PFHpA,0,1150000,0.1419
+Nebo catfish 2,Sample,Field,Biota,20MC,PFHpA,0,1020000,0.8903
+Nebo catfish 3,Sample,Field,Biota,20MC,PFHpA,0,784000,1.0315
+Nebo dragonfly nymph,Sample,Field,Biota,20MC,PFHpA,0,1110000,0.4087
+0 ng/mL,Calibration curve,B,N/A,N/A,PFHpA,0,1000000,1
+0.2 ng/mL,Calibration curve,B,N/A,N/A,PFHpA,29600,1080000,1
+0.5 ng/mL,Calibration curve,B,N/A,N/A,PFHpA,53000,881000,1
+1 ng/mL,Calibration curve,B,N/A,N/A,PFHpA,154000,1090000,1
+2.5 ng/mL,Calibration curve,B,N/A,N/A,PFHpA,263000,1070000,1
+10 ng/mL,Calibration curve,B,N/A,N/A,PFHpA,986000,827000,1
+25 ng/mL,Calibration curve,B,N/A,N/A,PFHpA,1620000,667000,1
+Water Nebo 2 (E),Sample,Field,Water,20MC,PFHpA,0,937000,100
+Water Nebo 5 (E),Sample,Field,Water,20MC,PFHpA,0,1120000,100
+Water Nebo Spike 2 (E),Spike,Field,Water,20MC,PFHpA,1180000,879000,1
+Water Nebo Spike 3 (E),Spike,Field,Water,20MC,PFHpA,1200000,1010000,1
+Niapenco Sediment 5 (E),Sample,Field,Sediment,NIA,PFHpA,0,974000,5.8966
+Niapenco Lab Blank (E),Blank,Lab,Sediment,NIA,PFHpA,0,998000,1
+Niapenco Field Blank (E),Blank,Field,Sediment,NIA,PFHpA,0,842000,1
+Niapenco Sediment 6 (E),Sample,Field,Sediment,NIA,PFHpA,0,1280000,5.0275
+Bio Niapenco Lab Blank (D),Blank,Field,Biota,NIA,PFHpA,0,1520000,1
+Bio Niapenco Slug (D),Sample,Field,Biota,NIA,PFHpA,0,1860000,0.071
+Bio Niapenco Catfish 1 (D),Sample,Field,Biota,NIA,PFHpA,0,2050000,0.3824
+Bio Niapenco Catfish 2 (D),Sample,Field,Biota,NIA,PFHpA,0,1350000,0.3916
+Bio Niapenco Tadpole 1 (D),Sample,Field,Biota,NIA,PFHpA,0,2130000,0.6797
+Bio Niapenco Tadpole 2 (D),Sample,Field,Biota,NIA,PFHpA,0,2150000,0.6595
+Water Nebo Lab Blank (D),Blank,Lab,Water,20MC,PFHpA,0,1520000,1
+Water Nebo Field Blank 1 (D),Blank,Field,Water,20MC,PFHpA,0,1540000,1
+Water Nebo Field Blank 2 (D),Blank,Field,Water,20MC,PFHpA,0,1380000,1
+Sediment Niapenco Lab Blank (D),Blank,Lab,Sediment,NIA,PFHpA,0,924000,1
+Sediment Niapenco Field Blank 1 (D),Blank,Field,Sediment,NIA,PFHpA,0,841000,1
+Sediment Niapenco 1 (D),Sample,Field,Sediment,NIA,PFHpA,0,923000,5.8357
+Sediment Niapenco 2 (D) ,Sample,Field,Sediment,NIA,PFHpA,0,1100000,5.0227
+Niapenco bug 3 (E),Sample,Field,Biota,NIA,PFHpA,3820,2260000,1.0693
+Niapenco shrimp 2 (E),Sample,Field,Biota,NIA,PFHpA,0,975000,1.0486
+Niapenco bug 1 (E),Sample,Field,Biota,NIA,PFHpA,0,1450000,1.0788
+Niapenco bug 2 (E),Sample,Field,Biota,NIA,PFHpA,0,1100000,1.3479
+Niapenco fish 3 (E),Sample,Field,Biota,NIA,PFHpA,3400,1110000,0.9073
+Niapenco fish 2 (E),Sample,Field,Biota,NIA,PFHpA,11700,1050000,0.9693
+Niapenco shrimp 1 (E),Sample,Field,Biota,NIA,PFHpA,0,1510000,1.0392
+Niapenco fish 1 (E),Sample,Field,Biota,NIA,PFHpA,7210,1030000,1.2625
+Niapenco nymph 1 (F),Sample,Field,Biota,NIA,PFHpA,5880,1240000,0.2044
+Niapenco bass 1 (F),Sample,Field,Biota,NIA,PFHpA,7520,653000,0.986
+Niapenco shrimp 3 (F),Sample,Field,Biota,NIA,PFHpA,4340,868000,1.0196
+Niapenco bass 2 (F),Sample,Field,Biota,NIA,PFHpA,5680,800000,1.0479
+niapenco nymph 2 (F),Sample,Field,Biota,NIA,PFHpA,8760,823000,0.4954
+Niapenco bass 3 (F),Sample,Field,Biota,NIA,PFHpA,17800,596000,1.014
+0 ng/mL,Calibration curve,A,N/A,N/A,PFOA,0,754000,1
+0.2 ng/mL,Calibration curve,A,N/A,N/A,PFOA,26200,976000,1
+0.5 ng/mL,Calibration curve,A,N/A,N/A,PFOA,0,1030000,1
+1 ng/mL,Calibration curve,A,N/A,N/A,PFOA,188000,897000,1
+2.5 ng/mL,Calibration curve,A,N/A,N/A,PFOA,603000,900000,1
+10 ng/mL,Calibration curve,A,N/A,N/A,PFOA,1380000,616000,1
+25 ng/mL,Calibration curve,A,N/A,N/A,PFOA,2920000,747000,1
+Nedo SED 6,Sample,Field,Sediment,20MC,PFOA,0,1320000,5.4135
+NEBO Sed 5,Sample,Field,Sediment,20MC,PFOA,0,1070000,5.2932
+NEBO Sed Field Blank,Blank,Field,Sediment,20MC,PFOA,0,955000,1
+NEBO Sed Lab Blank,Blank,Lab,Sediment,20MC,PFOA,0,1010000,1
+DI H2O Nianp blank lab 1,Blank,Lab,Water,NIA,PFOA,0,1100000,1
+NEBO Water 1,Sample,Field,Water,20MC,PFOA,0,1430000,100
+Niap water 3,Sample,Field,Water,NIA,PFOA,142000,1070000,100
+Niap water 6,Sample,Field,Water,NIA,PFOA,128000,1250000,100
+Ni H2O Spike 1 ,Spike,Field,Water,NIA,PFOA,1650000,1200000,1
+Ni H2O 5,Sample,Field,Water,NIA,PFOA,119000,1150000,100
+Ni H2O lab blank 2,Blank,Lab,Water,NIA,PFOA,0,1150000,1
+Ne H2O 3 ,Sample,Field,Water,20MC,PFOA,0,1170000,100
+Ne Dam Fly,Sample,Field,Biota,20MC,PFOA,63400,1410000,0.2822
+Ne Boat,Sample,Field,Biota,20MC,PFOA,65700,1310000,0.1503
+Ne Nymph,Sample,Field,Biota,20MC,PFOA,22200,1660000,0.0158
+Biological Lab Blan,Blank,Field,Biota,20MC,PFOA,30200,1430000,1
+Nebo Sed. 2,Sample,Field,Sediment,20MC,PFOA,0,1170000,5.1364
+Sand Lab Blank,Blank,Lab,Sediment,20MC,PFOA,0,910000,1
+Nebo Sed 1,Sample,Field,Sediment,20MC,PFOA,0,956000,5.2524
+Nebo Field Blank 1,Blank,Field,Sediment,20MC,PFOA,0,987000,1
+Niapenco Water Field Blank 1,Blank,Field,Water,NIA,PFOA,0,1090000,1
+Niapenco Water 2,Sample,Field,Water,NIA,PFOA,85400,1220000,100
+Nebo Water 6,Sample,Field,Water,20MC,PFOA,0,1000000,100
+Niapenco Water 4,Sample,Field,Water,NIA,PFOA,126000,1000000,100
+Nebo Sed 3,Sample,Field,Sediment,20MC,PFOA,0,1040000,5.0345
+Nebo Sed 4,Sample,Field,Sediment,20MC,PFOA,0,1020000,5.2308
+Nebo Sed Lab Blank,Blank,Lab,Sediment,20MC,PFOA,0,638000,1
+Nebo Sed Field Blank,Blank,Field,Sediment,20MC,PFOA,0,966000,1
+Nebo Sucker 1C,Sample,Field,Biota,20MC,PFOA,49500,1190000,0.7998
+Nebo Sucker 2 C,Sample,Field,Biota,20MC,PFOA,45200,879000,1.0383
+Nebo Sucker 3 C,Sample,Field,Biota,20MC,PFOA,62100,895000,1.4575
+Nebo Arthropods C,Sample,Field,Biota,20MC,PFOA,20900,1080000,0.0198
+Nebo Beetle C,Sample,Field,Biota,20MC,PFOA,54700,1280000,0.0845
+Nebo boatmen 1,Sample,Field,Biota,20MC,PFOA,110000,1290000,0.1661
+Nebo catfish 1,Sample,Field,Biota,20MC,PFOA,60600,1020000,1.7887
+Nebo nymph other,Sample,Field,Biota,20MC,PFOA,67400,1150000,0.1419
+Nebo catfish 2,Sample,Field,Biota,20MC,PFOA,62100,1020000,0.8903
+Nebo catfish 3,Sample,Field,Biota,20MC,PFOA,70100,784000,1.0315
+Nebo dragonfly nymph,Sample,Field,Biota,20MC,PFOA,55900,1110000,0.4087
+0 ng/mL,Calibration curve,B,N/A,N/A,PFOA,0,1000000,1
+0.2 ng/mL,Calibration curve,B,N/A,N/A,PFOA,73900,1080000,1
+0.5 ng/mL,Calibration curve,B,N/A,N/A,PFOA,181000,881000,1
+1 ng/mL,Calibration curve,B,N/A,N/A,PFOA,242000,1090000,1
+2.5 ng/mL,Calibration curve,B,N/A,N/A,PFOA,799000,1070000,1
+10 ng/mL,Calibration curve,B,N/A,N/A,PFOA,1690000,827000,1
+25 ng/mL,Calibration curve,B,N/A,N/A,PFOA,3610000,667000,1
+Water Nebo 2 (E),Sample,Field,Water,20MC,PFOA,0,937000,100
+Water Nebo 5 (E),Sample,Field,Water,20MC,PFOA,0,1120000,100
+Water Nebo Spike 2 (E),Spike,Field,Water,20MC,PFOA,2430000,879000,1
+Water Nebo Spike 3 (E),Spike,Field,Water,20MC,PFOA,2260000,1010000,1
+Niapenco Sediment 5 (E),Sample,Field,Sediment,NIA,PFOA,0,974000,5.8966
+Niapenco Lab Blank (E),Blank,Lab,Sediment,NIA,PFOA,0,998000,1
+Niapenco Field Blank (E),Blank,Field,Sediment,NIA,PFOA,0,842000,1
+Niapenco Sediment 6 (E),Sample,Field,Sediment,NIA,PFOA,0,1280000,5.0275
+Bio Niapenco Lab Blank (D),Blank,Field,Biota,NIA,PFOA,0,1520000,1
+Bio Niapenco Slug (D),Sample,Field,Biota,NIA,PFOA,43400,1860000,0.071
+Bio Niapenco Catfish 1 (D),Sample,Field,Biota,NIA,PFOA,8560,2050000,0.3824
+Bio Niapenco Catfish 2 (D),Sample,Field,Biota,NIA,PFOA,38400,1350000,0.3916
+Bio Niapenco Tadpole 1 (D),Sample,Field,Biota,NIA,PFOA,14800,2130000,0.6797
+Bio Niapenco Tadpole 2 (D),Sample,Field,Biota,NIA,PFOA,14400,2150000,0.6595
+Water Nebo Lab Blank (D),Blank,Lab,Water,20MC,PFOA,6130,1520000,1
+Water Nebo Field Blank 1 (D),Blank,Field,Water,20MC,PFOA,7230,1540000,1
+Water Nebo Field Blank 2 (D),Blank,Field,Water,20MC,PFOA,11900,1380000,1
+Sediment Niapenco Lab Blank (D),Blank,Lab,Sediment,NIA,PFOA,0,924000,1
+Sediment Niapenco Field Blank 1 (D),Blank,Field,Sediment,NIA,PFOA,0,841000,1
+Sediment Niapenco 1 (D),Sample,Field,Sediment,NIA,PFOA,0,923000,5.8357
+Sediment Niapenco 2 (D) ,Sample,Field,Sediment,NIA,PFOA,0,1100000,5.0227
+Niapenco bug 3 (E),Sample,Field,Biota,NIA,PFOA,50700,2260000,1.0693
+Niapenco shrimp 2 (E),Sample,Field,Biota,NIA,PFOA,88900,975000,1.0486
+Niapenco bug 1 (E),Sample,Field,Biota,NIA,PFOA,107000,1450000,1.0788
+Niapenco bug 2 (E),Sample,Field,Biota,NIA,PFOA,95000,1100000,1.3479
+Niapenco fish 3 (E),Sample,Field,Biota,NIA,PFOA,51000,1110000,0.9073
+Niapenco fish 2 (E),Sample,Field,Biota,NIA,PFOA,81700,1050000,0.9693
+Niapenco shrimp 1 (E),Sample,Field,Biota,NIA,PFOA,53700,1510000,1.0392
+Niapenco fish 1 (E),Sample,Field,Biota,NIA,PFOA,67300,1030000,1.2625
+Niapenco nymph 1 (F),Sample,Field,Biota,NIA,PFOA,82000,1240000,0.2044
+Niapenco bass 1 (F),Sample,Field,Biota,NIA,PFOA,76500,653000,0.986
+Niapenco shrimp 3 (F),Sample,Field,Biota,NIA,PFOA,58300,868000,1.0196
+Niapenco bass 2 (F),Sample,Field,Biota,NIA,PFOA,60400,800000,1.0479
+niapenco nymph 2 (F),Sample,Field,Biota,NIA,PFOA,99400,823000,0.4954
+Niapenco bass 3 (F),Sample,Field,Biota,NIA,PFOA,128000,596000,1.014
+0 ng/mL,Calibration curve,A,N/A,N/A,PFNA,0,788000,1
+0.2 ng/mL,Calibration curve,A,N/A,N/A,PFNA,21400,773000,1
+0.5 ng/mL,Calibration curve,A,N/A,N/A,PFNA,83600,948000,1
+1 ng/mL,Calibration curve,A,N/A,N/A,PFNA,213000,860000,1
+2.5 ng/mL,Calibration curve,A,N/A,N/A,PFNA,493000,838000,1
+10 ng/mL,Calibration curve,A,N/A,N/A,PFNA,1570000,921000,1
+25 ng/mL,Calibration curve,A,N/A,N/A,PFNA,2920000,663000,1
+Nedo SED 6,Sample,Field,Sediment,20MC,PFNA,0,1250000,5.4135
+NEBO Sed 5,Sample,Field,Sediment,20MC,PFNA,0,1080000,5.2932
+NEBO Sed Field Blank,Blank,Field,Sediment,20MC,PFNA,0,821000,1
+NEBO Sed Lab Blank,Blank,Lab,Sediment,20MC,PFNA,0,1030000,1
+DI H2O Nianp blank lab 1,Blank,Lab,Water,NIA,PFNA,0,1010000,1
+NEBO Water 1,Sample,Field,Water,20MC,PFNA,0,1420000,100
+Niap water 3,Sample,Field,Water,NIA,PFNA,14600,1050000,100
+Niap water 6,Sample,Field,Water,NIA,PFNA,15800,1100000,100
+Ni H2O Spike 1 ,Spike,Field,Water,NIA,PFNA,2040000,1040000,1
+Ni H2O 5,Sample,Field,Water,NIA,PFNA,0,1030000,100
+Ni H2O lab blank 2,Blank,Lab,Water,NIA,PFNA,0,1350000,1
+Ne H2O 3 ,Sample,Field,Water,20MC,PFNA,0,1190000,100
+Ne Dam Fly,Sample,Field,Biota,20MC,PFNA,13300,1580000,0.2822
+Ne Boat,Sample,Field,Biota,20MC,PFNA,43200,1420000,0.1503
+Ne Nymph,Sample,Field,Biota,20MC,PFNA,3580,1930000,0.0158
+Biological Lab Blan,Blank,Field,Biota,20MC,PFNA,0,1270000,1
+Nebo Sed. 2,Sample,Field,Sediment,20MC,PFNA,0,1380000,5.1364
+Sand Lab Blank,Blank,Lab,Sediment,20MC,PFNA,0,1220000,1
+Nebo Sed 1,Sample,Field,Sediment,20MC,PFNA,0,1110000,5.2524
+Nebo Field Blank 1,Blank,Field,Sediment,20MC,PFNA,0,1290000,1
+Niapenco Water Field Blank 1,Blank,Field,Water,NIA,PFNA,0,1250000,1
+Niapenco Water 2,Sample,Field,Water,NIA,PFNA,0,1370000,100
+Nebo Water 6,Sample,Field,Water,20MC,PFNA,0,1130000,100
+Niapenco Water 4,Sample,Field,Water,NIA,PFNA,0,1260000,100
+Nebo Sed 3,Sample,Field,Sediment,20MC,PFNA,0,911000,5.0345
+Nebo Sed 4,Sample,Field,Sediment,20MC,PFNA,0,1140000,5.2308
+Nebo Sed Lab Blank,Blank,Lab,Sediment,20MC,PFNA,0,800000,1
+Nebo Sed Field Blank,Blank,Field,Sediment,20MC,PFNA,0,708000,1
+Nebo Sucker 1C,Sample,Field,Biota,20MC,PFNA,6630,742000,0.7998
+Nebo Sucker 2 C,Sample,Field,Biota,20MC,PFNA,5840,594000,1.0383
+Nebo Sucker 3 C,Sample,Field,Biota,20MC,PFNA,3930,255000,1.4575
+Nebo Arthropods C,Sample,Field,Biota,20MC,PFNA,2560,1100000,0.0198
+Nebo Beetle C,Sample,Field,Biota,20MC,PFNA,3800,1080000,0.0845
+Nebo boatmen 1,Sample,Field,Biota,20MC,PFNA,53000,1170000,0.1661
+Nebo catfish 1,Sample,Field,Biota,20MC,PFNA,12700,1010000,1.7887
+Nebo nymph other,Sample,Field,Biota,20MC,PFNA,9430,1380000,0.1419
+Nebo catfish 2,Sample,Field,Biota,20MC,PFNA,14500,1160000,0.8903
+Nebo catfish 3,Sample,Field,Biota,20MC,PFNA,11300,946000,1.0315
+Nebo dragonfly nymph,Sample,Field,Biota,20MC,PFNA,15000,1100000,0.4087
+0 ng/mL,Calibration curve,B,N/A,N/A,PFNA,0,1150000,1
+0.2 ng/mL,Calibration curve,B,N/A,N/A,PFNA,65400,1170000,1
+0.5 ng/mL,Calibration curve,B,N/A,N/A,PFNA,138000,1050000,1
+1 ng/mL,Calibration curve,B,N/A,N/A,PFNA,258000,1280000,1
+2.5 ng/mL,Calibration curve,B,N/A,N/A,PFNA,476000,1550000,1
+10 ng/mL,Calibration curve,B,N/A,N/A,PFNA,1430000,889000,1
+25 ng/mL,Calibration curve,B,N/A,N/A,PFNA,2390000,703000,1
+Water Nebo 2 (E),Sample,Field,Water,20MC,PFNA,0,1320000,100
+Water Nebo 5 (E),Sample,Field,Water,20MC,PFNA,0,1270000,100
+Water Nebo Spike 2 (E),Spike,Field,Water,20MC,PFNA,1790000,1040000,1
+Water Nebo Spike 3 (E),Spike,Field,Water,20MC,PFNA,1890000,995000,1
+Niapenco Sediment 5 (E),Sample,Field,Sediment,NIA,PFNA,0,819000,5.8966
+Niapenco Lab Blank (E),Blank,Lab,Sediment,NIA,PFNA,0,1130000,1
+Niapenco Field Blank (E),Blank,Field,Sediment,NIA,PFNA,0,1190000,1
+Niapenco Sediment 6 (E),Sample,Field,Sediment,NIA,PFNA,0,1050000,5.0275
+Bio Niapenco Lab Blank (D),Blank,Field,Biota,NIA,PFNA,0,1780000,1
+Bio Niapenco Slug (D),Sample,Field,Biota,NIA,PFNA,5130,1940000,0.071
+Bio Niapenco Catfish 1 (D),Sample,Field,Biota,NIA,PFNA,0,1730000,0.3824
+Bio Niapenco Catfish 2 (D),Sample,Field,Biota,NIA,PFNA,4190,1820000,0.3916
+Bio Niapenco Tadpole 1 (D),Sample,Field,Biota,NIA,PFNA,2620,2060000,0.6797
+Bio Niapenco Tadpole 2 (D),Sample,Field,Biota,NIA,PFNA,2280,2450000,0.6595
+Water Nebo Lab Blank (D),Blank,Lab,Water,20MC,PFNA,0,1800000,1
+Water Nebo Field Blank 1 (D),Blank,Field,Water,20MC,PFNA,0,1590000,1
+Water Nebo Field Blank 2 (D),Blank,Field,Water,20MC,PFNA,0,1330000,1
+Sediment Niapenco Lab Blank (D),Blank,Lab,Sediment,NIA,PFNA,0,1240000,1
+Sediment Niapenco Field Blank 1 (D),Blank,Field,Sediment,NIA,PFNA,0,1330000,1
+Sediment Niapenco 1 (D),Sample,Field,Sediment,NIA,PFNA,0,848000,5.8357
+Sediment Niapenco 2 (D) ,Sample,Field,Sediment,NIA,PFNA,0,1360000,5.0227
+Niapenco bug 3 (E),Sample,Field,Biota,NIA,PFNA,12900,2050000,1.0693
+Niapenco shrimp 2 (E),Sample,Field,Biota,NIA,PFNA,40800,1290000,1.0486
+Niapenco bug 1 (E),Sample,Field,Biota,NIA,PFNA,25200,1340000,1.0788
+Niapenco bug 2 (E),Sample,Field,Biota,NIA,PFNA,21600,962000,1.3479
+Niapenco fish 3 (E),Sample,Field,Biota,NIA,PFNA,33400,1270000,0.9073
+Niapenco fish 2 (E),Sample,Field,Biota,NIA,PFNA,42500,979000,0.9693
+Niapenco shrimp 1 (E),Sample,Field,Biota,NIA,PFNA,29300,1490000,1.0392
+Niapenco fish 1 (E),Sample,Field,Biota,NIA,PFNA,54200,1080000,1.2625
+Niapenco nymph 1 (F),Sample,Field,Biota,NIA,PFNA,14400,1390000,0.2044
+Niapenco bass 1 (F),Sample,Field,Biota,NIA,PFNA,14100,666000,0.986
+Niapenco shrimp 3 (F),Sample,Field,Biota,NIA,PFNA,25400,1200000,1.0196
+Niapenco bass 2 (F),Sample,Field,Biota,NIA,PFNA,9980,886000,1.0479
+niapenco nymph 2 (F),Sample,Field,Biota,NIA,PFNA,26800,902000,0.4954
+Niapenco bass 3 (F),Sample,Field,Biota,NIA,PFNA,20500,487000,1.014
+0 ng/mL,Calibration curve,A,N/A,N/A,PFDA,0,842000,1
+0.2 ng/mL,Calibration curve,A,N/A,N/A,PFDA,36500,710000,1
+0.5 ng/mL,Calibration curve,A,N/A,N/A,PFDA,76900,575000,1
+1 ng/mL,Calibration curve,A,N/A,N/A,PFDA,193000,703000,1
+2.5 ng/mL,Calibration curve,A,N/A,N/A,PFDA,445000,766000,1
+10 ng/mL,Calibration curve,A,N/A,N/A,PFDA,1560000,653000,1
+25 ng/mL,Calibration curve,A,N/A,N/A,PFDA,3360000,690000,1
+Nedo SED 6,Sample,Field,Sediment,20MC,PFDA,0,706000,5.4135
+NEBO Sed 5,Sample,Field,Sediment,20MC,PFDA,0,766000,5.2932
+NEBO Sed Field Blank,Blank,Field,Sediment,20MC,PFDA,0,647000,1
+NEBO Sed Lab Blank,Blank,Lab,Sediment,20MC,PFDA,0,731000,1
+DI H2O Nianp blank lab 1,Blank,Lab,Water,NIA,PFDA,0,1650000,1
+NEBO Water 1,Sample,Field,Water,20MC,PFDA,0,1300000,100
+Niap water 3,Sample,Field,Water,NIA,PFDA,0,1010000,100
+Niap water 6,Sample,Field,Water,NIA,PFDA,0,1330000,100
+Ni H2O Spike 1 ,Spike,Field,Water,NIA,PFDA,2240000,1160000,1
+Ni H2O 5,Sample,Field,Water,NIA,PFDA,0,1390000,100
+Ni H2O lab blank 2,Blank,Lab,Water,NIA,PFDA,0,982000,1
+Ne H2O 3 ,Sample,Field,Water,20MC,PFDA,0,1040000,100
+Ne Dam Fly,Sample,Field,Biota,20MC,PFDA,21000,1490000,0.2822
+Ne Boat,Sample,Field,Biota,20MC,PFDA,37200,1220000,0.1503
+Ne Nymph,Sample,Field,Biota,20MC,PFDA,0,1680000,0.0158
+Biological Lab Blan,Blank,Field,Biota,20MC,PFDA,0,1410000,1
+Nebo Sed. 2,Sample,Field,Sediment,20MC,PFDA,0,987000,5.1364
+Sand Lab Blank,Blank,Lab,Sediment,20MC,PFDA,0,959000,1
+Nebo Sed 1,Sample,Field,Sediment,20MC,PFDA,0,1400000,5.2524
+Nebo Field Blank 1,Blank,Field,Sediment,20MC,PFDA,0,941000,1
+Niapenco Water Field Blank 1,Blank,Field,Water,NIA,PFDA,0,791000,1
+Niapenco Water 2,Sample,Field,Water,NIA,PFDA,0,1010000,100
+Nebo Water 6,Sample,Field,Water,20MC,PFDA,0,743000,100
+Niapenco Water 4,Sample,Field,Water,NIA,PFDA,0,992000,100
+Nebo Sed 3,Sample,Field,Sediment,20MC,PFDA,0,836000,5.0345
+Nebo Sed 4,Sample,Field,Sediment,20MC,PFDA,0,874000,5.2308
+Nebo Sed Lab Blank,Blank,Lab,Sediment,20MC,PFDA,0,933000,1
+Nebo Sed Field Blank,Blank,Field,Sediment,20MC,PFDA,0,811000,1
+Nebo Sucker 1C,Sample,Field,Biota,20MC,PFDA,17800,1330000,0.7998
+Nebo Sucker 2 C,Sample,Field,Biota,20MC,PFDA,21300,905000,1.0383
+Nebo Sucker 3 C,Sample,Field,Biota,20MC,PFDA,42900,848000,1.4575
+Nebo Arthropods C,Sample,Field,Biota,20MC,PFDA,0,1390000,0.0198
+Nebo Beetle C,Sample,Field,Biota,20MC,PFDA,4130,1050000,0.0845
+Nebo boatmen 1,Sample,Field,Biota,20MC,PFDA,44700,1150000,0.1661
+Nebo catfish 1,Sample,Field,Biota,20MC,PFDA,50400,1140000,1.7887
+Nebo nymph other,Sample,Field,Biota,20MC,PFDA,15400,1270000,0.1419
+Nebo catfish 2,Sample,Field,Biota,20MC,PFDA,51000,1190000,0.8903
+Nebo catfish 3,Sample,Field,Biota,20MC,PFDA,34300,1000000,1.0315
+Nebo dragonfly nymph,Sample,Field,Biota,20MC,PFDA,13400,1340000,0.4087
+0 ng/mL,Calibration curve,B,N/A,N/A,PFDA,0,1280000,1
+0.2 ng/mL,Calibration curve,B,N/A,N/A,PFDA,57300,1170000,1
+0.5 ng/mL,Calibration curve,B,N/A,N/A,PFDA,98400,1330000,1
+1 ng/mL,Calibration curve,B,N/A,N/A,PFDA,359000,1130000,1
+2.5 ng/mL,Calibration curve,B,N/A,N/A,PFDA,663000,1170000,1
+10 ng/mL,Calibration curve,B,N/A,N/A,PFDA,1410000,851000,1
+25 ng/mL,Calibration curve,B,N/A,N/A,PFDA,3570000,916000,1
+Water Nebo 2 (E),Sample,Field,Water,20MC,PFDA,0,1060000,100
+Water Nebo 5 (E),Sample,Field,Water,20MC,PFDA,0,960000,100
+Water Nebo Spike 2 (E),Spike,Field,Water,20MC,PFDA,1870000,969000,1
+Water Nebo Spike 3 (E),Spike,Field,Water,20MC,PFDA,2120000,819000,1
+Niapenco Sediment 5 (E),Sample,Field,Sediment,NIA,PFDA,0,952000,5.8966
+Niapenco Lab Blank (E),Blank,Lab,Sediment,NIA,PFDA,0,1020000,1
+Niapenco Field Blank (E),Blank,Field,Sediment,NIA,PFDA,0,919000,1
+Niapenco Sediment 6 (E),Sample,Field,Sediment,NIA,PFDA,0,922000,5.0275
+Bio Niapenco Lab Blank (D),Blank,Field,Biota,NIA,PFDA,1820,1470000,1
+Bio Niapenco Slug (D),Sample,Field,Biota,NIA,PFDA,3560,1440000,0.071
+Bio Niapenco Catfish 1 (D),Sample,Field,Biota,NIA,PFDA,0,1570000,0.3824
+Bio Niapenco Catfish 2 (D),Sample,Field,Biota,NIA,PFDA,0,1540000,0.3916
+Bio Niapenco Tadpole 1 (D),Sample,Field,Biota,NIA,PFDA,4770,2190000,0.6797
+Bio Niapenco Tadpole 2 (D),Sample,Field,Biota,NIA,PFDA,4000,2010000,0.6595
+Water Nebo Lab Blank (D),Blank,Lab,Water,20MC,PFDA,0,1540000,1
+Water Nebo Field Blank 1 (D),Blank,Field,Water,20MC,PFDA,0,1790000,1
+Water Nebo Field Blank 2 (D),Blank,Field,Water,20MC,PFDA,0,1430000,1
+Sediment Niapenco Lab Blank (D),Blank,Lab,Sediment,NIA,PFDA,0,834000,1
+Sediment Niapenco Field Blank 1 (D),Blank,Field,Sediment,NIA,PFDA,0,667000,1
+Sediment Niapenco 1 (D),Sample,Field,Sediment,NIA,PFDA,0,922000,5.8357
+Sediment Niapenco 2 (D) ,Sample,Field,Sediment,NIA,PFDA,0,767000,5.0227
+Niapenco bug 3 (E),Sample,Field,Biota,NIA,PFDA,19200,2270000,1.0693
+Niapenco shrimp 2 (E),Sample,Field,Biota,NIA,PFDA,18300,1560000,1.0486
+Niapenco bug 1 (E),Sample,Field,Biota,NIA,PFDA,36300,1350000,1.0788
+Niapenco bug 2 (E),Sample,Field,Biota,NIA,PFDA,33200,1080000,1.3479
+Niapenco fish 3 (E),Sample,Field,Biota,NIA,PFDA,25900,1300000,0.9073
+Niapenco fish 2 (E),Sample,Field,Biota,NIA,PFDA,42400,1260000,0.9693
+Niapenco shrimp 1 (E),Sample,Field,Biota,NIA,PFDA,11200,1980000,1.0392
+Niapenco fish 1 (E),Sample,Field,Biota,NIA,PFDA,49000,1250000,1.2625
+Niapenco nymph 1 (F),Sample,Field,Biota,NIA,PFDA,9640,1370000,0.2044
+Niapenco bass 1 (F),Sample,Field,Biota,NIA,PFDA,32200,757000,0.986
+Niapenco shrimp 3 (F),Sample,Field,Biota,NIA,PFDA,9390,1170000,1.0196
+Niapenco bass 2 (F),Sample,Field,Biota,NIA,PFDA,21300,1030000,1.0479
+niapenco nymph 2 (F),Sample,Field,Biota,NIA,PFDA,12700,874000,0.4954
+Niapenco bass 3 (F),Sample,Field,Biota,NIA,PFDA,60200,688000,1.014
+0 ng/mL,Calibration curve,A,N/A,N/A,PFHxS,0,102000,1
+0.2 ng/mL,Calibration curve,A,N/A,N/A,PFHxS,5130,130000,1
+0.5 ng/mL,Calibration curve,A,N/A,N/A,PFHxS,12600,162000,1
+1 ng/mL,Calibration curve,A,N/A,N/A,PFHxS,22300,166000,1
+2.5 ng/mL,Calibration curve,A,N/A,N/A,PFHxS,39800,132000,1
+10 ng/mL,Calibration curve,A,N/A,N/A,PFHxS,142000,156000,1
+25 ng/mL,Calibration curve,A,N/A,N/A,PFHxS,416000,117000,1
+Nedo SED 6,Sample,Field,Sediment,20MC,PFHxS,0,173000,5.4135
+NEBO Sed 5,Sample,Field,Sediment,20MC,PFHxS,0,183000,5.2932
+NEBO Sed Field Blank,Blank,Field,Sediment,20MC,PFHxS,0,187000,1
+NEBO Sed Lab Blank,Blank,Lab,Sediment,20MC,PFHxS,0,161000,1
+DI H2O Nianp blank lab 1,Blank,Lab,Water,NIA,PFHxS,0,175000,1
+NEBO Water 1,Sample,Field,Water,20MC,PFHxS,0,143000,100
+Niap water 3,Sample,Field,Water,NIA,PFHxS,41800,149000,100
+Niap water 6,Sample,Field,Water,NIA,PFHxS,46000,146000,100
+Ni H2O Spike 1 ,Spike,Field,Water,NIA,PFHxS,144000,129000,1
+Ni H2O 5,Sample,Field,Water,NIA,PFHxS,49700,138000,100
+Ni H2O lab blank 2,Blank,Lab,Water,NIA,PFHxS,0,131000,1
+Ne H2O 3 ,Sample,Field,Water,20MC,PFHxS,0,127000,100
+Ne Dam Fly,Sample,Field,Biota,20MC,PFHxS,0,166000,0.2822
+Ne Boat,Sample,Field,Biota,20MC,PFHxS,0,160000,0.1503
+Ne Nymph,Sample,Field,Biota,20MC,PFHxS,0,195000,0.0158
+Biological Lab Blan,Blank,Field,Biota,20MC,PFHxS,0,158000,1
+Nebo Sed. 2,Sample,Field,Sediment,20MC,PFHxS,0,169000,5.1364
+Sand Lab Blank,Blank,Lab,Sediment,20MC,PFHxS,0,113000,1
+Nebo Sed 1,Sample,Field,Sediment,20MC,PFHxS,0,220000,5.2524
+Nebo Field Blank 1,Blank,Field,Sediment,20MC,PFHxS,0,178000,1
+Niapenco Water Field Blank 1,Blank,Field,Water,NIA,PFHxS,0,178000,1
+Niapenco Water 2,Sample,Field,Water,NIA,PFHxS,44100,168000,100
+Nebo Water 6,Sample,Field,Water,20MC,PFHxS,0,129000,100
+Niapenco Water 4,Sample,Field,Water,NIA,PFHxS,40600,139000,100
+Nebo Sed 3,Sample,Field,Sediment,20MC,PFHxS,0,164000,5.0345
+Nebo Sed 4,Sample,Field,Sediment,20MC,PFHxS,0,175000,5.2308
+Nebo Sed Lab Blank,Blank,Lab,Sediment,20MC,PFHxS,0,174000,1
+Nebo Sed Field Blank,Blank,Field,Sediment,20MC,PFHxS,0,130000,1
+Nebo Sucker 1C,Sample,Field,Biota,20MC,PFHxS,0,135000,0.7998
+Nebo Sucker 2 C,Sample,Field,Biota,20MC,PFHxS,0,120000,1.0383
+Nebo Sucker 3 C,Sample,Field,Biota,20MC,PFHxS,0,142000,1.4575
+Nebo Arthropods C,Sample,Field,Biota,20MC,PFHxS,0,128000,0.0198
+Nebo Beetle C,Sample,Field,Biota,20MC,PFHxS,0,180000,0.0845
+Nebo boatmen 1,Sample,Field,Biota,20MC,PFHxS,0,183000,0.1661
+Nebo catfish 1,Sample,Field,Biota,20MC,PFHxS,0,121000,1.7887
+Nebo nymph other,Sample,Field,Biota,20MC,PFHxS,0,153000,0.1419
+Nebo catfish 2,Sample,Field,Biota,20MC,PFHxS,0,150000,0.8903
+Nebo catfish 3,Sample,Field,Biota,20MC,PFHxS,0,109000,1.0315
+Nebo dragonfly nymph,Sample,Field,Biota,20MC,PFHxS,0,135000,0.4087
+0 ng/mL,Calibration curve,B,N/A,N/A,PFHxS,0,145000,1
+0.2 ng/mL,Calibration curve,B,N/A,N/A,PFHxS,3760,132000,1
+0.5 ng/mL,Calibration curve,B,N/A,N/A,PFHxS,9450,124000,1
+1 ng/mL,Calibration curve,B,N/A,N/A,PFHxS,13200,135000,1
+2.5 ng/mL,Calibration curve,B,N/A,N/A,PFHxS,64400,151000,1
+10 ng/mL,Calibration curve,B,N/A,N/A,PFHxS,213000,145000,1
+25 ng/mL,Calibration curve,B,N/A,N/A,PFHxS,405000,120000,1
+Water Nebo 2 (E),Sample,Field,Water,20MC,PFHxS,0,145000,100
+Water Nebo 5 (E),Sample,Field,Water,20MC,PFHxS,0,138000,100
+Water Nebo Spike 2 (E),Spike,Field,Water,20MC,PFHxS,193000,130000,1
+Water Nebo Spike 3 (E),Spike,Field,Water,20MC,PFHxS,177000,125000,1
+Niapenco Sediment 5 (E),Sample,Field,Sediment,NIA,PFHxS,0,126000,5.8966
+Niapenco Lab Blank (E),Blank,Lab,Sediment,NIA,PFHxS,0,137000,1
+Niapenco Field Blank (E),Blank,Field,Sediment,NIA,PFHxS,0,172000,1
+Niapenco Sediment 6 (E),Sample,Field,Sediment,NIA,PFHxS,0,134000,5.0275
+Bio Niapenco Lab Blank (D),Blank,Field,Biota,NIA,PFHxS,0,241000,1
+Bio Niapenco Slug (D),Sample,Field,Biota,NIA,PFHxS,0,219000,0.071
+Bio Niapenco Catfish 1 (D),Sample,Field,Biota,NIA,PFHxS,0,298000,0.3824
+Bio Niapenco Catfish 2 (D),Sample,Field,Biota,NIA,PFHxS,0,196000,0.3916
+Bio Niapenco Tadpole 1 (D),Sample,Field,Biota,NIA,PFHxS,0,233000,0.6797
+Bio Niapenco Tadpole 2 (D),Sample,Field,Biota,NIA,PFHxS,0,226000,0.6595
+Water Nebo Lab Blank (D),Blank,Lab,Water,20MC,PFHxS,0,176000,1
+Water Nebo Field Blank 1 (D),Blank,Field,Water,20MC,PFHxS,0,210000,1
+Water Nebo Field Blank 2 (D),Blank,Field,Water,20MC,PFHxS,0,278000,1
+Sediment Niapenco Lab Blank (D),Blank,Lab,Sediment,NIA,PFHxS,0,157000,1
+Sediment Niapenco Field Blank 1 (D),Blank,Field,Sediment,NIA,PFHxS,0,145000,1
+Sediment Niapenco 1 (D),Sample,Field,Sediment,NIA,PFHxS,0,123000,5.8357
+Sediment Niapenco 2 (D) ,Sample,Field,Sediment,NIA,PFHxS,0,128000,5.0227
+Niapenco bug 3 (E),Sample,Field,Biota,NIA,PFHxS,15300,254000,1.0693
+Niapenco shrimp 2 (E),Sample,Field,Biota,NIA,PFHxS,11100,92900,1.0486
+Niapenco bug 1 (E),Sample,Field,Biota,NIA,PFHxS,35000,154000,1.0788
+Niapenco bug 2 (E),Sample,Field,Biota,NIA,PFHxS,30300,132000,1.3479
+Niapenco fish 3 (E),Sample,Field,Biota,NIA,PFHxS,9190,156000,0.9073
+Niapenco fish 2 (E),Sample,Field,Biota,NIA,PFHxS,15900,119000,0.9693
+Niapenco shrimp 1 (E),Sample,Field,Biota,NIA,PFHxS,9250,165000,1.0392
+Niapenco fish 1 (E),Sample,Field,Biota,NIA,PFHxS,15500,136000,1.2625
+Niapenco nymph 1 (F),Sample,Field,Biota,NIA,PFHxS,5810,132000,0.2044
+Niapenco bass 1 (F),Sample,Field,Biota,NIA,PFHxS,9010,91600,0.986
+Niapenco shrimp 3 (F),Sample,Field,Biota,NIA,PFHxS,5920,78200,1.0196
+Niapenco bass 2 (F),Sample,Field,Biota,NIA,PFHxS,4420,108000,1.0479
+niapenco nymph 2 (F),Sample,Field,Biota,NIA,PFHxS,17100,134000,0.4954
+Niapenco bass 3 (F),Sample,Field,Biota,NIA,PFHxS,16500,83800,1.014
+0 ng/mL,Calibration curve,A,N/A,N/A,PFOS,0,182000,1
+0.2 ng/mL,Calibration curve,A,N/A,N/A,PFOS,7240,157000,1
+0.5 ng/mL,Calibration curve,A,N/A,N/A,PFOS,9020,175000,1
+1 ng/mL,Calibration curve,A,N/A,N/A,PFOS,36400,150000,1
+2.5 ng/mL,Calibration curve,A,N/A,N/A,PFOS,67300,182000,1
+10 ng/mL,Calibration curve,A,N/A,N/A,PFOS,286000,132000,1
+25 ng/mL,Calibration curve,A,N/A,N/A,PFOS,690000,162000,1
+Nedo SED 6,Sample,Field,Sediment,20MC,PFOS,445,166000,5.4135
+NEBO Sed 5,Sample,Field,Sediment,20MC,PFOS,1370,197000,5.2932
+NEBO Sed Field Blank,Blank,Field,Sediment,20MC,PFOS,0,175000,1
+NEBO Sed Lab Blank,Blank,Lab,Sediment,20MC,PFOS,0,227000,1
+DI H2O Nianp blank lab 1,Blank,Lab,Water,NIA,PFOS,0,252000,1
+NEBO Water 1,Sample,Field,Water,20MC,PFOS,0,180000,100
+Niap water 3,Sample,Field,Water,NIA,PFOS,32600,183000,100
+Niap water 6,Sample,Field,Water,NIA,PFOS,35100,197000,100
+Ni H2O Spike 1 ,Spike,Field,Water,NIA,PFOS,333000,153000,1
+Ni H2O 5,Sample,Field,Water,NIA,PFOS,25500,173000,100
+Ni H2O lab blank 2,Blank,Lab,Water,NIA,PFOS,0,201000,1
+Ne H2O 3 ,Sample,Field,Water,20MC,PFOS,2270,166000,100
+Ne Dam Fly,Sample,Field,Biota,20MC,PFOS,45000,163000,0.2822
+Ne Boat,Sample,Field,Biota,20MC,PFOS,32400,171000,0.1503
+Ne Nymph,Sample,Field,Biota,20MC,PFOS,1990,194000,0.0158
+Biological Lab Blan,Blank,Field,Biota,20MC,PFOS,0,190000,1
+Nebo Sed. 2,Sample,Field,Sediment,20MC,PFOS,724,153000,5.1364
+Sand Lab Blank,Blank,Lab,Sediment,20MC,PFOS,0,185000,1
+Nebo Sed 1,Sample,Field,Sediment,20MC,PFOS,563,204000,5.2524
+Nebo Field Blank 1,Blank,Field,Sediment,20MC,PFOS,0,229000,1
+Niapenco Water Field Blank 1,Blank,Field,Water,NIA,PFOS,0,221000,1
+Niapenco Water 2,Sample,Field,Water,NIA,PFOS,34300,156000,100
+Nebo Water 6,Sample,Field,Water,20MC,PFOS,0,160000,100
+Niapenco Water 4,Sample,Field,Water,NIA,PFOS,35000,136000,100
+Nebo Sed 3,Sample,Field,Sediment,20MC,PFOS,0,204000,5.0345
+Nebo Sed 4,Sample,Field,Sediment,20MC,PFOS,0,168000,5.2308
+Nebo Sed Lab Blank,Blank,Lab,Sediment,20MC,PFOS,0,222000,1
+Nebo Sed Field Blank,Blank,Field,Sediment,20MC,PFOS,0,196000,1
+Nebo Sucker 1C,Sample,Field,Biota,20MC,PFOS,17700,113000,0.7998
+Nebo Sucker 2 C,Sample,Field,Biota,20MC,PFOS,17500,108000,1.0383
+Nebo Sucker 3 C,Sample,Field,Biota,20MC,PFOS,27800,66000,1.4575
+Nebo Arthropods C,Sample,Field,Biota,20MC,PFOS,5820,118000,0.0198
+Nebo Beetle C,Sample,Field,Biota,20MC,PFOS,3230,140000,0.0845
+Nebo boatmen 1,Sample,Field,Biota,20MC,PFOS,38100,137000,0.1661
+Nebo catfish 1,Sample,Field,Biota,20MC,PFOS,97500,134000,1.7887
+Nebo nymph other,Sample,Field,Biota,20MC,PFOS,11400,140000,0.1419
+Nebo catfish 2,Sample,Field,Biota,20MC,PFOS,71600,149000,0.8903
+Nebo catfish 3,Sample,Field,Biota,20MC,PFOS,78400,104000,1.0315
+Nebo dragonfly nymph,Sample,Field,Biota,20MC,PFOS,20400,118000,0.4087
+0 ng/mL,Calibration curve,B,N/A,N/A,PFOS,0,142000,1
+0.2 ng/mL,Calibration curve,B,N/A,N/A,PFOS,7170,183000,1
+0.5 ng/mL,Calibration curve,B,N/A,N/A,PFOS,18500,187000,1
+1 ng/mL,Calibration curve,B,N/A,N/A,PFOS,39400,165000,1
+2.5 ng/mL,Calibration curve,B,N/A,N/A,PFOS,100000,193000,1
+10 ng/mL,Calibration curve,B,N/A,N/A,PFOS,321000,155000,1
+25 ng/mL,Calibration curve,B,N/A,N/A,PFOS,513000,132000,1
+Water Nebo 2 (E),Sample,Field,Water,20MC,PFOS,0,146000,100
+Water Nebo 5 (E),Sample,Field,Water,20MC,PFOS,1800,149000,100
+Water Nebo Spike 2 (E),Spike,Field,Water,20MC,PFOS,284000,163000,1
+Water Nebo Spike 3 (E),Spike,Field,Water,20MC,PFOS,231000,181000,1
+Niapenco Sediment 5 (E),Sample,Field,Sediment,NIA,PFOS,8080,187000,5.8966
+Niapenco Lab Blank (E),Blank,Lab,Sediment,NIA,PFOS,0,148000,1
+Niapenco Field Blank (E),Blank,Field,Sediment,NIA,PFOS,0,234000,1
+Niapenco Sediment 6 (E),Sample,Field,Sediment,NIA,PFOS,4760,131000,5.0275
+Bio Niapenco Lab Blank (D),Blank,Field,Biota,NIA,PFOS,0,258000,1
+Bio Niapenco Slug (D),Sample,Field,Biota,NIA,PFOS,16300,308000,0.071
+Bio Niapenco Catfish 1 (D),Sample,Field,Biota,NIA,PFOS,6720,216000,0.3824
+Bio Niapenco Catfish 2 (D),Sample,Field,Biota,NIA,PFOS,14100,221000,0.3916
+Bio Niapenco Tadpole 1 (D),Sample,Field,Biota,NIA,PFOS,47400,286000,0.6797
+Bio Niapenco Tadpole 2 (D),Sample,Field,Biota,NIA,PFOS,58900,245000,0.6595
+Water Nebo Lab Blank (D),Blank,Lab,Water,20MC,PFOS,0,214000,1
+Water Nebo Field Blank 1 (D),Blank,Field,Water,20MC,PFOS,0,212000,1
+Water Nebo Field Blank 2 (D),Blank,Field,Water,20MC,PFOS,0,191000,1
+Sediment Niapenco Lab Blank (D),Blank,Lab,Sediment,NIA,PFOS,0,230000,1
+Sediment Niapenco Field Blank 1 (D),Blank,Field,Sediment,NIA,PFOS,0,204000,1
+Sediment Niapenco 1 (D),Sample,Field,Sediment,NIA,PFOS,8480,204000,5.8357
+Sediment Niapenco 2 (D) ,Sample,Field,Sediment,NIA,PFOS,3850,209000,5.0227
+Niapenco bug 3 (E),Sample,Field,Biota,NIA,PFOS,124000,201000,1.0693
+Niapenco shrimp 2 (E),Sample,Field,Biota,NIA,PFOS,295000,154000,1.0486
+Niapenco bug 1 (E),Sample,Field,Biota,NIA,PFOS,296000,137000,1.0788
+Niapenco bug 2 (E),Sample,Field,Biota,NIA,PFOS,295000,114000,1.3479
+Niapenco fish 3 (E),Sample,Field,Biota,NIA,PFOS,907000,149000,0.9073
+Niapenco fish 2 (E),Sample,Field,Biota,NIA,PFOS,1580000,113000,0.9693
+Niapenco shrimp 1 (E),Sample,Field,Biota,NIA,PFOS,210000,162000,1.0392
+Niapenco fish 1 (E),Sample,Field,Biota,NIA,PFOS,1540000,122000,1.2625
+Niapenco nymph 1 (F),Sample,Field,Biota,NIA,PFOS,77900,145000,0.2044
+Niapenco bass 1 (F),Sample,Field,Biota,NIA,PFOS,1560000,88300,0.986
+Niapenco shrimp 3 (F),Sample,Field,Biota,NIA,PFOS,170000,111000,1.0196
+Niapenco bass 2 (F),Sample,Field,Biota,NIA,PFOS,882000,106000,1.0479
+niapenco nymph 2 (F),Sample,Field,Biota,NIA,PFOS,188000,115000,0.4954
+Niapenco bass 3 (F),Sample,Field,Biota,NIA,PFOS,2950000,73400,1.014
