@@ -71,7 +71,7 @@ Because we have an internal standard (as most quantitative LC-MS data will), we 
 CalData <- #Your code to calculate the analyte to internal standard peak area ratio
 ```
 
-For the purposes of calculating LOD/LOQ, we want a linear calibration curve. Luckily, at low concentrations our response should be relatively linear. First, let's select the first five points for each analyte, choose an analyte, and plot it to make sure the data make sense. You may need to remove the point at concentration = 0 as well. 
+For the purposes of calculating LOD/LOQ, we want a linear calibration curve. Luckily, at low concentrations our response should be relatively linear. First, let's select approximately the first five points for each analyte (try a few more or a few less too!), choose an analyte, and plot it to make sure the data make sense. You may need to remove the point at concentration = 0 as well. 
 
 ```{r}
 linear <- 2 #This defines the highest value concentration we want to use for the linear portion of this calibration curve
@@ -87,7 +87,7 @@ CalDatafiltered <- CalDataconc %>%
 
 ```
 
-Now let's take our first five points for each analyte and use them to calculate S and $\sigma$. You can choose whether to use the standard deviation of the intercept or the residual standard deviation for this purpose, but remember that in R, these are called standard errors! Generate a table of LOD and LOQ and print it our (we recommend using kable for a publication-quality table). The code template below will guide you through the necessary steps.
+Now let's take our linear range for each analyte and use them to calculate S and $\sigma$. You can choose whether to use the standard deviation of the intercept or the residual standard deviation for this purpose, but remember that in R, these are called standard errors! Generate a table of LOD and LOQ and print it our (we recommend using kable for a publication-quality table). The code template below will guide you through the necessary steps.
 
 ```{r}
 QAmodels <- #Write code to create linear calibration curves for each analyte and get slopes and residual standard deviations (or standard deviation of the intercepts) in accessible form
