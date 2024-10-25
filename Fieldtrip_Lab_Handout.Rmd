@@ -201,23 +201,23 @@ The first line here is just there to clean up your dataframe a little bit, since
 
 ```{r}
 Data <- DataQA %>%
-    select(Sample.Name, Sample.type, Sample.group, Matrix, Location, Compound, concentration, Normalization.factor)
+    select(Sample.name, Sample.type, Sample.group, Matrix, Location, Compound, concentration, Normalization.factor)
 
 #Your code here to normalize your data to get volume and mass concentration
 ```
 
-The last thing we're going to help you write is some code to get a more human-readable output of your data table with the concentrations of each compound in columns. To do this, we're going to do some data manipulation, along with removing extraneous data descriptor columns. They might be useful when you're filtering and plotting data in R, but all that information is actually contained in Sample.Name, so we won't need it anymore! We'll also make a separate sheet containing your blanks, spikes, and calibrations in case you want those too. 
+The last thing we're going to help you write is some code to get a more human-readable output of your data table with the concentrations of each compound in columns. To do this, we're going to do some data manipulation, along with removing extraneous data descriptor columns. They might be useful when you're filtering and plotting data in R, but all that information is actually contained in Sample.name, so we won't need it anymore! We'll also make a separate sheet containing your blanks, spikes, and calibrations in case you want those too. 
 
 This is how we've written it. There's almost certainly a better way to do this in R, but this works. If you get an error, check your column names and change the code block below to match. 
 
 ```{r}
 DataOut <- Data %>%
   filter(Sample.type != "Blank" & Sample.type != "Calibration Curve" & Sample.type != "Spike") %>%
-  select(Sample.Name, Compound, Normalized.concentration) %>%
+  select(Sample.name, Compound, Normalized.concentration) %>%
   pivot_wider(names_from = Compound, values_from = Normalized.concentration)
 
 DataAll <- Data %>%
-  select(Sample.Name, Compound, Normalized.concentration) %>%
+  select(Sample.name, Compound, Normalized.concentration) %>%
   pivot_wider(names_from = Compound, values_from = Normalized.concentration)
         
 
