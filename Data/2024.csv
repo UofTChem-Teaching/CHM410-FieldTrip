@@ -1,0 +1,897 @@
+Sample name ,Sample type,Sample group,Matrix,Location,Compound,Analyte peak area,Internal standard peak area,Normalization factor
+MeOH Blank,Blank,Lab,N/A,20MC,PFHxA,73.319,0,1
+20MC_0 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,81.747,4327.891,1
+20MC_0.2 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,347.284,2974.957,1
+20MC_0.4 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,644.099,2111.981,1
+20MC_1 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,1088.918,1918.201,1
+20MC_2 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,2450.487,1924.386,1
+20MC_4 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,4013.197,1842.931,1
+20MC_10 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,9038.809,1685.563,1
+20MC_20 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,21423.76,1640.64,1
+20MC_40 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,44101.586,1804.288,1
+MeOH Blank,Blank,Lab,Sediment,20MC,PFHxA,34.659,0,1
+20MC grp A sediment lab blank,Blank,Lab,Sediment,20MC,PFHxA,412.812,2986.643,1
+20MC grp A sediment field blank,Blank,Field,Sediment,20MC,PFHxA,102.851,2434.21,0.9802
+20MC grp A sediment 1,Sample,Field,Sediment,20MC,PFHxA,623.23,2751.769,0.9879
+20MC grp A sediment 2,Sample,Field,Sediment,20MC,PFHxA,45.474,2125.441,1.0431
+20MC grp A sediment spike,Spike,Lab,Sediment,20MC,PFHxA,19058.695,1770.925,1
+20MC grp C sediment lab blank,Blank,Lab,Sediment,20MC,PFHxA,127.167,1403.988,1
+20MC grp C sediment field blank,Blank,Field,Sediment,20MC,PFHxA,225.659,3015.599,0.9912
+20MC grp C sediment 1,Sample,Field,Sediment,20MC,PFHxA,416.943,2359.247,0.9854
+20MC grp C sediment 2,Sample,Field,Sediment,20MC,PFHxA,887.619,2051.087,0.7808
+20MC grp C sediment spike,Spike,Lab,Sediment,20MC,PFHxA,19640.916,3327.72,1
+20MC grp B sediment lab blank,Blank,Lab,Sediment,20MC,PFHxA,213.52,1709.599,1
+20MC grp B sediment field blank,Blank,Field,Sediment,20MC,PFHxA,86.395,1608.518,0.9912
+20MC grp B sediment 1,Sample,Field,Sediment,20MC,PFHxA,305.727,0,1.0204
+20MC grp B sediment 2,Sample,Field,Sediment,20MC,PFHxA,446.405,2169.229,1.0815
+20MC grp B sediment spike,Spike,Lab,Sediment,20MC,PFHxA,11195.273,1785.597,1
+20 MC water field blank 1,Blank,Field,Water,20MC,PFHxA,180.475,1393.395,100
+20 MC water field blank 2,Blank,Field,Water,20MC,PFHxA,1100.041,1657.74,100
+20 MC water sample 1,Sample,Field,Water,20MC,PFHxA,1757.926,1662.14,100
+20 MC water sample 2,Sample,Field,Water,20MC,PFHxA,1854.695,10.513,100
+20 MC water spike 1,Spike,Field,Water,20MC,PFHxA,9087.573,1415.827,100
+MeOH Blank,Blank,Lab,N/A,20MC,PFHxA,39.758,0,1
+20 MC biota grp C white bugs blank,Blank,Pestle,Biota,20MC,PFHxA,91.474,1841.442,1
+20 MC biota grp C white bugs sample,Sample,Pestle,Biota,20MC,PFHxA,2647.636,150.007,0.1926
+20 MC biota grp C white bugs spike,Spike,Pestle,Biota,20MC,PFHxA,5465.894,1604.251,1
+20 MC biota grp A hardshell bug blank,Blank,Pestle,Biota,20MC,PFHxA,94.408,1324.342,1
+20 MC biota grp A hardshell bug sample,Sample,Pestle,Biota,20MC,PFHxA,19634.168,1837.798,0.5197
+20 MC biota grp A hardshell bug spike,Spike,Pestle,Biota,20MC,PFHxA,330.396,1316.7,1
+20 MC biota grp B nymph blank,Blank,Homogenizer,Biota,20MC,PFHxA,161.398,3072.646,1
+20 MC biota grp B nymph sample,Sample,Homogenizer,Biota,20MC,PFHxA,2434.586,2248.161,0.2189
+20 MC biota grp B nymph spike,Spike,Homogenizer,Biota,20MC,PFHxA,3626.69,1513.037,1
+20 MC biota grp B mortar and pestle blank,Blank,Pestle,Biota,20MC,PFHxA,76.061,1846.929,1
+20 MC biota grp B crayfish sample,Sample,Pestle,Biota,20MC,PFHxA,3493.473,2123.484,0.8061
+20 MC biota grp B crayfish spike,Spike,Pestle,Biota,20MC,PFHxA,7414.168,1340.218,1
+20 MC biota grp C bug blank,Blank,Pestle,Biota,20MC,PFHxA,106.881,1233.552,1
+20 MC biota grp C bug sample,Sample,Pestle,Biota,20MC,PFHxA,496.312,2315.809,0.2294
+20 MC biota grp C bug spike,Spike,Pestle,Biota,20MC,PFHxA,11835.405,2726.083,1
+20 MC biota grp A sunfish blank,Blank,Blender,Biota,20MC,PFHxA,302.972,1920.585,1
+20 MC biota grp A sunfish Johnny sample,Sample,Blender,Biota,20MC,PFHxA,2928.528,2330.337,1.6406
+20 MC biota grp A sunfish spike,Spike,Blender,Biota,20MC,PFHxA,9637.688,1342.378,1
+20 MC biota grp C catfish blank,Blank,Blender,Biota,20MC,PFHxA,91.363,1428.151,1
+20 MC biota grp C catfish blender blank,Blank,Blender,Biota,20MC,PFHxA,106.05,973.2,1
+20 MC biota grp C catfish sample 1,Sample,Blender,Biota,20MC,PFHxA,1507.031,2176.733,0.9648
+20 MC biota grp C catfish sample 2,Sample,Blender,Biota,20MC,PFHxA,1104.938,1834.803,0.5661
+20 MC biota grp C catfish sample 3,Sample,Blender,Biota,20MC,PFHxA,1934.45,2096.698,0.8456
+20 MC biota grp C catfish spike,Spike,Blender,Biota,20MC,PFHxA,81321.555,2161.311,1
+20 MC biota grp B catfish blank,Blank,Blender,Biota,20MC,PFHxA,65.264,52.616,1
+20 MC biota grp B catfish sample 2-1,Sample,Blender,Biota,20MC,PFHxA,1919.464,198.963,1
+20 MC biota grp B catfish sample 2-2,Sample,Blender,Biota,20MC,PFHxA,3173.006,192.049,1
+20 MC biota grp B catfish sample 2-3,Sample,Blender,Biota,20MC,PFHxA,1401.41,310.707,1
+20 MC biota grp B catfish spike,Spike,Blender,Biota,20MC,PFHxA,13199.712,112.644,1
+MeOH Blank,Blank,Lab,N/A,20MC,PFHxA,62.226,0,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFHxA,62.226,0,1
+NIA_0 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxA,62.281,1255.597,1
+NIA_0.2 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxA,135.007,1128.623,1
+NIA_0.4 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxA,234.201,1242.663,1
+NIA_1 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxA,827.117,968.361,1
+NIA_2 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxA,1698.415,1211.573,1
+NIA_4 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxA,3115.093,1035.189,1
+NIA_10 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxA,7195.106,1215.058,1
+NIA_20 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxA,18541.727,1218.421,1
+NIA_40 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxA,36844.137,1478.236,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFHxA,52.486,0,1
+NIA water lab blank,Blank,Lab,Water,NIA,PFHxA,0,1354.933,100
+NIA water field blank,Blank,Field,Water,NIA,PFHxA,0,1024.503,100
+NIA water sample 1,Sample,Field,Water,NIA,PFHxA,1880.845,1369.566,100
+NIA water sample 2,Sample,Field,Water,NIA,PFHxA,1781.749,1609.74,100
+NIA water sample 3,Sample,Field,Water,NIA,PFHxA,1930.076,1706.426,100
+NIA water spike 1,Spike,Field,Water,NIA,PFHxA,6027.819,1080.785,100
+NIA water spike 2,Spike,Field,Water,NIA,PFHxA,6580.763,2223.204,100
+NIA sediment grp F lab blank,Blank,Lab,Sediment,NIA,PFHxA,0,1515.516,1
+NIA sediment grp F field blank,Blank,Field,Sediment,NIA,PFHxA,0,1775.029,1.0028
+NIA sediment grp F sample 1,Sample,Field,Sediment,NIA,PFHxA,0,3610.053,1.087
+NIA sediment grp F sample 2,Sample,Field,Sediment,NIA,PFHxA,0,2151.548,1.0034
+NIA sediment grp F spike,Spike,Lab,Sediment,NIA,PFHxA,7714.486,1285.167,1
+NIA sediment grp D lab blank,Blank,Lab,Sediment,NIA,PFHxA,0,1426.532,1
+NIA sediment grp D field blank,Blank,Field,Sediment,NIA,PFHxA,0,1848.561,1.0001
+NIA sediment grp D sample 1,Sample,Field,Sediment,NIA,PFHxA,0,2497.51,1.06
+NIA sediment grp D sample 2,Sample,Field,Sediment,NIA,PFHxA,0,1703.796,1.004
+NIA sediment grp D spike,Spike,Lab,Sediment,NIA,PFHxA,5270.531,747.876,1
+NIA sediment grp E blank,Blank,Lab,Sediment,NIA,PFHxA,0,1560.717,1
+NIA sediment grp E sample 1,Sample,Field,Sediment,NIA,PFHxA,0,1952.042,1.0002
+NIA sediment grp E sample 2,Sample,Field,Sediment,NIA,PFHxA,0,3334.076,1.0105
+NIA sediment grp E spike,Spike,Lab,Sediment,NIA,PFHxA,6238.919,1137.525,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFHxA,0,0,1
+NIA biota grp D shrimp blank,Blank,Homogenizer,Biota,NIA,PFHxA,0,1220.445,1
+NIA biota grp D shrimp sample 1,Sample,Homogenizer,Biota,NIA,PFHxA,0,1539.548,0.7678
+NIA biota grp D shrimp sample 2,Sample,Homogenizer,Biota,NIA,PFHxA,0,1452.699,0.8816
+NIA biota grp D shrimp sample 3,Sample,Homogenizer,Biota,NIA,PFHxA,0,1508.417,0.8801
+NIA biota grp D shrimp spike,Spike,Homogenizer,Biota,NIA,PFHxA,7325.972,1153.397,1
+NIA biota grp E shrimp blank,Blank,Homogenizer,Biota,NIA,PFHxA,0,1560.263,1
+NIA biota grp E shrimp sample,Sample,Homogenizer,Biota,NIA,PFHxA,0,2714.011,0.6702
+NIA biota grp E shrimp spike,Spike,Homogenizer,Biota,NIA,PFHxA,5547.649,12047.143,1
+NIA biota grp D snail 20x,Sample,Pestle,Biota,NIA,PFHxA,181.597,981.534,0.5
+NIA biota grp E crayfish blank,Blank,Pestle,Biota,NIA,PFHxA,0,1113.819,1
+NIA biota grp E crayfish sample,Sample,Pestle,Biota,NIA,PFHxA,0,1285.843,0.5353
+NIA biota grp E crayfish spike,Spike,Pestle,Biota,NIA,PFHxA,6939.455,957.681,1
+NIA biota grp D sunfish blank 1,Blank,Blender,Biota,NIA,PFHxA,0,604.084,1
+NIA biota grp D sunfish blank 2,Blank,Blender,Biota,NIA,PFHxA,191.509,1068.642,1
+NIA biota grp D sunfish Cici sample 1 20x,Sample,Blender,Biota,NIA,PFHxA,0,804.164,0.9413
+NIA biota grp D sunfish Cici sample 2 20x,Sample,Blender,Biota,NIA,PFHxA,65.181,1308.677,0.6954
+NIA biota grp D sunfish spike,Spike,Blender,Biota,NIA,PFHxA,5532.583,1268.689,1
+NIA biota grp D sunfish Sophie sample 1 20x,Sample,Blender,Biota,NIA,PFHxA,109.773,1445.205,0.8905
+NIA biota grp D sunfish Sophie sample 2 20x,Sample,Blender,Biota,NIA,PFHxA,217.514,1043.573,0.5997
+NIA biota grp D sunfish Sophie sample 3 20x,Sample,Blender,Biota,NIA,PFHxA,0,1079.253,0.2789
+NIA biota grp F catfish blank,Blank,Blender,Biota,NIA,PFHxA,196.18,1254.365,1
+NIA biota grp F catfish sample 20x,Sample,Blender,Biota,NIA,PFHxA,0,1093.901,0.5925
+NIA biota grp F catfish spike,Spike,Blender,Biota,NIA,PFHxA,5962.608,1285.308,1
+NIA biota grp F bug blank,Blank,Homogenizer,Biota,NIA,PFHxA,0,1411.871,1
+NIA biota grp F bug sample,Sample,Homogenizer,Biota,NIA,PFHxA,0,1500.414,0.5
+NIA biota grp F bug spike,Spike,Homogenizer,Biota,NIA,PFHxA,9282.065,1397.891,1
+NIA biota grp F shrimp blank,Blank,Homogenizer,Biota,NIA,PFHxA,94.028,1333.434,1
+NIA biota grp F shrimp sample,Sample,Homogenizer,Biota,NIA,PFHxA,222.572,1627.705,1
+NIA biota grp F shrimp spike,Spike,Homogenizer,Biota,NIA,PFHxA,3605.865,1456.059,1
+NIA biota grp E sunfish blank,Blank,Blender,Biota,NIA,PFHxA,0,1239.436,1
+NIA biota grp E sunfish sample 20x,Sample,Blender,Biota,NIA,PFHxA,244.278,1557.42,0.7384
+NIA biota grp E sunfish spike,Spike,Blender,Biota,NIA,PFHxA,5948.341,1760.893,1
+NIA biota grp D sunfish sample 20x,Sample,Blender,Biota,NIA,PFHxA,0,1205.287,0.8926
+MeOH Blank,Blank,Lab,N/A,20MC,PFHpA,5259.137,0,1
+20MC_0 ng/mL,Calibration curve,Lab,N/A,20MC,PFHpA,5100.467,13614.122,1
+20MC_0.2 ng/mL,Calibration curve,Lab,N/A,20MC,PFHpA,2114.2,13011.8,1
+20MC_0.4 ng/mL,Calibration curve,Lab,N/A,20MC,PFHpA,3497.565,11455.743,1
+20MC_1 ng/mL,Calibration curve,Lab,N/A,20MC,PFHpA,5777.014,11420.63,1
+20MC_2 ng/mL,Calibration curve,Lab,N/A,20MC,PFHpA,10948.144,11160.996,1
+20MC_4 ng/mL,Calibration curve,Lab,N/A,20MC,PFHpA,18244.504,10185.641,1
+20MC_10 ng/mL,Calibration curve,Lab,N/A,20MC,PFHpA,38473.273,9908.299,1
+20MC_20 ng/mL,Calibration curve,Lab,N/A,20MC,PFHpA,92066.492,10360.169,1
+20MC_40 ng/mL,Calibration curve,Lab,N/A,20MC,PFHpA,183621.766,9897.303,1
+MeOH Blank,Blank,Lab,Sediment,20MC,PFHpA,731.267,0,1
+20MC grp A sediment lab blank,Blank,Lab,Sediment,20MC,PFHpA,904.781,9289.543,1
+20MC grp A sediment field blank,Blank,Field,Sediment,20MC,PFHpA,1331.06,8933.319,0.9802
+20MC grp A sediment 1,Sample,Field,Sediment,20MC,PFHpA,2165.458,9414.103,0.9879
+20MC grp A sediment 2,Sample,Field,Sediment,20MC,PFHpA,1491.862,8178.99,1.0431
+20MC grp A sediment spike,Spike,Lab,Sediment,20MC,PFHpA,51507.941,6495.79,1
+20MC grp C sediment lab blank,Blank,Lab,Sediment,20MC,PFHpA,428.369,8469.616,1
+20MC grp C sediment field blank,Blank,Field,Sediment,20MC,PFHpA,692.762,7973.994,0.9912
+20MC grp C sediment 1,Sample,Field,Sediment,20MC,PFHpA,867.784,7986.257,0.9854
+20MC grp C sediment 2,Sample,Field,Sediment,20MC,PFHpA,515.174,5850.719,0.7808
+20MC grp C sediment spike,Spike,Lab,Sediment,20MC,PFHpA,30777.443,7828.296,1
+20MC grp B sediment lab blank,Blank,Lab,Sediment,20MC,PFHpA,311.473,7890.6,1
+20MC grp B sediment field blank,Blank,Field,Sediment,20MC,PFHpA,308.583,7914.499,0.9912
+20MC grp B sediment 1,Sample,Field,Sediment,20MC,PFHpA,1233.572,740.418,1.0204
+20MC grp B sediment 2,Sample,Field,Sediment,20MC,PFHpA,845.68,7123.974,1.0815
+20MC grp B sediment spike,Spike,Lab,Sediment,20MC,PFHpA,27878.654,7022.118,1
+20 MC water field blank 1,Blank,Field,Water,20MC,PFHpA,337.056,6764.758,100
+20 MC water field blank 2,Blank,Field,Water,20MC,PFHpA,1198.88,6473.065,100
+20 MC water sample 1,Sample,Field,Water,20MC,PFHpA,979.293,6692.614,100
+20 MC water sample 2,Sample,Field,Water,20MC,PFHpA,1993.603,0,100
+20 MC water spike 1,Spike,Field,Water,20MC,PFHpA,32365.977,6006.894,100
+MeOH Blank,Blank,Lab,N/A,20MC,PFHpA,374.195,0,1
+20 MC biota grp C white bugs blank,Blank,Pestle,Biota,20MC,PFHpA,138.064,9026.2,1
+20 MC biota grp C white bugs sample,Sample,Pestle,Biota,20MC,PFHpA,461.201,933.672,0.1926
+20 MC biota grp C white bugs spike,Spike,Pestle,Biota,20MC,PFHpA,19677.154,6875.945,1
+20 MC biota grp A hardshell bug blank,Blank,Pestle,Biota,20MC,PFHpA,266.584,6305.768,1
+20 MC biota grp A hardshell bug sample,Sample,Pestle,Biota,20MC,PFHpA,128.866,5130.115,0.5197
+20 MC biota grp A hardshell bug spike,Spike,Pestle,Biota,20MC,PFHpA,1376.339,5523.609,1
+20 MC biota grp B nymph blank,Blank,Homogenizer,Biota,20MC,PFHpA,261.103,6021.586,1
+20 MC biota grp B nymph sample,Sample,Homogenizer,Biota,20MC,PFHpA,448.867,6148.484,0.2189
+20 MC biota grp B nymph spike,Spike,Homogenizer,Biota,20MC,PFHpA,8379.964,4324.804,1
+20 MC biota grp B mortar and pestle blank,Blank,Pestle,Biota,20MC,PFHpA,96.481,5534.541,1
+20 MC biota grp B crayfish sample,Sample,Pestle,Biota,20MC,PFHpA,470.998,5235.53,0.8061
+20 MC biota grp B crayfish spike,Spike,Pestle,Biota,20MC,PFHpA,19611.611,4956.854,1
+20 MC biota grp C bug blank,Blank,Pestle,Biota,20MC,PFHpA,191.016,5125.8,1
+20 MC biota grp C bug sample,Sample,Pestle,Biota,20MC,PFHpA,123.15,6264.557,0.2294
+20 MC biota grp C bug spike,Spike,Pestle,Biota,20MC,PFHpA,17137.207,4226.283,1
+20 MC biota grp A sunfish blank,Blank,Blender,Biota,20MC,PFHpA,166.784,6156.821,1
+20 MC biota grp A sunfish Johnny sample,Sample,Blender,Biota,20MC,PFHpA,452.958,5279.851,1.6406
+20 MC biota grp A sunfish spike,Spike,Blender,Biota,20MC,PFHpA,28750.295,5463.454,1
+20 MC biota grp C catfish blank,Blank,Blender,Biota,20MC,PFHpA,192.741,6164.27,1
+20 MC biota grp C catfish blender blank,Blank,Blender,Biota,20MC,PFHpA,131.972,4727.887,1
+20 MC biota grp C catfish sample 1,Sample,Blender,Biota,20MC,PFHpA,388.154,6058.139,0.9648
+20 MC biota grp C catfish sample 2,Sample,Blender,Biota,20MC,PFHpA,257.521,5954.912,0.5661
+20 MC biota grp C catfish sample 3,Sample,Blender,Biota,20MC,PFHpA,130.137,4739.534,0.8456
+20 MC biota grp C catfish spike,Spike,Blender,Biota,20MC,PFHpA,155953.297,4868.099,1
+20 MC biota grp B catfish blank,Blank,Blender,Biota,20MC,PFHpA,411.983,326.357,1
+20 MC biota grp B catfish sample 2-1,Sample,Blender,Biota,20MC,PFHpA,381.56,518.053,1
+20 MC biota grp B catfish sample 2-2,Sample,Blender,Biota,20MC,PFHpA,687.892,578.2,1
+20 MC biota grp B catfish sample 2-3,Sample,Blender,Biota,20MC,PFHpA,416.874,693.645,1
+20 MC biota grp B catfish spike,Spike,Blender,Biota,20MC,PFHpA,29551.26,120.625,1
+MeOH Blank,Blank,Lab,N/A,20MC,PFHpA,92.783,0.087,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFHpA,92.783,0,1
+NIA_0 ng/mL,Calibration curve,Lab,N/A,NIA,PFHpA,0,5141.743,1
+NIA_0.2 ng/mL,Calibration curve,Lab,N/A,NIA,PFHpA,423.707,4675.214,1
+NIA_0.4 ng/mL,Calibration curve,Lab,N/A,NIA,PFHpA,899.923,5197.423,1
+NIA_1 ng/mL,Calibration curve,Lab,N/A,NIA,PFHpA,1918.455,4914.226,1
+NIA_2 ng/mL,Calibration curve,Lab,N/A,NIA,PFHpA,4816.95,4870.798,1
+NIA_4 ng/mL,Calibration curve,Lab,N/A,NIA,PFHpA,8130.724,5167.313,1
+NIA_10 ng/mL,Calibration curve,Lab,N/A,NIA,PFHpA,18855.221,4884.75,1
+NIA_20 ng/mL,Calibration curve,Lab,N/A,NIA,PFHpA,44177.605,5107.007,1
+NIA_40 ng/mL,Calibration curve,Lab,N/A,NIA,PFHpA,99417.328,5810.167,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFHpA,92.327,0,1
+NIA water lab blank,Blank,Lab,Water,NIA,PFHpA,457.522,5221.796,100
+NIA water field blank,Blank,Field,Water,NIA,PFHpA,0,4932.042,100
+NIA water sample 1,Sample,Field,Water,NIA,PFHpA,2620.37,4514.235,100
+NIA water sample 2,Sample,Field,Water,NIA,PFHpA,2198.775,4531.013,100
+NIA water sample 3,Sample,Field,Water,NIA,PFHpA,2988.522,4832.821,100
+NIA water spike 1,Spike,Field,Water,NIA,PFHpA,17144.447,4615.849,100
+NIA water spike 2,Spike,Field,Water,NIA,PFHpA,17053.102,10130.294,100
+NIA sediment grp F lab blank,Blank,Lab,Sediment,NIA,PFHpA,309.874,5783.376,1
+NIA sediment grp F field blank,Blank,Field,Sediment,NIA,PFHpA,236.34,5652.993,1.0028
+NIA sediment grp F sample 1,Sample,Field,Sediment,NIA,PFHpA,629.929,8032.464,1.087
+NIA sediment grp F sample 2,Sample,Field,Sediment,NIA,PFHpA,1007.66,5222.103,1.0034
+NIA sediment grp F spike,Spike,Lab,Sediment,NIA,PFHpA,17839.588,4025.021,1
+NIA sediment grp D lab blank,Blank,Lab,Sediment,NIA,PFHpA,251.243,5080.57,1
+NIA sediment grp D field blank,Blank,Field,Sediment,NIA,PFHpA,0,5269.115,1.0001
+NIA sediment grp D sample 1,Sample,Field,Sediment,NIA,PFHpA,538.1,4455.318,1.06
+NIA sediment grp D sample 2,Sample,Field,Sediment,NIA,PFHpA,0,4251.809,1.004
+NIA sediment grp D spike,Spike,Lab,Sediment,NIA,PFHpA,11054.549,3946.22,1
+NIA sediment grp E blank,Blank,Lab,Sediment,NIA,PFHpA,196.585,4653.625,1
+NIA sediment grp E sample 1,Sample,Field,Sediment,NIA,PFHpA,337.622,3630.561,1.0002
+NIA sediment grp E sample 2,Sample,Field,Sediment,NIA,PFHpA,433.377,7846.02,1.0105
+NIA sediment grp E spike,Spike,Lab,Sediment,NIA,PFHpA,12757.558,4025.26,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFHpA,0,0,1
+NIA biota grp D shrimp blank,Blank,Homogenizer,Biota,NIA,PFHpA,0,3705.264,1
+NIA biota grp D shrimp sample 1,Sample,Homogenizer,Biota,NIA,PFHpA,77.856,3512.191,0.7678
+NIA biota grp D shrimp sample 2,Sample,Homogenizer,Biota,NIA,PFHpA,131.076,3802.06,0.8816
+NIA biota grp D shrimp sample 3,Sample,Homogenizer,Biota,NIA,PFHpA,188.857,3358.558,0.8801
+NIA biota grp D shrimp spike,Spike,Homogenizer,Biota,NIA,PFHpA,13610.415,2616.346,1
+NIA biota grp E shrimp blank,Blank,Homogenizer,Biota,NIA,PFHpA,117.349,3402.676,1
+NIA biota grp E shrimp sample,Sample,Homogenizer,Biota,NIA,PFHpA,263.744,7362.289,0.6702
+NIA biota grp E shrimp spike,Spike,Homogenizer,Biota,NIA,PFHpA,9003.117,16296.438,1
+NIA biota grp D snail 20x,Sample,Pestle,Biota,NIA,PFHpA,0,2858.476,0.5
+NIA biota grp E crayfish blank,Blank,Pestle,Biota,NIA,PFHpA,0,3968.079,1
+NIA biota grp E crayfish sample,Sample,Pestle,Biota,NIA,PFHpA,554.637,3131.22,0.5353
+NIA biota grp E crayfish spike,Spike,Pestle,Biota,NIA,PFHpA,15187.426,3360.476,1
+NIA biota grp D sunfish blank 1,Blank,Blender,Biota,NIA,PFHpA,0,2752.44,1
+NIA biota grp D sunfish blank 2,Blank,Blender,Biota,NIA,PFHpA,266.733,3875.417,1
+NIA biota grp D sunfish Cici sample 1 20x,Sample,Blender,Biota,NIA,PFHpA,180.917,2706.542,0.9413
+NIA biota grp D sunfish Cici sample 2 20x,Sample,Blender,Biota,NIA,PFHpA,147.55,3943.222,0.6954
+NIA biota grp D sunfish spike,Spike,Blender,Biota,NIA,PFHpA,13338.976,4887.089,1
+NIA biota grp D sunfish Sophie sample 1 20x,Sample,Blender,Biota,NIA,PFHpA,260.41,3499.489,0.8905
+NIA biota grp D sunfish Sophie sample 2 20x,Sample,Blender,Biota,NIA,PFHpA,0,3424.357,0.5997
+NIA biota grp D sunfish Sophie sample 3 20x,Sample,Blender,Biota,NIA,PFHpA,0,3965.218,0.2789
+NIA biota grp F catfish blank,Blank,Blender,Biota,NIA,PFHpA,0,4737.181,1
+NIA biota grp F catfish sample 20x,Sample,Blender,Biota,NIA,PFHpA,102.999,4582.634,0.5925
+NIA biota grp F catfish spike,Spike,Blender,Biota,NIA,PFHpA,14741.218,4922.959,1
+NIA biota grp F bug blank,Blank,Homogenizer,Biota,NIA,PFHpA,129.919,5602.799,1
+NIA biota grp F bug sample,Sample,Homogenizer,Biota,NIA,PFHpA,596.901,4885.637,0.5
+NIA biota grp F bug spike,Spike,Homogenizer,Biota,NIA,PFHpA,20205.529,5245.807,1
+NIA biota grp F shrimp blank,Blank,Homogenizer,Biota,NIA,PFHpA,184.177,4535.645,1
+NIA biota grp F shrimp sample,Sample,Homogenizer,Biota,NIA,PFHpA,78.839,4799.319,1
+NIA biota grp F shrimp spike,Spike,Homogenizer,Biota,NIA,PFHpA,9489.428,4445.198,1
+NIA biota grp E sunfish blank,Blank,Blender,Biota,NIA,PFHpA,133.367,4872.475,1
+NIA biota grp E sunfish sample 20x,Sample,Blender,Biota,NIA,PFHpA,113.851,4361.58,0.7384
+NIA biota grp E sunfish spike,Spike,Blender,Biota,NIA,PFHpA,17260.639,5940.654,1
+NIA biota grp D sunfish sample 20x,Sample,Blender,Biota,NIA,PFHpA,168.493,4408.763,0.8926
+MeOH Blank,Blank,Lab,N/A,20MC,PFHxS,73.677,0,1
+20MC_0 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxS,63.152,421.866,1
+20MC_0.2 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxS,108.224,569.605,1
+20MC_0.4 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxS,204.028,674.092,1
+20MC_1 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxS,558.241,591.615,1
+20MC_2 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxS,1218.129,507.2,1
+20MC_4 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxS,2422.263,727.85,1
+20MC_10 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxS,5751.896,648.398,1
+20MC_20 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxS,13439.143,660.32,1
+20MC_40 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxS,27372.82,552.377,1
+MeOH Blank,Blank,Lab,Sediment,20MC,PFHxS,47.559,0,1
+20MC grp A sediment lab blank,Blank,Lab,Sediment,20MC,PFHxS,104.909,519.483,1
+20MC grp A sediment field blank,Blank,Field,Sediment,20MC,PFHxS,100.382,589.155,0.9802
+20MC grp A sediment 1,Sample,Field,Sediment,20MC,PFHxS,100.608,620.719,0.9879
+20MC grp A sediment 2,Sample,Field,Sediment,20MC,PFHxS,161.578,548.615,1.0431
+20MC grp A sediment spike,Spike,Lab,Sediment,20MC,PFHxS,9532.596,541.023,1
+20MC grp C sediment lab blank,Blank,Lab,Sediment,20MC,PFHxS,58.741,624.094,1
+20MC grp C sediment field blank,Blank,Field,Sediment,20MC,PFHxS,56.411,542.168,0.9912
+20MC grp C sediment 1,Sample,Field,Sediment,20MC,PFHxS,50.208,748.907,0.9854
+20MC grp C sediment 2,Sample,Field,Sediment,20MC,PFHxS,54.18,272.675,0.7808
+20MC grp C sediment spike,Spike,Lab,Sediment,20MC,PFHxS,6044.802,698.395,1
+20MC grp B sediment lab blank,Blank,Lab,Sediment,20MC,PFHxS,17.293,634.999,1
+20MC grp B sediment field blank,Blank,Field,Sediment,20MC,PFHxS,52.285,626.261,0.9912
+20MC grp B sediment 1,Sample,Field,Sediment,20MC,PFHxS,69.461,23.957,1.0204
+20MC grp B sediment 2,Sample,Field,Sediment,20MC,PFHxS,169.395,947.204,1.0815
+20MC grp B sediment spike,Spike,Lab,Sediment,20MC,PFHxS,6774.57,764.198,1
+20 MC water field blank 1,Blank,Field,Water,20MC,PFHxS,111.741,640.05,100
+20 MC water field blank 2,Blank,Field,Water,20MC,PFHxS,79.718,717.226,100
+20 MC water sample 1,Sample,Field,Water,20MC,PFHxS,99.263,710.629,100
+20 MC water sample 2,Sample,Field,Water,20MC,PFHxS,75.902,0,100
+20 MC water spike 1,Spike,Field,Water,20MC,PFHxS,6239.326,805.585,100
+MeOH Blank,Blank,Lab,N/A,20MC,PFHxS,40.121,0,1
+20 MC biota grp C white bugs blank,Blank,Pestle,Biota,20MC,PFHxS,83.221,665.801,1
+20 MC biota grp C white bugs sample,Sample,Pestle,Biota,20MC,PFHxS,1015.703,64.888,0.1926
+20 MC biota grp C white bugs spike,Spike,Pestle,Biota,20MC,PFHxS,6969.998,671.443,1
+20 MC biota grp A hardshell bug blank,Blank,Pestle,Biota,20MC,PFHxS,27.735,793.125,1
+20 MC biota grp A hardshell bug sample,Sample,Pestle,Biota,20MC,PFHxS,8793.791,829.411,0.5197
+20 MC biota grp A hardshell bug spike,Spike,Pestle,Biota,20MC,PFHxS,492.131,680.923,1
+20 MC biota grp B nymph blank,Blank,Homogenizer,Biota,20MC,PFHxS,43.486,869.492,1
+20 MC biota grp B nymph sample,Sample,Homogenizer,Biota,20MC,PFHxS,1582.321,927.453,0.2189
+20 MC biota grp B nymph spike,Spike,Homogenizer,Biota,20MC,PFHxS,4133.266,583.275,1
+20 MC biota grp B mortar and pestle blank,Blank,Pestle,Biota,20MC,PFHxS,41.234,729.723,1
+20 MC biota grp B crayfish sample,Sample,Pestle,Biota,20MC,PFHxS,482.251,732.523,0.8061
+20 MC biota grp B crayfish spike,Spike,Pestle,Biota,20MC,PFHxS,6362.678,623.091,1
+20 MC biota grp C bug blank,Blank,Pestle,Biota,20MC,PFHxS,100.836,506.378,1
+20 MC biota grp C bug sample,Sample,Pestle,Biota,20MC,PFHxS,743.083,857.111,0.2294
+20 MC biota grp C bug spike,Spike,Pestle,Biota,20MC,PFHxS,4249.658,508.566,1
+20 MC biota grp A sunfish blank,Blank,Blender,Biota,20MC,PFHxS,45.146,837.247,1
+20 MC biota grp A sunfish Johnny sample,Sample,Blender,Biota,20MC,PFHxS,292.815,834.926,1.6406
+20 MC biota grp A sunfish spike,Spike,Blender,Biota,20MC,PFHxS,9613.8,911.879,1
+20 MC biota grp C catfish blank,Blank,Blender,Biota,20MC,PFHxS,77.475,840.573,1
+20 MC biota grp C catfish blender blank,Blank,Blender,Biota,20MC,PFHxS,55.085,568.626,1
+20 MC biota grp C catfish sample 1,Sample,Blender,Biota,20MC,PFHxS,153.306,777.829,0.9648
+20 MC biota grp C catfish sample 2,Sample,Blender,Biota,20MC,PFHxS,150.644,777.137,0.5661
+20 MC biota grp C catfish sample 3,Sample,Blender,Biota,20MC,PFHxS,135.369,705.979,0.8456
+20 MC biota grp C catfish spike,Spike,Blender,Biota,20MC,PFHxS,59403.629,164.233,1
+20 MC biota grp B catfish blank,Blank,Blender,Biota,20MC,PFHxS,247.316,9.138,1
+20 MC biota grp B catfish sample 2-1,Sample,Blender,Biota,20MC,PFHxS,436.084,0,1
+20 MC biota grp B catfish sample 2-2,Sample,Blender,Biota,20MC,PFHxS,873.987,30.109,1
+20 MC biota grp B catfish sample 2-3,Sample,Blender,Biota,20MC,PFHxS,644.86,60.72,1
+20 MC biota grp B catfish spike,Spike,Blender,Biota,20MC,PFHxS,14908.249,14.697,1
+MeOH Blank,Blank,Lab,N/A,20MC,PFHxS,54.717,0,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFHxS,0,0,1
+NIA_0 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxS,0,480.49,1
+NIA_0.2 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxS,61.946,724.588,1
+NIA_0.4 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxS,299.82,611.845,1
+NIA_1 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxS,480.994,754.465,1
+NIA_2 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxS,1551.909,490.606,1
+NIA_4 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxS,2652.352,531.293,1
+NIA_10 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxS,5769.615,529.894,1
+NIA_20 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxS,13967.861,515.627,1
+NIA_40 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxS,27099.896,659.197,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFHxS,0,0.382,1
+NIA water lab blank,Blank,Lab,Water,NIA,PFHxS,0,436.396,100
+NIA water field blank,Blank,Field,Water,NIA,PFHxS,0,576.293,100
+NIA water sample 1,Sample,Field,Water,NIA,PFHxS,1143.948,585.193,100
+NIA water sample 2,Sample,Field,Water,NIA,PFHxS,1392.182,627.294,100
+NIA water sample 3,Sample,Field,Water,NIA,PFHxS,971.103,646.571,100
+NIA water spike 1,Spike,Field,Water,NIA,PFHxS,4521.775,611.201,100
+NIA water spike 2,Spike,Field,Water,NIA,PFHxS,4117.444,1072.179,100
+NIA sediment grp F lab blank,Blank,Lab,Sediment,NIA,PFHxS,0,586.714,1
+NIA sediment grp F field blank,Blank,Field,Sediment,NIA,PFHxS,0,498.692,1.0028
+NIA sediment grp F sample 1,Sample,Field,Sediment,NIA,PFHxS,347.963,960.567,1.087
+NIA sediment grp F sample 2,Sample,Field,Sediment,NIA,PFHxS,173.597,581.357,1.0034
+NIA sediment grp F spike,Spike,Lab,Sediment,NIA,PFHxS,5900.234,511.398,1
+NIA sediment grp D lab blank,Blank,Lab,Sediment,NIA,PFHxS,66.501,656.1,1
+NIA sediment grp D field blank,Blank,Field,Sediment,NIA,PFHxS,24.927,638.173,1.0001
+NIA sediment grp D sample 1,Sample,Field,Sediment,NIA,PFHxS,312.352,548.312,1.06
+NIA sediment grp D sample 2,Sample,Field,Sediment,NIA,PFHxS,683.997,697.614,1.004
+NIA sediment grp D spike,Spike,Lab,Sediment,NIA,PFHxS,3959.034,588.158,1
+NIA sediment grp E blank,Blank,Lab,Sediment,NIA,PFHxS,82.7,736.701,1
+NIA sediment grp E sample 1,Sample,Field,Sediment,NIA,PFHxS,451.418,666.576,1.0002
+NIA sediment grp E sample 2,Sample,Field,Sediment,NIA,PFHxS,262.38,1461.295,1.0105
+NIA sediment grp E spike,Spike,Lab,Sediment,NIA,PFHxS,5639.184,584.569,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFHxS,0,0.968,1
+NIA biota grp D shrimp blank,Blank,Homogenizer,Biota,NIA,PFHxS,0,504.372,1
+NIA biota grp D shrimp sample 1,Sample,Homogenizer,Biota,NIA,PFHxS,45.502,631.485,0.7678
+NIA biota grp D shrimp sample 2,Sample,Homogenizer,Biota,NIA,PFHxS,323.944,647.624,0.8816
+NIA biota grp D shrimp sample 3,Sample,Homogenizer,Biota,NIA,PFHxS,941.838,584.743,0.8801
+NIA biota grp D shrimp spike,Spike,Homogenizer,Biota,NIA,PFHxS,5728.865,497.387,1
+NIA biota grp E shrimp blank,Blank,Homogenizer,Biota,NIA,PFHxS,0,768.769,1
+NIA biota grp E shrimp sample,Sample,Homogenizer,Biota,NIA,PFHxS,424.163,1706.091,0.6702
+NIA biota grp E shrimp spike,Spike,Homogenizer,Biota,NIA,PFHxS,3185.482,3546.409,1
+NIA biota grp D snail 20x,Sample,Pestle,Biota,NIA,PFHxS,51.078,626.905,0.5
+NIA biota grp E crayfish blank,Blank,Pestle,Biota,NIA,PFHxS,0,587.802,1
+NIA biota grp E crayfish sample,Sample,Pestle,Biota,NIA,PFHxS,0,425.814,0.5353
+NIA biota grp E crayfish spike,Spike,Pestle,Biota,NIA,PFHxS,7356.677,518.69,1
+NIA biota grp D sunfish blank 1,Blank,Blender,Biota,NIA,PFHxS,0,436.477,1
+NIA biota grp D sunfish blank 2,Blank,Blender,Biota,NIA,PFHxS,0,563.904,1
+NIA biota grp D sunfish Cici sample 1 20x,Sample,Blender,Biota,NIA,PFHxS,0,269.058,0.9413
+NIA biota grp D sunfish Cici sample 2 20x,Sample,Blender,Biota,NIA,PFHxS,0,565.519,0.6954
+NIA biota grp D sunfish spike,Spike,Blender,Biota,NIA,PFHxS,4389.592,603.469,1
+NIA biota grp D sunfish Sophie sample 1 20x,Sample,Blender,Biota,NIA,PFHxS,0,442.421,0.8905
+NIA biota grp D sunfish Sophie sample 2 20x,Sample,Blender,Biota,NIA,PFHxS,38.866,544.616,0.5997
+NIA biota grp D sunfish Sophie sample 3 20x,Sample,Blender,Biota,NIA,PFHxS,0,603.981,0.2789
+NIA biota grp F catfish blank,Blank,Blender,Biota,NIA,PFHxS,0,864.171,1
+NIA biota grp F catfish sample 20x,Sample,Blender,Biota,NIA,PFHxS,0,662.342,0.5925
+NIA biota grp F catfish spike,Spike,Blender,Biota,NIA,PFHxS,5523.441,644.905,1
+NIA biota grp F bug blank,Blank,Homogenizer,Biota,NIA,PFHxS,0,535.289,1
+NIA biota grp F bug sample,Sample,Homogenizer,Biota,NIA,PFHxS,185.426,741.302,0.5
+NIA biota grp F bug spike,Spike,Homogenizer,Biota,NIA,PFHxS,6960.142,586.843,1
+NIA biota grp F shrimp blank,Blank,Homogenizer,Biota,NIA,PFHxS,43.137,769.955,1
+NIA biota grp F shrimp sample,Sample,Homogenizer,Biota,NIA,PFHxS,437.767,651.755,1
+NIA biota grp F shrimp spike,Spike,Homogenizer,Biota,NIA,PFHxS,3493.078,754.561,1
+NIA biota grp E sunfish blank,Blank,Blender,Biota,NIA,PFHxS,0,648.083,1
+NIA biota grp E sunfish sample 20x,Sample,Blender,Biota,NIA,PFHxS,0,593.323,0.7384
+NIA biota grp E sunfish spike,Spike,Blender,Biota,NIA,PFHxS,5463.118,639.035,1
+NIA biota grp D sunfish sample 20x,Sample,Blender,Biota,NIA,PFHxS,0,497.705,0.8926
+MeOH Blank,Blank,Lab,N/A,20MC,PFOA,3137.409,0,1
+20MC_0 ng/mL,Calibration curve,Lab,N/A,20MC,PFOA,2071.595,13614.122,1
+20MC_0.2 ng/mL,Calibration curve,Lab,N/A,20MC,PFOA,1912.608,13011.8,1
+20MC_0.4 ng/mL,Calibration curve,Lab,N/A,20MC,PFOA,4407.778,11455.743,1
+20MC_1 ng/mL,Calibration curve,Lab,N/A,20MC,PFOA,8140.934,11420.63,1
+20MC_2 ng/mL,Calibration curve,Lab,N/A,20MC,PFOA,14221.706,11160.996,1
+20MC_4 ng/mL,Calibration curve,Lab,N/A,20MC,PFOA,25471.99,10185.641,1
+20MC_10 ng/mL,Calibration curve,Lab,N/A,20MC,PFOA,53227.5,9908.299,1
+20MC_20 ng/mL,Calibration curve,Lab,N/A,20MC,PFOA,124582.367,10360.169,1
+20MC_40 ng/mL,Calibration curve,Lab,N/A,20MC,PFOA,243382.391,9897.303,1
+MeOH Blank,Blank,Lab,Sediment,20MC,PFOA,928.493,0,1
+20MC grp A sediment lab blank,Blank,Lab,Sediment,20MC,PFOA,2098.848,9289.543,1
+20MC grp A sediment field blank,Blank,Field,Sediment,20MC,PFOA,1399.113,8933.319,0.9802
+20MC grp A sediment 1,Sample,Field,Sediment,20MC,PFOA,1799.036,9414.103,0.9879
+20MC grp A sediment 2,Sample,Field,Sediment,20MC,PFOA,2176.712,8178.99,1.0431
+20MC grp A sediment spike,Spike,Lab,Sediment,20MC,PFOA,70793.07,6495.79,1
+20MC grp C sediment lab blank,Blank,Lab,Sediment,20MC,PFOA,1367.752,8469.616,1
+20MC grp C sediment field blank,Blank,Field,Sediment,20MC,PFOA,1806.409,7973.994,0.9912
+20MC grp C sediment 1,Sample,Field,Sediment,20MC,PFOA,771.752,7986.257,0.9854
+20MC grp C sediment 2,Sample,Field,Sediment,20MC,PFOA,1006.587,5850.719,0.7808
+20MC grp C sediment spike,Spike,Lab,Sediment,20MC,PFOA,42935.727,7828.296,1
+20MC grp B sediment lab blank,Blank,Lab,Sediment,20MC,PFOA,615.795,7890.6,1
+20MC grp B sediment field blank,Blank,Field,Sediment,20MC,PFOA,708.255,7914.499,0.9912
+20MC grp B sediment 1,Sample,Field,Sediment,20MC,PFOA,831.849,740.418,1.0204
+20MC grp B sediment 2,Sample,Field,Sediment,20MC,PFOA,876.058,7123.974,1.0815
+20MC grp B sediment spike,Spike,Lab,Sediment,20MC,PFOA,38725.566,7022.118,1
+20 MC water field blank 1,Blank,Field,Water,20MC,PFOA,899.755,6764.758,100
+20 MC water field blank 2,Blank,Field,Water,20MC,PFOA,862.597,6473.065,100
+20 MC water sample 1,Sample,Field,Water,20MC,PFOA,1575.202,6692.614,100
+20 MC water sample 2,Sample,Field,Water,20MC,PFOA,1612.971,0,100
+20 MC water spike 1,Spike,Field,Water,20MC,PFOA,39248.809,6006.894,100
+MeOH Blank,Blank,Lab,N/A,20MC,PFOA,1156.924,0,1
+20 MC biota grp C white bugs blank,Blank,Pestle,Biota,20MC,PFOA,540.647,9026.2,1
+20 MC biota grp C white bugs sample,Sample,Pestle,Biota,20MC,PFOA,5363.386,933.672,0.1926
+20 MC biota grp C white bugs spike,Spike,Pestle,Biota,20MC,PFOA,33352.699,6875.945,1
+20 MC biota grp A hardshell bug blank,Blank,Pestle,Biota,20MC,PFOA,538.658,6305.768,1
+20 MC biota grp A hardshell bug sample,Sample,Pestle,Biota,20MC,PFOA,528.026,5130.115,0.5197
+20 MC biota grp A hardshell bug spike,Spike,Pestle,Biota,20MC,PFOA,1658.103,5523.609,1
+20 MC biota grp B nymph blank,Blank,Homogenizer,Biota,20MC,PFOA,884.748,6021.586,1
+20 MC biota grp B nymph sample,Sample,Homogenizer,Biota,20MC,PFOA,809.031,6148.484,0.2189
+20 MC biota grp B nymph spike,Spike,Homogenizer,Biota,20MC,PFOA,12281.847,4324.804,1
+20 MC biota grp B mortar and pestle blank,Blank,Pestle,Biota,20MC,PFOA,629.95,5534.541,1
+20 MC biota grp B crayfish sample,Sample,Pestle,Biota,20MC,PFOA,1866.959,5235.53,0.8061
+20 MC biota grp B crayfish spike,Spike,Pestle,Biota,20MC,PFOA,27389.998,4956.854,1
+20 MC biota grp C bug blank,Blank,Pestle,Biota,20MC,PFOA,451.825,5125.8,1
+20 MC biota grp C bug sample,Sample,Pestle,Biota,20MC,PFOA,756.103,6264.557,0.2294
+20 MC biota grp C bug spike,Spike,Pestle,Biota,20MC,PFOA,20013.137,4226.283,1
+20 MC biota grp A sunfish blank,Blank,Blender,Biota,20MC,PFOA,1031.644,6156.821,1
+20 MC biota grp A sunfish Johnny sample,Sample,Blender,Biota,20MC,PFOA,897.622,5279.851,1.6406
+20 MC biota grp A sunfish spike,Spike,Blender,Biota,20MC,PFOA,35869.359,5463.454,1
+20 MC biota grp C catfish blank,Blank,Blender,Biota,20MC,PFOA,1016.957,6164.27,1
+20 MC biota grp C catfish blender blank,Blank,Blender,Biota,20MC,PFOA,534.855,4727.887,1
+20 MC biota grp C catfish sample 1,Sample,Blender,Biota,20MC,PFOA,752.511,6058.139,0.9648
+20 MC biota grp C catfish sample 2,Sample,Blender,Biota,20MC,PFOA,648.337,5954.912,0.5661
+20 MC biota grp C catfish sample 3,Sample,Blender,Biota,20MC,PFOA,689.242,4739.534,0.8456
+20 MC biota grp C catfish spike,Spike,Blender,Biota,20MC,PFOA,176493.469,4868.099,1
+20 MC biota grp B catfish blank,Blank,Blender,Biota,20MC,PFOA,1275.486,326.357,1
+20 MC biota grp B catfish sample 2-1,Sample,Blender,Biota,20MC,PFOA,844.705,518.053,1
+20 MC biota grp B catfish sample 2-2,Sample,Blender,Biota,20MC,PFOA,1078.344,578.2,1
+20 MC biota grp B catfish sample 2-3,Sample,Blender,Biota,20MC,PFOA,501.361,693.645,1
+20 MC biota grp B catfish spike,Spike,Blender,Biota,20MC,PFOA,42498.848,120.625,1
+MeOH Blank,Blank,Lab,N/A,20MC,PFOA,250.403,0.087,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFOA,250.403,0,1
+NIA_0 ng/mL,Calibration curve,Lab,N/A,NIA,PFOA,425.002,5141.743,1
+NIA_0.2 ng/mL,Calibration curve,Lab,N/A,NIA,PFOA,920.139,4675.214,1
+NIA_0.4 ng/mL,Calibration curve,Lab,N/A,NIA,PFOA,1614.988,5197.423,1
+NIA_1 ng/mL,Calibration curve,Lab,N/A,NIA,PFOA,3316.502,4914.226,1
+NIA_2 ng/mL,Calibration curve,Lab,N/A,NIA,PFOA,6403.385,4870.798,1
+NIA_4 ng/mL,Calibration curve,Lab,N/A,NIA,PFOA,12292.253,5167.313,1
+NIA_10 ng/mL,Calibration curve,Lab,N/A,NIA,PFOA,26383.871,4884.75,1
+NIA_20 ng/mL,Calibration curve,Lab,N/A,NIA,PFOA,62860.918,5107.007,1
+NIA_40 ng/mL,Calibration curve,Lab,N/A,NIA,PFOA,131674.359,5810.167,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFOA,423.651,0,1
+NIA water lab blank,Blank,Lab,Water,NIA,PFOA,1192.263,5221.796,100
+NIA water field blank,Blank,Field,Water,NIA,PFOA,473.067,4932.042,100
+NIA water sample 1,Sample,Field,Water,NIA,PFOA,2332.352,4514.235,100
+NIA water sample 2,Sample,Field,Water,NIA,PFOA,2052.404,4531.013,100
+NIA water sample 3,Sample,Field,Water,NIA,PFOA,2253.275,4832.821,100
+NIA water spike 1,Spike,Field,Water,NIA,PFOA,22639.076,4615.849,100
+NIA water spike 2,Spike,Field,Water,NIA,PFOA,21567.557,10130.294,100
+NIA sediment grp F lab blank,Blank,Lab,Sediment,NIA,PFOA,739.519,5783.376,1
+NIA sediment grp F field blank,Blank,Field,Sediment,NIA,PFOA,284.145,5652.993,1.0028
+NIA sediment grp F sample 1,Sample,Field,Sediment,NIA,PFOA,1521.457,8032.464,1.087
+NIA sediment grp F sample 2,Sample,Field,Sediment,NIA,PFOA,1584.99,5222.103,1.0034
+NIA sediment grp F spike,Spike,Lab,Sediment,NIA,PFOA,25763.236,4025.021,1
+NIA sediment grp D lab blank,Blank,Lab,Sediment,NIA,PFOA,471.098,5080.57,1
+NIA sediment grp D field blank,Blank,Field,Sediment,NIA,PFOA,529.105,5269.115,1.0001
+NIA sediment grp D sample 1,Sample,Field,Sediment,NIA,PFOA,1329.143,4455.318,1.06
+NIA sediment grp D sample 2,Sample,Field,Sediment,NIA,PFOA,1488.362,4251.809,1.004
+NIA sediment grp D spike,Spike,Lab,Sediment,NIA,PFOA,15807.793,3946.22,1
+NIA sediment grp E blank,Blank,Lab,Sediment,NIA,PFOA,623.944,4653.625,1
+NIA sediment grp E sample 1,Sample,Field,Sediment,NIA,PFOA,1274.976,3630.561,1.0002
+NIA sediment grp E sample 2,Sample,Field,Sediment,NIA,PFOA,1078.626,7846.02,1.0105
+NIA sediment grp E spike,Spike,Lab,Sediment,NIA,PFOA,18309.758,4025.26,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFOA,389.662,0,1
+NIA biota grp D shrimp blank,Blank,Homogenizer,Biota,NIA,PFOA,344.764,3705.264,1
+NIA biota grp D shrimp sample 1,Sample,Homogenizer,Biota,NIA,PFOA,452.164,3512.191,0.7678
+NIA biota grp D shrimp sample 2,Sample,Homogenizer,Biota,NIA,PFOA,749.196,3802.06,0.8816
+NIA biota grp D shrimp sample 3,Sample,Homogenizer,Biota,NIA,PFOA,871.021,3358.558,0.8801
+NIA biota grp D shrimp spike,Spike,Homogenizer,Biota,NIA,PFOA,16293.957,2616.346,1
+NIA biota grp E shrimp blank,Blank,Homogenizer,Biota,NIA,PFOA,300.712,3402.676,1
+NIA biota grp E shrimp sample,Sample,Homogenizer,Biota,NIA,PFOA,721.531,7362.289,0.6702
+NIA biota grp E shrimp spike,Spike,Homogenizer,Biota,NIA,PFOA,8423.872,16296.438,1
+NIA biota grp D snail 20x,Sample,Pestle,Biota,NIA,PFOA,276.989,2858.476,0.5
+NIA biota grp E crayfish blank,Blank,Pestle,Biota,NIA,PFOA,391.544,3968.079,1
+NIA biota grp E crayfish sample,Sample,Pestle,Biota,NIA,PFOA,1434.112,3131.22,0.5353
+NIA biota grp E crayfish spike,Spike,Pestle,Biota,NIA,PFOA,19375.604,3360.476,1
+NIA biota grp D sunfish blank 1,Blank,Blender,Biota,NIA,PFOA,212.832,2752.44,1
+NIA biota grp D sunfish blank 2,Blank,Blender,Biota,NIA,PFOA,756.826,3875.417,1
+NIA biota grp D sunfish Cici sample 1 20x,Sample,Blender,Biota,NIA,PFOA,237.059,2706.542,0.9413
+NIA biota grp D sunfish Cici sample 2 20x,Sample,Blender,Biota,NIA,PFOA,271.209,3943.222,0.6954
+NIA biota grp D sunfish spike,Spike,Blender,Biota,NIA,PFOA,19865.205,4887.089,1
+NIA biota grp D sunfish Sophie sample 1 20x,Sample,Blender,Biota,NIA,PFOA,484.606,3499.489,0.8905
+NIA biota grp D sunfish Sophie sample 2 20x,Sample,Blender,Biota,NIA,PFOA,345.816,3424.357,0.5997
+NIA biota grp D sunfish Sophie sample 3 20x,Sample,Blender,Biota,NIA,PFOA,348.601,3965.218,0.2789
+NIA biota grp F catfish blank,Blank,Blender,Biota,NIA,PFOA,433.088,4737.181,1
+NIA biota grp F catfish sample 20x,Sample,Blender,Biota,NIA,PFOA,461.458,4582.634,0.5925
+NIA biota grp F catfish spike,Spike,Blender,Biota,NIA,PFOA,20441.348,4922.959,1
+NIA biota grp F bug blank,Blank,Homogenizer,Biota,NIA,PFOA,546.872,5602.799,1
+NIA biota grp F bug sample,Sample,Homogenizer,Biota,NIA,PFOA,1409.801,4885.637,0.5
+NIA biota grp F bug spike,Spike,Homogenizer,Biota,NIA,PFOA,27791.152,5245.807,1
+NIA biota grp F shrimp blank,Blank,Homogenizer,Biota,NIA,PFOA,0,4535.645,1
+NIA biota grp F shrimp sample,Sample,Homogenizer,Biota,NIA,PFOA,731.875,4799.319,1
+NIA biota grp F shrimp spike,Spike,Homogenizer,Biota,NIA,PFOA,12994.93,4445.198,1
+NIA biota grp E sunfish blank,Blank,Blender,Biota,NIA,PFOA,375.062,4872.475,1
+NIA biota grp E sunfish sample 20x,Sample,Blender,Biota,NIA,PFOA,721.498,4361.58,0.7384
+NIA biota grp E sunfish spike,Spike,Blender,Biota,NIA,PFOA,21413.303,5940.654,1
+NIA biota grp D sunfish sample 20x,Sample,Blender,Biota,NIA,PFOA,283.93,4408.763,0.8926
+MeOH Blank,Blank,Lab,N/A,20MC,PFNA,935.696,14.664,1
+20MC_0 ng/mL,Calibration curve,Lab,N/A,20MC,PFNA,465.069,22541.84,1
+20MC_0.2 ng/mL,Calibration curve,Lab,N/A,20MC,PFNA,2724.872,21421.137,1
+20MC_0.4 ng/mL,Calibration curve,Lab,N/A,20MC,PFNA,7769.641,21523.354,1
+20MC_1 ng/mL,Calibration curve,Lab,N/A,20MC,PFNA,15556.8,20049.029,1
+20MC_2 ng/mL,Calibration curve,Lab,N/A,20MC,PFNA,29705.273,20202.088,1
+20MC_4 ng/mL,Calibration curve,Lab,N/A,20MC,PFNA,54972.965,19868.529,1
+20MC_10 ng/mL,Calibration curve,Lab,N/A,20MC,PFNA,117421.523,18575.322,1
+20MC_20 ng/mL,Calibration curve,Lab,N/A,20MC,PFNA,282024.094,18489.488,1
+20MC_40 ng/mL,Calibration curve,Lab,N/A,20MC,PFNA,547029.875,18044.137,1
+MeOH Blank,Blank,Lab,Sediment,20MC,PFNA,1274.189,40.042,1
+20MC grp A sediment lab blank,Blank,Lab,Sediment,20MC,PFNA,1529.864,15999.886,1
+20MC grp A sediment field blank,Blank,Field,Sediment,20MC,PFNA,991.249,16099.153,0.9802
+20MC grp A sediment 1,Sample,Field,Sediment,20MC,PFNA,1803.38,16794.041,0.9879
+20MC grp A sediment 2,Sample,Field,Sediment,20MC,PFNA,1294.152,15714.878,1.0431
+20MC grp A sediment spike,Spike,Lab,Sediment,20MC,PFNA,163022.578,12206.692,1
+20MC grp C sediment lab blank,Blank,Lab,Sediment,20MC,PFNA,1838.582,15909.406,1
+20MC grp C sediment field blank,Blank,Field,Sediment,20MC,PFNA,1059.579,16623.117,0.9912
+20MC grp C sediment 1,Sample,Field,Sediment,20MC,PFNA,1178.859,17564.471,0.9854
+20MC grp C sediment 2,Sample,Field,Sediment,20MC,PFNA,1208.191,13201.04,0.7808
+20MC grp C sediment spike,Spike,Lab,Sediment,20MC,PFNA,101450.766,16785.766,1
+20MC grp B sediment lab blank,Blank,Lab,Sediment,20MC,PFNA,904.978,15603.56,1
+20MC grp B sediment field blank,Blank,Field,Sediment,20MC,PFNA,631.225,16243.942,0.9912
+20MC grp B sediment 1,Sample,Field,Sediment,20MC,PFNA,799.25,1975.376,1.0204
+20MC grp B sediment 2,Sample,Field,Sediment,20MC,PFNA,1244.375,14816.313,1.0815
+20MC grp B sediment spike,Spike,Lab,Sediment,20MC,PFNA,103683.289,14450.645,1
+20 MC water field blank 1,Blank,Field,Water,20MC,PFNA,1113.756,15201.824,100
+20 MC water field blank 2,Blank,Field,Water,20MC,PFNA,1118.077,15483.507,100
+20 MC water sample 1,Sample,Field,Water,20MC,PFNA,1251.671,14750.961,100
+20 MC water sample 2,Sample,Field,Water,20MC,PFNA,2150.576,2.437,100
+20 MC water spike 1,Spike,Field,Water,20MC,PFNA,105934.531,14258.07,100
+MeOH Blank,Blank,Lab,N/A,20MC,PFNA,748.636,0,1
+20 MC biota grp C white bugs blank,Blank,Pestle,Biota,20MC,PFNA,998.722,17538.17,1
+20 MC biota grp C white bugs sample,Sample,Pestle,Biota,20MC,PFNA,21553.971,1425.784,0.1926
+20 MC biota grp C white bugs spike,Spike,Pestle,Biota,20MC,PFNA,98056.664,16397.912,1
+20 MC biota grp A hardshell bug blank,Blank,Pestle,Biota,20MC,PFNA,1007.358,15906.313,1
+20 MC biota grp A hardshell bug sample,Sample,Pestle,Biota,20MC,PFNA,1636.099,12777.745,0.5197
+20 MC biota grp A hardshell bug spike,Spike,Pestle,Biota,20MC,PFNA,5828.678,15167.537,1
+20 MC biota grp B nymph blank,Blank,Homogenizer,Biota,20MC,PFNA,861.889,15364.511,1
+20 MC biota grp B nymph sample,Sample,Homogenizer,Biota,20MC,PFNA,1846.796,13164.971,0.2189
+20 MC biota grp B nymph spike,Spike,Homogenizer,Biota,20MC,PFNA,43905.203,11435.606,1
+20 MC biota grp B mortar and pestle blank,Blank,Pestle,Biota,20MC,PFNA,1994.545,14671.396,1
+20 MC biota grp B crayfish sample,Sample,Pestle,Biota,20MC,PFNA,1224.167,12481.278,0.8061
+20 MC biota grp B crayfish spike,Spike,Pestle,Biota,20MC,PFNA,93706.266,13647.335,1
+20 MC biota grp C bug blank,Blank,Pestle,Biota,20MC,PFNA,1053.979,13701.733,1
+20 MC biota grp C bug sample,Sample,Pestle,Biota,20MC,PFNA,1479.348,14751.088,0.2294
+20 MC biota grp C bug spike,Spike,Pestle,Biota,20MC,PFNA,66038.719,11864.363,1
+20 MC biota grp A sunfish blank,Blank,Blender,Biota,20MC,PFNA,1985.794,15893.187,1
+20 MC biota grp A sunfish Johnny sample,Sample,Blender,Biota,20MC,PFNA,3627.025,12016.675,1.6406
+20 MC biota grp A sunfish spike,Spike,Blender,Biota,20MC,PFNA,125458.289,13262.604,1
+20 MC biota grp C catfish blank,Blank,Blender,Biota,20MC,PFNA,598.586,16190.171,1
+20 MC biota grp C catfish blender blank,Blank,Blender,Biota,20MC,PFNA,709.806,11475.55,1
+20 MC biota grp C catfish sample 1,Sample,Blender,Biota,20MC,PFNA,1440.359,14941.113,0.9648
+20 MC biota grp C catfish sample 2,Sample,Blender,Biota,20MC,PFNA,767.606,15208.683,0.5661
+20 MC biota grp C catfish sample 3,Sample,Blender,Biota,20MC,PFNA,1566.949,12317.506,0.8456
+20 MC biota grp C catfish spike,Spike,Blender,Biota,20MC,PFNA,654270.313,14872.313,1
+20 MC biota grp B catfish blank,Blank,Blender,Biota,20MC,PFNA,9334.481,1433.354,1
+20 MC biota grp B catfish sample 2-1,Sample,Blender,Biota,20MC,PFNA,2429.951,1264.596,1
+20 MC biota grp B catfish sample 2-2,Sample,Blender,Biota,20MC,PFNA,2618.886,1273.422,1
+20 MC biota grp B catfish sample 2-3,Sample,Blender,Biota,20MC,PFNA,1292.517,1974.495,1
+20 MC biota grp B catfish spike,Spike,Blender,Biota,20MC,PFNA,174898.438,763.473,1
+MeOH Blank,Blank,Lab,N/A,20MC,PFNA,1876.017,0,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFNA,1876.017,0,1
+NIA_0 ng/mL,Calibration curve,Lab,N/A,NIA,PFNA,267.113,13870.838,1
+NIA_0.2 ng/mL,Calibration curve,Lab,N/A,NIA,PFNA,1691.265,15055.797,1
+NIA_0.4 ng/mL,Calibration curve,Lab,N/A,NIA,PFNA,5826.316,14266.543,1
+NIA_1 ng/mL,Calibration curve,Lab,N/A,NIA,PFNA,11215.447,13708.966,1
+NIA_2 ng/mL,Calibration curve,Lab,N/A,NIA,PFNA,21777.234,14194.725,1
+NIA_4 ng/mL,Calibration curve,Lab,N/A,NIA,PFNA,39781.563,13659.103,1
+NIA_10 ng/mL,Calibration curve,Lab,N/A,NIA,PFNA,91148.195,13489.784,1
+NIA_20 ng/mL,Calibration curve,Lab,N/A,NIA,PFNA,211048.188,13406.088,1
+NIA_40 ng/mL,Calibration curve,Lab,N/A,NIA,PFNA,424873.406,14693.04,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFNA,702.048,0,1
+NIA water lab blank,Blank,Lab,Water,NIA,PFNA,1277.354,13558.05,100
+NIA water field blank,Blank,Field,Water,NIA,PFNA,512.894,13414.115,100
+NIA water sample 1,Sample,Field,Water,NIA,PFNA,2953.086,12296.639,100
+NIA water sample 2,Sample,Field,Water,NIA,PFNA,2794.877,12124.985,100
+NIA water sample 3,Sample,Field,Water,NIA,PFNA,3698.732,12774.294,100
+NIA water spike 1,Spike,Field,Water,NIA,PFNA,69602.406,12400.413,100
+NIA water spike 2,Spike,Field,Water,NIA,PFNA,62151.328,24146.52,100
+NIA sediment grp F lab blank,Blank,Lab,Sediment,NIA,PFNA,997.601,13712.402,1
+NIA sediment grp F field blank,Blank,Field,Sediment,NIA,PFNA,918.607,14640.442,1.0028
+NIA sediment grp F sample 1,Sample,Field,Sediment,NIA,PFNA,2293.469,21120.734,1.087
+NIA sediment grp F sample 2,Sample,Field,Sediment,NIA,PFNA,1968.911,13155.66,1.0034
+NIA sediment grp F spike,Spike,Lab,Sediment,NIA,PFNA,91413.883,12861.021,1
+NIA sediment grp D lab blank,Blank,Lab,Sediment,NIA,PFNA,1859.364,15479.914,1
+NIA sediment grp D field blank,Blank,Field,Sediment,NIA,PFNA,402.59,12965.892,1.0001
+NIA sediment grp D sample 1,Sample,Field,Sediment,NIA,PFNA,2145.735,12727.394,1.06
+NIA sediment grp D sample 2,Sample,Field,Sediment,NIA,PFNA,2235.838,11733.443,1.004
+NIA sediment grp D spike,Spike,Lab,Sediment,NIA,PFNA,63727.367,12071.185,1
+NIA sediment grp E blank,Blank,Lab,Sediment,NIA,PFNA,1119.915,14444.241,1
+NIA sediment grp E sample 1,Sample,Field,Sediment,NIA,PFNA,2197.07,9766.178,1.0002
+NIA sediment grp E sample 2,Sample,Field,Sediment,NIA,PFNA,1371.6,22032.1,1.0105
+NIA sediment grp E spike,Spike,Lab,Sediment,NIA,PFNA,79541.781,12296.27,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFNA,556.675,52.049,1
+NIA biota grp D shrimp blank,Blank,Homogenizer,Biota,NIA,PFNA,692.19,10593.384,1
+NIA biota grp D shrimp sample 1,Sample,Homogenizer,Biota,NIA,PFNA,382.854,13342.931,0.7678
+NIA biota grp D shrimp sample 2,Sample,Homogenizer,Biota,NIA,PFNA,5783.545,12399.52,0.8816
+NIA biota grp D shrimp sample 3,Sample,Homogenizer,Biota,NIA,PFNA,8186.241,10327.595,0.8801
+NIA biota grp D shrimp spike,Spike,Homogenizer,Biota,NIA,PFNA,77277.227,10276.845,1
+NIA biota grp E shrimp blank,Blank,Homogenizer,Biota,NIA,PFNA,974.675,12865.995,1
+NIA biota grp E shrimp sample,Sample,Homogenizer,Biota,NIA,PFNA,4970.115,24927.076,0.6702
+NIA biota grp E shrimp spike,Spike,Homogenizer,Biota,NIA,PFNA,33558.176,54995.676,1
+NIA biota grp D snail 20x,Sample,Pestle,Biota,NIA,PFNA,603.094,11302.959,0.5
+NIA biota grp E crayfish blank,Blank,Pestle,Biota,NIA,PFNA,529.948,12310.312,1
+NIA biota grp E crayfish sample,Sample,Pestle,Biota,NIA,PFNA,3264.117,8451.625,0.5353
+NIA biota grp E crayfish spike,Spike,Pestle,Biota,NIA,PFNA,87114.484,11972.738,1
+NIA biota grp D sunfish blank 1,Blank,Blender,Biota,NIA,PFNA,236.908,9495.333,1
+NIA biota grp D sunfish blank 2,Blank,Blender,Biota,NIA,PFNA,1727.182,12013.241,1
+NIA biota grp D sunfish Cici sample 1 20x,Sample,Blender,Biota,NIA,PFNA,567.892,8990.065,0.9413
+NIA biota grp D sunfish Cici sample 2 20x,Sample,Blender,Biota,NIA,PFNA,430.095,12811.064,0.6954
+NIA biota grp D sunfish spike,Spike,Blender,Biota,NIA,PFNA,76448.539,12940.997,1
+NIA biota grp D sunfish Sophie sample 1 20x,Sample,Blender,Biota,NIA,PFNA,1402.427,11670.063,0.8905
+NIA biota grp D sunfish Sophie sample 2 20x,Sample,Blender,Biota,NIA,PFNA,579.067,11521.848,0.5997
+NIA biota grp D sunfish Sophie sample 3 20x,Sample,Blender,Biota,NIA,PFNA,423.04,12219.995,0.2789
+NIA biota grp F catfish blank,Blank,Blender,Biota,NIA,PFNA,713.618,14762.107,1
+NIA biota grp F catfish sample 20x,Sample,Blender,Biota,NIA,PFNA,465.435,13277.824,0.5925
+NIA biota grp F catfish spike,Spike,Blender,Biota,NIA,PFNA,80606.391,14768.14,1
+NIA biota grp F bug blank,Blank,Homogenizer,Biota,NIA,PFNA,903.484,14145.941,1
+NIA biota grp F bug sample,Sample,Homogenizer,Biota,NIA,PFNA,4163.062,14021.264,0.5
+NIA biota grp F bug spike,Spike,Homogenizer,Biota,NIA,PFNA,101269.469,13534.186,1
+NIA biota grp F shrimp blank,Blank,Homogenizer,Biota,NIA,PFNA,1364.346,14714.383,1
+NIA biota grp F shrimp sample,Sample,Homogenizer,Biota,NIA,PFNA,3574.647,14157.241,1
+NIA biota grp F shrimp spike,Spike,Homogenizer,Biota,NIA,PFNA,55195.09,14918.899,1
+NIA biota grp E sunfish blank,Blank,Blender,Biota,NIA,PFNA,593.615,14752.333,1
+NIA biota grp E sunfish sample 20x,Sample,Blender,Biota,NIA,PFNA,342.316,14117.39,0.7384
+NIA biota grp E sunfish spike,Spike,Blender,Biota,NIA,PFNA,86693.242,16320.461,1
+NIA biota grp D sunfish sample 20x,Sample,Blender,Biota,NIA,PFNA,543.274,11733.08,0.8926
+MeOH Blank,Blank,Lab,N/A,20MC,PFOS,1123.427,15.663,1
+20MC_0 ng/mL,Calibration curve,Lab,N/A,20MC,PFOS,428.529,7618.267,1
+20MC_0.2 ng/mL,Calibration curve,Lab,N/A,20MC,PFOS,1322.978,8399.904,1
+20MC_0.4 ng/mL,Calibration curve,Lab,N/A,20MC,PFOS,2848.656,8062.531,1
+20MC_1 ng/mL,Calibration curve,Lab,N/A,20MC,PFOS,6137.11,7446.765,1
+20MC_2 ng/mL,Calibration curve,Lab,N/A,20MC,PFOS,12001.454,7967.507,1
+20MC_4 ng/mL,Calibration curve,Lab,N/A,20MC,PFOS,21470.982,8014.559,1
+20MC_10 ng/mL,Calibration curve,Lab,N/A,20MC,PFOS,45678.684,7270.048,1
+20MC_20 ng/mL,Calibration curve,Lab,N/A,20MC,PFOS,114312.578,7202.689,1
+20MC_40 ng/mL,Calibration curve,Lab,N/A,20MC,PFOS,223989.672,7599.311,1
+MeOH Blank,Blank,Lab,Sediment,20MC,PFOS,998.496,41.846,1
+20MC grp A sediment lab blank,Blank,Lab,Sediment,20MC,PFOS,1474.802,6302.215,1
+20MC grp A sediment field blank,Blank,Field,Sediment,20MC,PFOS,694.407,6327.787,0.9802
+20MC grp A sediment 1,Sample,Field,Sediment,20MC,PFOS,1429.52,8546.638,0.9879
+20MC grp A sediment 2,Sample,Field,Sediment,20MC,PFOS,1501.57,7501.675,1.0431
+20MC grp A sediment spike,Spike,Lab,Sediment,20MC,PFOS,68730.906,5498.119,1
+20MC grp C sediment lab blank,Blank,Lab,Sediment,20MC,PFOS,944.269,6842.515,1
+20MC grp C sediment field blank,Blank,Field,Sediment,20MC,PFOS,552.338,6379.331,0.9912
+20MC grp C sediment 1,Sample,Field,Sediment,20MC,PFOS,1738.266,8119.708,0.9854
+20MC grp C sediment 2,Sample,Field,Sediment,20MC,PFOS,1253.409,5760.217,0.7808
+20MC grp C sediment spike,Spike,Lab,Sediment,20MC,PFOS,40219.602,6958.717,1
+20MC grp B sediment lab blank,Blank,Lab,Sediment,20MC,PFOS,817.603,6328.581,1
+20MC grp B sediment field blank,Blank,Field,Sediment,20MC,PFOS,615.284,6478.014,0.9912
+20MC grp B sediment 1,Sample,Field,Sediment,20MC,PFOS,1619.153,1206.566,1.0204
+20MC grp B sediment 2,Sample,Field,Sediment,20MC,PFOS,1577.96,7368.942,1.0815
+20MC grp B sediment spike,Spike,Lab,Sediment,20MC,PFOS,44426.48,6569.539,1
+20 MC water field blank 1,Blank,Field,Water,20MC,PFOS,1280.834,6558.773,100
+20 MC water field blank 2,Blank,Field,Water,20MC,PFOS,2169.89,6816.514,100
+20 MC water sample 1,Sample,Field,Water,20MC,PFOS,991.267,6777.315,100
+20 MC water sample 2,Sample,Field,Water,20MC,PFOS,1290.368,68.631,100
+20 MC water spike 1,Spike,Field,Water,20MC,PFOS,26581.465,6988.994,100
+MeOH Blank,Blank,Lab,N/A,20MC,PFOS,584.957,8.786,1
+20 MC biota grp C white bugs blank,Blank,Pestle,Biota,20MC,PFOS,634.732,7552.458,1
+20 MC biota grp C white bugs sample,Sample,Pestle,Biota,20MC,PFOS,42041.273,739.987,0.1926
+20 MC biota grp C white bugs spike,Spike,Pestle,Biota,20MC,PFOS,53015.852,7052.942,1
+20 MC biota grp A hardshell bug blank,Blank,Pestle,Biota,20MC,PFOS,1234.766,7213.635,1
+20 MC biota grp A hardshell bug sample,Sample,Pestle,Biota,20MC,PFOS,3640.933,6217.458,0.5197
+20 MC biota grp A hardshell bug spike,Spike,Pestle,Biota,20MC,PFOS,2818.632,7354.943,1
+20 MC biota grp B nymph blank,Blank,Homogenizer,Biota,20MC,PFOS,794.572,8020.078,1
+20 MC biota grp B nymph sample,Sample,Homogenizer,Biota,20MC,PFOS,5294.938,7553.755,0.2189
+20 MC biota grp B nymph spike,Spike,Homogenizer,Biota,20MC,PFOS,24038.006,5509.28,1
+20 MC biota grp B mortar and pestle blank,Blank,Pestle,Biota,20MC,PFOS,2333.275,7637.795,1
+20 MC biota grp B crayfish sample,Sample,Pestle,Biota,20MC,PFOS,3637.987,7041.034,0.8061
+20 MC biota grp B crayfish spike,Spike,Pestle,Biota,20MC,PFOS,45979.691,6427.283,1
+20 MC biota grp C bug blank,Blank,Pestle,Biota,20MC,PFOS,795.312,7184.732,1
+20 MC biota grp C bug sample,Sample,Pestle,Biota,20MC,PFOS,2484.517,7350.813,0.2294
+20 MC biota grp C bug spike,Spike,Pestle,Biota,20MC,PFOS,29860.895,5161.766,1
+20 MC biota grp A sunfish blank,Blank,Blender,Biota,20MC,PFOS,1464.658,6907.723,1
+20 MC biota grp A sunfish Johnny sample,Sample,Blender,Biota,20MC,PFOS,74253.852,6494.197,1.6406
+20 MC biota grp A sunfish spike,Spike,Blender,Biota,20MC,PFOS,65308.734,7234.255,1
+20 MC biota grp C catfish blank,Blank,Blender,Biota,20MC,PFOS,984.618,7417.994,1
+20 MC biota grp C catfish blender blank,Blank,Blender,Biota,20MC,PFOS,867.547,5456.939,1
+20 MC biota grp C catfish sample 1,Sample,Blender,Biota,20MC,PFOS,17413.451,7834.459,0.9648
+20 MC biota grp C catfish sample 2,Sample,Blender,Biota,20MC,PFOS,8315.509,7228.878,0.5661
+20 MC biota grp C catfish sample 3,Sample,Blender,Biota,20MC,PFOS,23447.619,6861.347,0.8456
+20 MC biota grp C catfish spike,Spike,Blender,Biota,20MC,PFOS,394877.875,7499.079,1
+20 MC biota grp B catfish blank,Blank,Blender,Biota,20MC,PFOS,11000.533,943.713,1
+20 MC biota grp B catfish sample 2-1,Sample,Blender,Biota,20MC,PFOS,24049.754,727.584,1
+20 MC biota grp B catfish sample 2-2,Sample,Blender,Biota,20MC,PFOS,26735.145,630.445,1
+20 MC biota grp B catfish sample 2-3,Sample,Blender,Biota,20MC,PFOS,22715.176,1100.833,1
+20 MC biota grp B catfish spike,Spike,Blender,Biota,20MC,PFOS,102861.766,413.117,1
+MeOH Blank,Blank,Lab,N/A,20MC,PFOS,3872.712,49.884,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFOS,3872.712,49.884,1
+NIA_0 ng/mL,Calibration curve,Lab,N/A,NIA,PFOS,731.606,7419.328,1
+NIA_0.2 ng/mL,Calibration curve,Lab,N/A,NIA,PFOS,1010.61,7380.067,1
+NIA_0.4 ng/mL,Calibration curve,Lab,N/A,NIA,PFOS,2512.021,7189.93,1
+NIA_1 ng/mL,Calibration curve,Lab,N/A,NIA,PFOS,5346.992,6867.082,1
+NIA_2 ng/mL,Calibration curve,Lab,N/A,NIA,PFOS,9662.863,6184.377,1
+NIA_4 ng/mL,Calibration curve,Lab,N/A,NIA,PFOS,17322.344,7341.521,1
+NIA_10 ng/mL,Calibration curve,Lab,N/A,NIA,PFOS,39905.332,5904.268,1
+NIA_20 ng/mL,Calibration curve,Lab,N/A,NIA,PFOS,93909.094,5904.141,1
+NIA_40 ng/mL,Calibration curve,Lab,N/A,NIA,PFOS,192483.828,7382.185,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFOS,794.517,6.16,1
+NIA water lab blank,Blank,Lab,Water,NIA,PFOS,710.477,6537.762,100
+NIA water field blank,Blank,Field,Water,NIA,PFOS,487.965,6305.536,100
+NIA water sample 1,Sample,Field,Water,NIA,PFOS,14253.321,6137.869,100
+NIA water sample 2,Sample,Field,Water,NIA,PFOS,19135.811,5743.618,100
+NIA water sample 3,Sample,Field,Water,NIA,PFOS,47849.32,6650.144,100
+NIA water spike 1,Spike,Field,Water,NIA,PFOS,25080.691,5758.477,100
+NIA water spike 2,Spike,Field,Water,NIA,PFOS,21998.332,11367.567,100
+NIA sediment grp F lab blank,Blank,Lab,Sediment,NIA,PFOS,588.459,5824.115,1
+NIA sediment grp F field blank,Blank,Field,Sediment,NIA,PFOS,869.834,6876.024,1.0028
+NIA sediment grp F sample 1,Sample,Field,Sediment,NIA,PFOS,23216.902,11214.828,1.087
+NIA sediment grp F sample 2,Sample,Field,Sediment,NIA,PFOS,22841.199,6822.804,1.0034
+NIA sediment grp F spike,Spike,Lab,Sediment,NIA,PFOS,42374.461,6413.561,1
+NIA sediment grp D lab blank,Blank,Lab,Sediment,NIA,PFOS,2446.801,8000.128,1
+NIA sediment grp D field blank,Blank,Field,Sediment,NIA,PFOS,537.609,3743.57,1.0001
+NIA sediment grp D sample 1,Sample,Field,Sediment,NIA,PFOS,28419.482,7828.294,1.06
+NIA sediment grp D sample 2,Sample,Field,Sediment,NIA,PFOS,23667.576,6505.091,1.004
+NIA sediment grp D spike,Spike,Lab,Sediment,NIA,PFOS,32641.879,6515.757,1
+NIA sediment grp E blank,Blank,Lab,Sediment,NIA,PFOS,906.457,6782.75,1
+NIA sediment grp E sample 1,Sample,Field,Sediment,NIA,PFOS,26784.145,6496.394,1.0002
+NIA sediment grp E sample 2,Sample,Field,Sediment,NIA,PFOS,17016.086,12257.362,1.0105
+NIA sediment grp E spike,Spike,Lab,Sediment,NIA,PFOS,42821.457,6598.264,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFOS,1277.443,212.386,1
+NIA biota grp D shrimp blank,Blank,Homogenizer,Biota,NIA,PFOS,13422.36,5265.067,1
+NIA biota grp D shrimp sample 1,Sample,Homogenizer,Biota,NIA,PFOS,700.115,6378.181,0.7678
+NIA biota grp D shrimp sample 2,Sample,Homogenizer,Biota,NIA,PFOS,197352.781,6723.137,0.8816
+NIA biota grp D shrimp sample 3,Sample,Homogenizer,Biota,NIA,PFOS,260744.891,6414.284,0.8801
+NIA biota grp D shrimp spike,Spike,Homogenizer,Biota,NIA,PFOS,56197.641,6759.657,1
+NIA biota grp E shrimp blank,Blank,Homogenizer,Biota,NIA,PFOS,3134.593,7611.352,1
+NIA biota grp E shrimp sample,Sample,Homogenizer,Biota,NIA,PFOS,116672.672,15819.406,0.6702
+NIA biota grp E shrimp spike,Spike,Homogenizer,Biota,NIA,PFOS,23352.098,32876.137,1
+NIA biota grp D snail 20x,Sample,Pestle,Biota,NIA,PFOS,5982.006,7014.122,0.5
+NIA biota grp E crayfish blank,Blank,Pestle,Biota,NIA,PFOS,1299.507,6912.971,1
+NIA biota grp E crayfish sample,Sample,Pestle,Biota,NIA,PFOS,48948.16,5885.736,0.5353
+NIA biota grp E crayfish spike,Spike,Pestle,Biota,NIA,PFOS,56710.449,7173.039,1
+NIA biota grp D sunfish blank 1,Blank,Blender,Biota,NIA,PFOS,558.6,5297.401,1
+NIA biota grp D sunfish blank 2,Blank,Blender,Biota,NIA,PFOS,644.18,6025.361,1
+NIA biota grp D sunfish Cici sample 1 20x,Sample,Blender,Biota,NIA,PFOS,42432.844,4707.629,0.9413
+NIA biota grp D sunfish Cici sample 2 20x,Sample,Blender,Biota,NIA,PFOS,26195.791,7208.952,0.6954
+NIA biota grp D sunfish spike,Spike,Blender,Biota,NIA,PFOS,35977.691,7265.045,1
+NIA biota grp D sunfish Sophie sample 1 20x,Sample,Blender,Biota,NIA,PFOS,31422.039,6058.184,0.8905
+NIA biota grp D sunfish Sophie sample 2 20x,Sample,Blender,Biota,NIA,PFOS,31640.4,5572.606,0.5997
+NIA biota grp D sunfish Sophie sample 3 20x,Sample,Blender,Biota,NIA,PFOS,8053.525,6391.286,0.2789
+NIA biota grp F catfish blank,Blank,Blender,Biota,NIA,PFOS,827.512,7013.312,1
+NIA biota grp F catfish sample 20x,Sample,Blender,Biota,NIA,PFOS,4951.713,6325.022,0.5925
+NIA biota grp F catfish spike,Spike,Blender,Biota,NIA,PFOS,41768.695,7011.042,1
+NIA biota grp F bug blank,Blank,Homogenizer,Biota,NIA,PFOS,705.675,6404.685,1
+NIA biota grp F bug sample,Sample,Homogenizer,Biota,NIA,PFOS,7781.354,6801.289,0.5
+NIA biota grp F bug spike,Spike,Homogenizer,Biota,NIA,PFOS,45398.73,6974.147,1
+NIA biota grp F shrimp blank,Blank,Homogenizer,Biota,NIA,PFOS,881.649,6797.745,1
+NIA biota grp F shrimp sample,Sample,Homogenizer,Biota,NIA,PFOS,86291.313,7071.28,1
+NIA biota grp F shrimp spike,Spike,Homogenizer,Biota,NIA,PFOS,29681.641,7199.688,1
+NIA biota grp E sunfish blank,Blank,Blender,Biota,NIA,PFOS,1295.184,7509.358,1
+NIA biota grp E sunfish sample 20x,Sample,Blender,Biota,NIA,PFOS,3669.278,6388.198,0.7384
+NIA biota grp E sunfish spike,Spike,Blender,Biota,NIA,PFOS,41739.309,7960.798,1
+NIA biota grp D sunfish sample 20x,Sample,Blender,Biota,NIA,PFOS,23636.531,6171.89,0.8926
+MeOH Blank,Blank,Lab,N/A,20MC,PFDA,740.458,1.436,1
+20MC_0 ng/mL,Calibration curve,Lab,N/A,20MC,PFDA,196.427,1107.593,1
+20MC_0.2 ng/mL,Calibration curve,Lab,N/A,20MC,PFDA,403.071,1580.236,1
+20MC_0.4 ng/mL,Calibration curve,Lab,N/A,20MC,PFDA,1495.114,1439.161,1
+20MC_1 ng/mL,Calibration curve,Lab,N/A,20MC,PFDA,2652.81,1476.331,1
+20MC_2 ng/mL,Calibration curve,Lab,N/A,20MC,PFDA,5137.294,1503.496,1
+20MC_4 ng/mL,Calibration curve,Lab,N/A,20MC,PFDA,9501.424,1219.286,1
+20MC_10 ng/mL,Calibration curve,Lab,N/A,20MC,PFDA,20259.369,1425.588,1
+20MC_20 ng/mL,Calibration curve,Lab,N/A,20MC,PFDA,51220.355,1497.363,1
+20MC_40 ng/mL,Calibration curve,Lab,N/A,20MC,PFDA,97612.508,1818.723,1
+MeOH Blank,Blank,Lab,Sediment,20MC,PFDA,275.297,3.606,1
+20MC grp A sediment lab blank,Blank,Lab,Sediment,20MC,PFDA,183.494,886.388,1
+20MC grp A sediment field blank,Blank,Field,Sediment,20MC,PFDA,174.145,1189.057,0.9802
+20MC grp A sediment 1,Sample,Field,Sediment,20MC,PFDA,274.253,1276.737,0.9879
+20MC grp A sediment 2,Sample,Field,Sediment,20MC,PFDA,0,1058.544,1.0431
+20MC grp A sediment spike,Spike,Lab,Sediment,20MC,PFDA,28648.322,1153.887,1
+20MC grp C sediment lab blank,Blank,Lab,Sediment,20MC,PFDA,335.762,1283.664,1
+20MC grp C sediment field blank,Blank,Field,Sediment,20MC,PFDA,46.824,1113.628,0.9912
+20MC grp C sediment 1,Sample,Field,Sediment,20MC,PFDA,112.119,1423.384,0.9854
+20MC grp C sediment 2,Sample,Field,Sediment,20MC,PFDA,135.078,609.048,0.7808
+20MC grp C sediment spike,Spike,Lab,Sediment,20MC,PFDA,16787.477,1334.932,1
+20MC grp B sediment lab blank,Blank,Lab,Sediment,20MC,PFDA,209.633,1255.164,1
+20MC grp B sediment field blank,Blank,Field,Sediment,20MC,PFDA,119.014,1203.33,0.9912
+20MC grp B sediment 1,Sample,Field,Sediment,20MC,PFDA,85.307,130.066,1.0204
+20MC grp B sediment 2,Sample,Field,Sediment,20MC,PFDA,114.839,1124.796,1.0815
+20MC grp B sediment spike,Spike,Lab,Sediment,20MC,PFDA,18313.109,1207.995,1
+20 MC water field blank 1,Blank,Field,Water,20MC,PFDA,0,985.184,100
+20 MC water field blank 2,Blank,Field,Water,20MC,PFDA,34.73,1085.39,100
+20 MC water sample 1,Sample,Field,Water,20MC,PFDA,161.408,1039.919,100
+20 MC water sample 2,Sample,Field,Water,20MC,PFDA,110.63,11.657,100
+20 MC water spike 1,Spike,Field,Water,20MC,PFDA,13597.235,1117.489,100
+MeOH Blank,Blank,Lab,N/A,20MC,PFDA,38.066,1.698,1
+20 MC biota grp C white bugs blank,Blank,Pestle,Biota,20MC,PFDA,11.767,1299.423,1
+20 MC biota grp C white bugs sample,Sample,Pestle,Biota,20MC,PFDA,3371.047,94.492,0.1926
+20 MC biota grp C white bugs spike,Spike,Pestle,Biota,20MC,PFDA,17708.705,1071.261,1
+20 MC biota grp A hardshell bug blank,Blank,Pestle,Biota,20MC,PFDA,123.046,960.31,1
+20 MC biota grp A hardshell bug sample,Sample,Pestle,Biota,20MC,PFDA,284.323,651.636,0.5197
+20 MC biota grp A hardshell bug spike,Spike,Pestle,Biota,20MC,PFDA,766.871,863.133,1
+20 MC biota grp B nymph blank,Blank,Homogenizer,Biota,20MC,PFDA,11.789,1056.442,1
+20 MC biota grp B nymph sample,Sample,Homogenizer,Biota,20MC,PFDA,157.265,1273.051,0.2189
+20 MC biota grp B nymph spike,Spike,Homogenizer,Biota,20MC,PFDA,7512.967,683.643,1
+20 MC biota grp B mortar and pestle blank,Blank,Pestle,Biota,20MC,PFDA,322.643,1144.08,1
+20 MC biota grp B crayfish sample,Sample,Pestle,Biota,20MC,PFDA,173.832,2232.721,0.8061
+20 MC biota grp B crayfish spike,Spike,Pestle,Biota,20MC,PFDA,16035.059,1169.099,1
+20 MC biota grp C bug blank,Blank,Pestle,Biota,20MC,PFDA,145.443,1012.948,1
+20 MC biota grp C bug sample,Sample,Pestle,Biota,20MC,PFDA,93.04,937.045,0.2294
+20 MC biota grp C bug spike,Spike,Pestle,Biota,20MC,PFDA,10943.21,945.838,1
+20 MC biota grp A sunfish blank,Blank,Blender,Biota,20MC,PFDA,454.44,1037.522,1
+20 MC biota grp A sunfish Johnny sample,Sample,Blender,Biota,20MC,PFDA,2122.753,992.168,1.6406
+20 MC biota grp A sunfish spike,Spike,Blender,Biota,20MC,PFDA,21792.771,952.103,1
+20 MC biota grp C catfish blank,Blank,Blender,Biota,20MC,PFDA,111.628,1047.114,1
+20 MC biota grp C catfish blender blank,Blank,Blender,Biota,20MC,PFDA,20.037,770.726,1
+20 MC biota grp C catfish sample 1,Sample,Blender,Biota,20MC,PFDA,630.967,1170.875,0.9648
+20 MC biota grp C catfish sample 2,Sample,Blender,Biota,20MC,PFDA,373.586,962.616,0.5661
+20 MC biota grp C catfish sample 3,Sample,Blender,Biota,20MC,PFDA,610.337,1537.093,0.8456
+20 MC biota grp C catfish spike,Spike,Blender,Biota,20MC,PFDA,111336.508,1529.005,1
+20 MC biota grp B catfish blank,Blank,Blender,Biota,20MC,PFDA,2869.466,70.337,1
+20 MC biota grp B catfish sample 2-1,Sample,Blender,Biota,20MC,PFDA,751.394,1058.251,1
+20 MC biota grp B catfish sample 2-2,Sample,Blender,Biota,20MC,PFDA,678.328,481.566,1
+20 MC biota grp B catfish sample 2-3,Sample,Blender,Biota,20MC,PFDA,474.148,1189.846,1
+20 MC biota grp B catfish spike,Spike,Blender,Biota,20MC,PFDA,29245.082,230.956,1
+MeOH Blank,Blank,Lab,N/A,20MC,PFDA,661.878,0,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFDA,661.878,0,1
+NIA_0 ng/mL,Calibration curve,Lab,N/A,NIA,PFDA,20.102,581.786,1
+NIA_0.2 ng/mL,Calibration curve,Lab,N/A,NIA,PFDA,274.304,897.199,1
+NIA_0.4 ng/mL,Calibration curve,Lab,N/A,NIA,PFDA,733.622,709.628,1
+NIA_1 ng/mL,Calibration curve,Lab,N/A,NIA,PFDA,1594.511,657.243,1
+NIA_2 ng/mL,Calibration curve,Lab,N/A,NIA,PFDA,3103.84,584.026,1
+NIA_4 ng/mL,Calibration curve,Lab,N/A,NIA,PFDA,5855.458,769.82,1
+NIA_10 ng/mL,Calibration curve,Lab,N/A,NIA,PFDA,14625.061,629.582,1
+NIA_20 ng/mL,Calibration curve,Lab,N/A,NIA,PFDA,33807.316,945.063,1
+NIA_40 ng/mL,Calibration curve,Lab,N/A,NIA,PFDA,70884.266,926.241,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFDA,116.262,0,1
+NIA water lab blank,Blank,Lab,Water,NIA,PFDA,100.63,781.375,100
+NIA water field blank,Blank,Field,Water,NIA,PFDA,12.474,912.059,100
+NIA water sample 1,Sample,Field,Water,NIA,PFDA,46.917,651.983,100
+NIA water sample 2,Sample,Field,Water,NIA,PFDA,118.454,671.537,100
+NIA water sample 3,Sample,Field,Water,NIA,PFDA,116.989,935.726,100
+NIA water spike 1,Spike,Field,Water,NIA,PFDA,10701.438,789.747,100
+NIA water spike 2,Spike,Field,Water,NIA,PFDA,7419.846,1424.274,100
+NIA sediment grp F lab blank,Blank,Lab,Sediment,NIA,PFDA,24.753,787.346,1
+NIA sediment grp F field blank,Blank,Field,Sediment,NIA,PFDA,14.369,956.346,1.0028
+NIA sediment grp F sample 1,Sample,Field,Sediment,NIA,PFDA,539.559,1043.09,1.087
+NIA sediment grp F sample 2,Sample,Field,Sediment,NIA,PFDA,552.511,561.882,1.0034
+NIA sediment grp F spike,Spike,Lab,Sediment,NIA,PFDA,15606.06,653.463,1
+NIA sediment grp D lab blank,Blank,Lab,Sediment,NIA,PFDA,512.83,805.14,1
+NIA sediment grp D field blank,Blank,Field,Sediment,NIA,PFDA,6.205,393.549,1.0001
+NIA sediment grp D sample 1,Sample,Field,Sediment,NIA,PFDA,688.348,617.917,1.06
+NIA sediment grp D sample 2,Sample,Field,Sediment,NIA,PFDA,535.572,632.622,1.004
+NIA sediment grp D spike,Spike,Lab,Sediment,NIA,PFDA,10279.991,654.939,1
+NIA sediment grp E blank,Blank,Lab,Sediment,NIA,PFDA,91.405,611.433,1
+NIA sediment grp E sample 1,Sample,Field,Sediment,NIA,PFDA,971.957,462.326,1.0002
+NIA sediment grp E sample 2,Sample,Field,Sediment,NIA,PFDA,244.274,693.691,1.0105
+NIA sediment grp E spike,Spike,Lab,Sediment,NIA,PFDA,13071.68,358.017,1
+MeOH Blank,Blank,Lab,N/A,NIA,PFDA,116.069,0,1
+NIA biota grp D shrimp blank,Blank,Homogenizer,Biota,NIA,PFDA,71.919,550.797,1
+NIA biota grp D shrimp sample 1,Sample,Homogenizer,Biota,NIA,PFDA,11.926,388.303,0.7678
+NIA biota grp D shrimp sample 2,Sample,Homogenizer,Biota,NIA,PFDA,355.69,641.839,0.8816
+NIA biota grp D shrimp sample 3,Sample,Homogenizer,Biota,NIA,PFDA,267.434,452.962,0.8801
+NIA biota grp D shrimp spike,Spike,Homogenizer,Biota,NIA,PFDA,15046.006,533.057,1
+NIA biota grp E shrimp blank,Blank,Homogenizer,Biota,NIA,PFDA,167.211,703.453,1
+NIA biota grp E shrimp sample,Sample,Homogenizer,Biota,NIA,PFDA,394.333,1119.228,0.6702
+NIA biota grp E shrimp spike,Spike,Homogenizer,Biota,NIA,PFDA,6331.433,2963.715,1
+NIA biota grp D snail 20x,Sample,Pestle,Biota,NIA,PFDA,53.357,546.375,0.5
+NIA biota grp E crayfish blank,Blank,Pestle,Biota,NIA,PFDA,19.953,531.938,1
+NIA biota grp E crayfish sample,Sample,Pestle,Biota,NIA,PFDA,0,446.165,0.5353
+NIA biota grp E crayfish spike,Spike,Pestle,Biota,NIA,PFDA,16963.945,489.366,1
+NIA biota grp D sunfish blank 1,Blank,Blender,Biota,NIA,PFDA,36.893,559.545,1
+NIA biota grp D sunfish blank 2,Blank,Blender,Biota,NIA,PFDA,97.981,885.602,1
+NIA biota grp D sunfish Cici sample 1 20x,Sample,Blender,Biota,NIA,PFDA,23.228,466.06,0.9413
+NIA biota grp D sunfish Cici sample 2 20x,Sample,Blender,Biota,NIA,PFDA,0,551.016,0.6954
+NIA biota grp D sunfish spike,Spike,Blender,Biota,NIA,PFDA,13180.991,684.213,1
+NIA biota grp D sunfish Sophie sample 1 20x,Sample,Blender,Biota,NIA,PFDA,151.569,507.856,0.8905
+NIA biota grp D sunfish Sophie sample 2 20x,Sample,Blender,Biota,NIA,PFDA,90.755,473.369,0.5997
+NIA biota grp D sunfish Sophie sample 3 20x,Sample,Blender,Biota,NIA,PFDA,3.62,497.977,0.2789
+NIA biota grp F catfish blank,Blank,Blender,Biota,NIA,PFDA,37.228,711.408,1
+NIA biota grp F catfish sample 20x,Sample,Blender,Biota,NIA,PFDA,21.132,589.226,0.5925
+NIA biota grp F catfish spike,Spike,Blender,Biota,NIA,PFDA,13643.638,703.974,1
+NIA biota grp F bug blank,Blank,Homogenizer,Biota,NIA,PFDA,11.03,723.993,1
+NIA biota grp F bug sample,Sample,Homogenizer,Biota,NIA,PFDA,415.34,659.973,0.5
+NIA biota grp F bug spike,Spike,Homogenizer,Biota,NIA,PFDA,16142.164,659.911,1
+NIA biota grp F shrimp blank,Blank,Homogenizer,Biota,NIA,PFDA,129.435,737.071,1
+NIA biota grp F shrimp sample,Sample,Homogenizer,Biota,NIA,PFDA,85.623,604.39,1
+NIA biota grp F shrimp spike,Spike,Homogenizer,Biota,NIA,PFDA,8798.094,682.808,1
+NIA biota grp E sunfish blank,Blank,Blender,Biota,NIA,PFDA,76.92,850.354,1
+NIA biota grp E sunfish sample 20x,Sample,Blender,Biota,NIA,PFDA,177.314,721.4,0.7384
+NIA biota grp E sunfish spike,Spike,Blender,Biota,NIA,PFDA,13902.38,620.417,1
+NIA biota grp D sunfish sample 20x,Sample,Blender,Biota,NIA,PFDA,59.14,738.157,0.8926
