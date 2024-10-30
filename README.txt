@@ -9,6 +9,8 @@ General points:
 - The biota datasets have separate blanks for the mortar and pestle, blender, and homogenizer. Be careful when subtracting out blanks to make sure that there is an appropriate blank for every sample or you will get NA values. In a pinch, you can use a different blank for a sample (i.e. use the blender blank for a sample prepared using the homogenizer if there is no available homogenizer blank). 
 
 Specific points:
+2024 - PFHxA has some strange points early in the calibration curve. Two calibration curves, one for NIA, one for 20MC. Use "Location" column to distinguish. Run on a different instrument.
+
 2023 - LOD and LOQs on PFHxA, PFOA, PFHxS, and PFOS are relatively high, likely due to blank contamination. 
 
 2022 - Missing 20MC biota and sediment (example dataset uses 2021 data)
