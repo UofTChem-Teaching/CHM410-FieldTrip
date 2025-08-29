@@ -1,13 +1,26 @@
 ---
-title: "Lab 2: Field trip report"
-author: ''
-date: ''
+title: "PFAS Field trip analysis"
+author: 'Your name here'
+date: 'Fill in date that you started the document'
 output:
   html_document:
     df_print: paged
   pdf_document: default
 ---
-This R markdown document will walk through the steps for analyzing the field trip data. You may follow along or write your own code as you feel is necessary. For reference on how to generate calibration curves and calculate LOD and LOQ in R, you may wish to revist Chapters 19 and 20 of the [R4EnvChem textbook][https://uoftchem-teaching.github.io/R4EnvChem/]. For reference on data analysis, filtration, and transformations, consider revisiting Chapters 12-14.
+
+## Introduction
+
+This R markdown document will walk through the steps for analyzing the field trip data. You may follow along with the instructions or write your own code as you feel is necessary. We will be completing the necessary code in class to prepare a previous class's data for plotting and interpretation, however, the same code will be applicable for use with the data you collect this year. 
+
+Generally, this analysis follows the same procedure as was outlined in the Excel OPFR assignment and the theoretical principles match. However, we will be working with significantly larger data sets and routinizing the analysis using R. As we will be working through this code in class, we recommend you read and ensure you understand the relevant portions of the [R4EnvChem textbook][https://uoftchem-teaching.github.io/R4EnvChem/] shown on the 'Lectures' tab in Quercus. Useful chapters include: 
+
+[Chapter 11][https://uoftchem-teaching.github.io/R4EnvChem/tidying-your-data.html] on tidying data and working with data columns
+[Chapters 12-14][https://uoftchem-teaching.github.io/R4EnvChem/transform-data-manipulation.html] on data analysis, filtration, and transformations, 
+[Chapter 15][https://uoftchem-teaching.github.io/R4EnvChem/restructuring-your-data.html] on long vs wide structures of data
+[Chapters 16-18][https://uoftchem-teaching.github.io/R4EnvChem/visualizations-for-env-chem.html] on visualizing data in R
+and [Chapters 19 and 20][https://uoftchem-teaching.github.io/R4EnvChem/modelling-linear-regression.html] on calibration curves and LOD/LOQ in R. 
+
+Ensure you run this setup code block to import the necessary libraries for this analysis:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -19,12 +32,18 @@ library(knitr)
 library(ggpmisc)
 ```
 
+Finally, with coding, it can be very easy to lose sight of what you are actually doing to the data itself. To avoid this, we recommend regularly viewing your dataset, either by exporting it and opening it in Excel, or simply by printing the 'Data' variable. You can do this either by sipmly entering the name of the variable you want to look at in the console, by entering the following line in the console to export the file, or by opening the varialbe you want to investigate in the 'Environment' tab to the right. 
+
+```{r}
+#write.csv(Data, 'Data/FieldTrip_Data_Raw.csv')
+```
+
 ## Importing your data
 
-Let's import the lab data! We have written out the code for you below. If you want a refresher on how to import data, please read Chapter 10 of the R4EnvChem textbook. Note: make sure that you have set the right working directory! At the moment, this is set up to import an example dataset from a previous year to practice analysis on. 
+Let's import the data we will be using for this exercise! We have written out the code for you below. If you want a refresher on how to import data, please read [Chapter 10][https://uoftchem-teaching.github.io/R4EnvChem/importing-your-data-into-r.html] of the R4EnvChem textbook. Note: make sure that you have set the right working directory. 
 
 ```{r include=FALSE}
-Data <- as_tibble(read.csv("Data/2022.csv"))
+Data <- as_tibble(read.csv("Data/2024.csv"))
 
 Data
 ```
@@ -38,19 +57,19 @@ Throughout this analysis we will be making extensive use of R's data filtration 
 - "Location", which tells you whether the sample is from 20 Mile Creek or Lake Niapenco, and
 - "Compound", which tells you what compound you're working with.
 
-If at any point in this lab you want to export your data to look at it in excel, use the following line (just uncomment it):
+We also of course have our quantitative columns:
+- "Analyte.peak.area", the peak area of the quantifier ion of the compound in question
+- "Internal.standard.peak.area", the peak area of the quantifier ion of the selected isotopically-labeled internal standard, and 
+- "Sample.mass", the recorded mass of the sediment or biota or volume of the water samples (which converts into mass) in grams. All other types of samples (calibration curves, blanks, etc.) are all just listed as 1. 
 
-```{r}
-#write.csv(Data, 'Data/FieldTrip_Data_Raw.csv')
-```
-
-Now we can get into our analysis. Let's start from the beginning: QA/QC and calibration.
+Now we can get into our analysis. Let's start from the beginning: QA/QC and calibration. We are (for now) going to skip taking the ratio of our peak areas to our internal standard peak areas for the whole dataset, as we have some types of blanks that do not have internal standards added. 
 
 # QA/QC and calibration
 
 ### Calculating the LOD and LOQ of our chemicals
 
-There are several things we need to understand about our dataset before we can start analyzing our data and making plots. The first thing we need to understand is whether we measured anything at all in each of our samples. We do this by calculating our limit of detection (LOD) and limit of quantification (LOQ). We will be using the International Committee on Harmonization's approach, where 
+There are several things we need to understand about our dataset before we can start analyzing our data and making plots. The first thing we need to understand is whether we measured anything at all in each of our samples. We do this by calculating our limit of detection (LOD) and limit of quantification (LOQ). We will be using the International Committee on Harmonization's approach, where (click on the equation below to render)
+
 $$LOD = 3.3\frac{\sigma}{S} \ \ \ \ \ \ LOQ = 10\frac{\sigma}{S}$$
 
 where $\sigma$ is the standard error of the response and $S$ is the slope of the linear region of the calibration curve. We will use the standard error of the calibration curve we use to calculate $S$ as our measurement of $\sigma$. For additional discussion of calculating LOD and LOQ, please refer to the R4Envchem textbook, section 20.6. 
@@ -63,7 +82,7 @@ CalData <- Data %>% #Your code here
 CalData
 ```
 
-Now we have some data with just our calibration data in it. Let's go on to our next step!
+Now we have some data with just our calibration data in it. 
 
 Because we have an internal standard (as most quantitative LC-MS data will), we want to use the ratio of our analyte peak area to our internal standard peak area. Write some R code to create a new column of the CalData table containing this ratio, called 'ratio'.
 
@@ -71,7 +90,7 @@ Because we have an internal standard (as most quantitative LC-MS data will), we 
 CalData <- #Your code to calculate the analyte to internal standard peak area ratio
 ```
 
-For the purposes of calculating LOD/LOQ, we want a linear calibration curve. Luckily, at low concentrations our response should be relatively linear. First, let's select approximately the first five points for each analyte (try a few more or a few less too!), choose an analyte, and plot it to make sure the data make sense. You may need to remove the point at concentration = 0 as well. 
+For the purposes of calculating LOD/LOQ, we want a linear calibration curve. Luckily, at low concentrations our response should be relatively linear. First, let's select approximately the first five points for each analyte (try a few more or a few less too!), choose an analyte, and plot it to make sure the data make sense. 
 
 ```{r}
 linear <- 2 #This defines the highest value concentration we want to use for the linear portion of this calibration curve
@@ -80,7 +99,7 @@ CalDataconc <- CalData %>%
   #Write code to take the sample names and determine concentrations from those sample names
 
 CalDatafiltered <- CalDataconc %>%
-  #Write code to filter out concentrations greater than 2 ppm 
+  #Write code to filter out concentrations greater than 2 ppb 
   
 
 #Write code to make a plot of instrument response vs concentration for one analyte
@@ -99,9 +118,13 @@ kable("your table name here", col.names = c("Compound", "LOD (ng/mL)", "LOQ (ng/
 
 How do these LOQ and LOD look? Are they reasonable for your compounds? Think about what this means for each of your measurements.
 
+
+***END OF DAY 1***
+
+
 ### Creating a Calibration Curve 
 
-Now that we have LOD and LOQ, let's move on to making our actual calibration curve. A more in-depth discussion of regressions for calibration curves can be found in Chapters 19 and 20. The first step is usually to try a linear fit for your compounds, so let's try that below. Create a calibration plot for one chemical over all the different concentrations along with the linear regression. Remember to only plot values > LOQ!
+Now that we have LOD and LOQ, let's move on to making our actual calibration curve. A more in-depth discussion of regressions for calibration curves can be found in Chapters 19 and 20. The first step is usually to try a linear fit for your compounds, so let's try that below. Create a calibration plot for one chemical over all the different concentrations along with the linear regression. 
 
 
 ```{r echo=FALSE}
@@ -155,9 +178,15 @@ Data <- #Your code here to calculate concentrations
 
 Next, let's use our LOD and LOQs. In general, you can think of values that are below the LOD as 0 and values that are below the LOQ as some value, but we can't be certain what it is. A common practice for samples that are above the LOD and below the LOQ is to set the concentration to 1/2 the LOQ. Using the above concepts, assign any value with a concentration < LOD to a concentration of 0 and any value with a concentration < LOQ to a concentration of 1/2LOQ. You might find the full_join function useful again, this time by combining the 'Data' and 'QA' datasets. You might also want to add another column that states that you've done this, i.e. it contains "<LOD" and "<LOQ" so that you have a record of these changes to your dataset. However, for future work we will need the 'concentration' column to be numeric, so we don't want to put these values in there directly.
 
+If you find that your LODs and LOQs are filtering out all of your data, you may choose to leave the values, and merely make the notes column to indicate which samples are below LOD or LOQ. 
+
 ```{r}
 DataQA <- #Your code here to use LOD/LOQ
 ```
+
+
+***END OF DAY 2***
+
 
 ### Assessing blanks
 
@@ -170,7 +199,7 @@ blanks <- DataQA %>%
 kable(blanks, digits = 3, caption = 'Calculated Blank Concentrations')
 ```
 
-You will most likely find that some of your blanks have appreciable concentrations, so you need to subtract out some blanks. Let's do that automatically to all groups of compounds and blank types (note that even if you blank concentration is 0, this is fine since subtracting zero doesn't do anything. For each type of sample (i.e. field blank, lab blank, and biota blank) we want to subtract the maximum value we got in an applicable blank from the remaining values. Write code below to get that maximum blank value for each sample type. Then, join this dataframe to your existing dataframe and subtract the maximum blank values from the concentrations, then filter out the blanks from your dataset. You might also need to make sure that if your blank recorded a measurement <LOQ but your sample recorded a measurement <LOD you don't get a negative result.
+You will most likely find that some of your blanks have appreciable concentrations, so you need to subtract out some blanks. Let's do that automatically to all groups of compounds and blank types (note that even if your blank concentration is 0, this is fine since subtracting zero doesn't do anything. For each type of sample (i.e. field blank, lab blank, and biota blank) we want to subtract the maximum value we got in an applicable blank from the remaining values. Write code below to get that maximum blank value for each sample type. Then, join this dataframe to your existing dataframe and subtract the maximum blank values from the concentrations, then filter out the blanks from your dataset. You might also need to make sure that if your blank recorded a measurement <LOQ but your sample recorded a measurement <LOD you don't get a negative result.
 
 ```{r}
 maxBlanks <- blanks %>%
@@ -195,7 +224,9 @@ write.csv(DataQA, 'Data/FieldTrip_Data_Raw.csv')
 
 # Calculating usable data
 
-Great! Now that we've finished our QA/QC and we have a robust dataset, let's finalize our concentrations so that you can start making some interesting plots and analyzing your data. For this part, you'll need to go into the .csv file and fill out the 'normalization factor' column with the mass of water, sediment, or biota present in each of the samples. Rerun the entire Rmd file so that your 'Data' dataframe has the correct normalization factors and then use them (along with any dilutions you performed in your experiment) to calculate a final mass or volume concentration for each sample. Call this new column "Normalized.concentration". 
+Great! Now that we've finished our QA/QC and we have a robust dataset, let's finalize our concentrations so that you can start making some interesting plots and analyzing your data. For this part, you will need to figure out how to convert the concentration in each LC-MS vial to the concentration in the sample of interest, including both the mass or volume of sample extracted and the dilutions that were performed during the analysis. The procedures used for extraction have been identical for every year that has run this experiment, so the dilutions will be the same for every dataset (including last year's, which you are analyzing now). The masses and volumes are already available in the previous year's datasets under the 'Sample.mass' column. Keep in mind you may need to fill out this column for your own data.
+
+Fill out code to calculate a final mass or volume concentration for each sample. Call this new column "Normalized.concentration". 
 
 The first line here is just there to clean up your dataframe a little bit, since it has a lot of columns you don't need anymore. You might need to adjust the select function depending on what you've named your columns.  
 
@@ -203,12 +234,10 @@ The first line here is just there to clean up your dataframe a little bit, since
 Data <- DataQA %>%
     select(Sample.name, Sample.type, Sample.group, Matrix, Location, Compound, concentration, Normalization.factor)
 
-#Your code here to normalize your data to get volume and mass concentration
+#Your code here to normalize your data to get volume or mass concentration
 ```
 
-The last thing we're going to help you write is some code to get a more human-readable output of your data table with the concentrations of each compound in columns. To do this, we're going to do some data manipulation, along with removing extraneous data descriptor columns. They might be useful when you're filtering and plotting data in R, but all that information is actually contained in Sample.name, so we won't need it anymore! We'll also make a separate sheet containing your blanks, spikes, and calibrations in case you want those too. 
-
-This is how we've written it. There's almost certainly a better way to do this in R, but this works. If you get an error, check your column names and change the code block below to match. 
+The last thing we're going to help you write is some code to get a more human-readable output of your data table with the concentrations of each compound in columns. To do this, we're going to do some data manipulation, along with removing extraneous data descriptor columns. They might be useful when you're filtering and plotting data in R, but all that information is actually contained in Sample.name, so we won't need it anymore! We'll also make a separate sheet containing your blanks, spikes, and calibrations in case you want those too. If you get an error, check your column names and change the code block below to match. 
 
 ```{r}
 DataOut <- Data %>%
@@ -225,8 +254,42 @@ write.csv(DataOut, 'Data/Clean_FieldTrip_Data_Analyzed.csv')
 write.csv(DataAll, 'Data/All_FieldTrip_Data_Analyzed.csv')
 ```
 
-And there we have it! You now have a dataset that is fully analyzed and ready for plotting. We recommend doing further analysis and plotting here in R, but you can also use the exported data and do it yourself in another program if you wish.
+***END OF DAY 3***
+
+### Visualizations
+
+And there we have it! You now have a dataset that is fully analyzed and ready for plotting. When you are analyzing your own data, you will now be ready to make the figures and tables you will use in the report. 
+
+For the purposes of the data analysis exercise, we will instead ask you to generate a figure that tells a meaningful story about last year's dataset. Some examples could be be comparing concentrations of total PFAS in different compartments, comparing the concentrations of different PFAS within the same compartment, or even analzing the quality of the data produced in 2024. Whatever you choose, it should be generated in R using a visualization function, must contain all aspects of a figure such as axis titles, units, error bars, appropriate font sizes, a legend,  and colors/textures to enhance interpretability. Then, below the figure, write a caption for it describing what the figure is conveying in detail. Two code blocks are provided below, as we recommend performing making some initial visualizations to see what your data looks like before generating a final figure. 
+
+```{r}
+#Your code here for exploratory data analysis
+
+```
+
+
 
 ```{r}
 
+### Your code here to generate a figure to turn in
+
 ```
+***Your caption here***
+
+
+***END OF DAY 4***
+
+### Next steps
+
+Now that you have completed the data analysis workshop in R, you should have the necessary code to easily analyze and plot your own data. You may wish to modify the code above for this purpose, or you may wish to copy the code below or into a new file to do this analysis. In the 'data' folder, you will also have access to all previous classes' data back to 2016. As part of your report, you can decide whether you want to focus on your own data, use your data plus the 2024 data, or use all previous datasets (for example if you want to analyze a time trend). If you choose to use previous classes' data, please be aware that there are some quirks and discrepancies between years, along with certain data quality issues that we have identified. A description of these differences can be found in the "README.txt" document included in the folder along with this Rmd file. 
+
+To make new R code blocks within an Rmd file and continue your analysis, simply copy and paste the following:
+
+
+```{r}
+
+
+
+```
+
+
