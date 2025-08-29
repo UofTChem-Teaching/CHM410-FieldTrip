@@ -1,4 +1,4 @@
-Sample name ,Date,Sample type,Sample group,Matrix,Location,Compound,Analyte peak area,Analyte retention time (min),Internal standard peak area,Normalization factor
+Sample name ,Date,Sample type,Sample group,Matrix,Location,Compound,Analyte peak area,Analyte retention time (min),Internal standard peak area,Sample mass
 101921_0 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,0,0,208000,1
 101921_0.2 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,9280,4.28,281000,1
 101921_0.4 ng/mL,101921,Calibration curve,Lab,Water,N/A,PFDA,18800,4.28,324000,1

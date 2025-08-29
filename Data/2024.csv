@@ -1,4 +1,4 @@
-Sample name ,Sample type,Sample group,Matrix,Location,Compound,Analyte peak area,Internal standard peak area,Normalization factor
+Sample name ,Sample type,Sample group,Matrix,Location,Compound,Analyte peak area,Internal standard peak area,Sample mass
 MeOH Blank,Blank,Lab,N/A,20MC,PFHxA,73.319,0,1
 20MC_0 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,81.747,4327.891,1
 20MC_0.2 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,347.284,2974.957,1

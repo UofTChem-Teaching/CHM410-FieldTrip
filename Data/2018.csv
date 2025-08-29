@@ -1,4 +1,4 @@
-Sample name,Sample type,Sample group,Matrix,Location,Compound,Analyte.peak.area,Internal.standard.peak.area,Normalization factor
+Sample name,Sample type,Sample group,Matrix,Location,Compound,Analyte.peak.area,Internal.standard.peak.area,Sample mass
 0 ng/mL,Calibration curve,A,N/A,N/A,PFHxA,0.00E+00,4.53E+05,1
 0.1 ng/mL,Calibration curve,A,N/A,N/A,PFHxA,5.00E+04,4.52E+05,1
 0.2 ng/mL,Calibration curve,A,N/A,N/A,PFHxA,1.09E+05,6.22E+05,1
