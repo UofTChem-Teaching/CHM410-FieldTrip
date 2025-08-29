@@ -40,7 +40,7 @@ Finally, with coding, it can be very easy to lose sight of what you are actually
 
 ## Importing your data
 
-Let's import the data we will be using for this exercise! We have written out the code for you below. If you want a refresher on how to import data, please read [Chapter 10][https://uoftchem-teaching.github.io/R4EnvChem/importing-your-data-into-r.html] of the R4EnvChem textbook. Note: make sure that you have set the right working directory. 
+Let's import the data we will be using for this exercise from the 2024 iteration of this class. We have written out the code for you below. If you want a refresher on how to import data, please read [Chapter 10][https://uoftchem-teaching.github.io/R4EnvChem/importing-your-data-into-r.html] of the R4EnvChem textbook. Note: make sure that you have set the right working directory. 
 
 ```{r include=FALSE}
 Data <- as_tibble(read.csv("Data/2024.csv"))
