@@ -42,7 +42,7 @@ Data <- as_tibble(read.csv("Data/2024.csv"))
 Data
 ```
 
-Open the Excel sheet & the tibble and compare - does it make sense to you?
+Open the .csv sheet & the tibble and compare - does it make sense to you?
 
 Throughout this analysis we will be making extensive use of R's data filtration settings, which is why we have so many sample description columns. The most important ones are: 
 - "Sample.group", which tells you whether your water and sediment samples were from the field or the lab (i.e. which blank applies most directly) or how the biota sample was prepared, which again tells you which blank to use.
@@ -84,27 +84,35 @@ CalData
 
 Now we have some data with just our calibration data in it. 
 
-Because we have an internal standard (as most quantitative LC-MS data will), we want to use the ratio of our analyte peak area to our internal standard peak area. Write some R code to create a new column of the CalData table containing this ratio, called 'ratio'.
+Because we have an internal standard (as most quantitative LC-MS data will), we want to use the ratio of our analyte peak area to our internal standard peak area. Write some R code to create a new column of the CalData table containing this ratio, called 'ratio'.  The `mutate` function (Chapter 12.5) will be useful here. 
 
 ```{r}
 CalData <- #Your code to calculate the analyte to internal standard peak area ratio
 ```
 
-For the purposes of calculating LOD/LOQ, we want a linear calibration curve. Luckily, at low concentrations our response should be relatively linear. First, let's select approximately the first five points for each analyte (try a few more or a few less too!), choose an analyte, and plot it to make sure the data make sense. 
+For the purposes of calculating LOD/LOQ, we want a linear calibration curve. Start by plotting the calibration curve for one analyte, then select the appropriate concentration range to make it linear, filter out concentrations greater than that value, and plot the filtered data again. again. The calibration dataset contains the concentrations in the Sample.name column, which we can extract using the `separate` function (Chapter 11.2.2). Plotting is performed using ggplot (see Chapter 13)
 
 ```{r}
-linear <- 2 #This defines the highest value concentration we want to use for the linear portion of this calibration curve
 
 CalDataconc <- CalData %>% 
   #Write code to take the sample names and determine concentrations from those sample names
 
+
+#Write code to make a plot of instrument response vs concentration for one analyte
+
+  
+  
+linear <- 100 #This defines the highest value concentration we want to use for the linear portion of this calibration curve
+
+  
 CalDatafiltered <- CalDataconc %>%
   #Write code to filter out concentrations greater than 2 ppb 
   
 
-#Write code to make a plot of instrument response vs concentration for one analyte
+#Write code to make a plot of instrument response vs concentration for one analyte for the filtered dataset
 
 ```
+
 
 Now let's take our linear range for each analyte and use them to calculate S and $\sigma$. You can choose whether to use the standard deviation of the intercept or the residual standard deviation for this purpose, but remember that in R, these are called standard errors! Generate a table of LOD and LOQ and print it our (we recommend using kable for a publication-quality table). The code template below will guide you through the necessary steps.
 
