@@ -32,12 +32,6 @@ library(knitr)
 library(ggpmisc)
 ```
 
-Finally, with coding, it can be very easy to lose sight of what you are actually doing to the data itself. To avoid this, we recommend regularly viewing your dataset, either by exporting it and opening it in Excel, or simply by printing the 'Data' variable. You can do this either by sipmly entering the name of the variable you want to look at in the console, by entering the following line in the console to export the file, or by opening the varialbe you want to investigate in the 'Environment' tab to the right. 
-
-```{r}
-#write.csv(Data, 'Data/FieldTrip_Data_Raw.csv')
-```
-
 ## Importing your data
 
 Let's import the data we will be using for this exercise from the 2024 iteration of this class. We have written out the code for you below. If you want a refresher on how to import data, please read [Chapter 10][https://uoftchem-teaching.github.io/R4EnvChem/importing-your-data-into-r.html] of the R4EnvChem textbook. Note: make sure that you have set the right working directory. 
@@ -61,6 +55,12 @@ We also of course have our quantitative columns:
 - "Analyte.peak.area", the peak area of the quantifier ion of the compound in question
 - "Internal.standard.peak.area", the peak area of the quantifier ion of the selected isotopically-labeled internal standard, and 
 - "Sample.mass", the recorded mass of the sediment or biota or volume of the water samples (which converts into mass) in grams. All other types of samples (calibration curves, blanks, etc.) are all just listed as 1. 
+
+Finally, with coding, it can be very easy to lose sight of what you are actually doing to the data itself. To avoid this, we recommend regularly viewing your dataset, either by exporting it and opening it in Excel, or simply by printing the 'Data' variable. You can do this either by simply entering the name of the variable you want to look at in the console, by entering the following line in the console to export the file, or by opening the variable you want to investigate in the 'Environment' tab to the right. 
+
+```{r}
+#write.csv(Data, 'Data/FieldTrip_Data_Raw.csv')
+```
 
 Now we can get into our analysis. Let's start from the beginning: QA/QC and calibration. We are (for now) going to skip taking the ratio of our peak areas to our internal standard peak areas for the whole dataset, as we have some types of blanks that do not have internal standards added. 
 
