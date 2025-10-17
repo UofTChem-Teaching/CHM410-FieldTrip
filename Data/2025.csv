@@ -1,4 +1,4 @@
-﻿Sample Name,Sample type,Sample group,Matrix,Location,Compound,Analyte peak area,Internal standard peak area,Sample mass
+﻿Sample name,Sample type,Sample group,Matrix,Location,Compound,Analyte peak area,Internal standard peak area,Sample mass
 20MC C1 sediment lab blank,Blank,Lab,Sediment,20MC,PFOS,4.75E+03,1.82E+05,
 20MC C2 sediment field blank,Blank,Field,Sediment,20MC,PFOS,3.67E+03,1.48E+05,
 20MC C3 sediment field sample,Sample,Field,Sediment,20MC,PFOS,3.73E+04,1.62E+05,
@@ -986,4 +986,5 @@ NIA I Sunfish sample 1 2x,Sample,Homogenizer,Biota,NIA,PFHxS,1.11E+04,2.96E+05,
 NIA I Sunfish sample 2 2x,Sample,Homogenizer,Biota,NIA,PFHxS,1.10E+04,3.32E+05,
 NIA I Sunfish sample 3 2x,Sample,Homogenizer,Biota,NIA,PFHxS,6.39E+03,4.67E+05,
 NIA I Sunfish sample 4 2x,Sample,Homogenizer,Biota,NIA,PFHxS,8.18E+03,3.71E+05,
+
 
