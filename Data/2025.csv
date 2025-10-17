@@ -1,4 +1,4 @@
-﻿Sample Name,Sample Type,Sample group,Matrix,Location,Compound,Analyte peak area,Internal standard peak area,Sample mass
+﻿Sample name,Sample type,Sample group,Matrix,Location,Compound,Analyte peak area,Internal standard peak area,Sample mass
 20MC C1 sediment lab blank,Blank,Lab,Sediment,20MC,PFOS,4.75E+03,1.82E+05,1
 20MC C2 sediment field blank,Blank,Field,Sediment,20MC,PFOS,3.67E+03,1.48E+05,1
 20MC C3 sediment field sample,Sample,Field,Sediment,20MC,PFOS,3.73E+04,1.62E+05,0.9716
@@ -24,16 +24,16 @@
 20MC B5 Crayfish MTBE Sample,Sample,Pestle,Biota,20MC,PFOS,6.61E+04,2.59E+05,0.7906
 20MC B6 Crayfish Spike,Spike,Pestle,Biota,20MC,PFOS,5.19E+05,2.93E+05,1
 20MC MeOH Blank 1,Blank,Lab,N/A,20MC,PFOS,3.28E+04,1.25E+03,1
-20MC_0 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOS,8.11E+03,2.83E+05,1
-20MC_0.2 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOS,3.55E+04,2.79E+05,1
-20MC_0.4 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOS,5.65E+04,2.94E+05,1
-20MC_1 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOS,1.02E+05,2.91E+05,1
-20MC_2 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOS,1.64E+05,2.74E+05,1
-20MC_4 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOS,2.99E+05,2.86E+05,1
-20MC_10 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOS,5.98E+05,2.22E+05,1
-20MC_20 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOS,1.28E+06,2.56E+05,1
-20MC_40 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOS,2.27E+06,2.37E+05,1
-20MC_100 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOS,4.48E+06,1.74E+05,1
+20MC_0 ng/mL,Calibration curve,Lab,N/A,20MC,PFOS,8.11E+03,2.83E+05,1
+20MC_0.2 ng/mL,Calibration curve,Lab,N/A,20MC,PFOS,3.55E+04,2.79E+05,1
+20MC_0.4 ng/mL,Calibration curve,Lab,N/A,20MC,PFOS,5.65E+04,2.94E+05,1
+20MC_1 ng/mL,Calibration curve,Lab,N/A,20MC,PFOS,1.02E+05,2.91E+05,1
+20MC_2 ng/mL,Calibration curve,Lab,N/A,20MC,PFOS,1.64E+05,2.74E+05,1
+20MC_4 ng/mL,Calibration curve,Lab,N/A,20MC,PFOS,2.99E+05,2.86E+05,1
+20MC_10 ng/mL,Calibration curve,Lab,N/A,20MC,PFOS,5.98E+05,2.22E+05,1
+20MC_20 ng/mL,Calibration curve,Lab,N/A,20MC,PFOS,1.28E+06,2.56E+05,1
+20MC_40 ng/mL,Calibration curve,Lab,N/A,20MC,PFOS,2.27E+06,2.37E+05,1
+20MC_100 ng/mL,Calibration curve,Lab,N/A,20MC,PFOS,4.48E+06,1.74E+05,1
 20MC MeOH Blank 2,Blank,Lab,N/A,20MC,PFOS,2.37E+04,6.67E+02,1
 20MC water lab blank,Blank,Lab,Water,20MC,PFOS,8.97E+03,2.86E+05,1
 20MC water field blank,Blank,Field,Water,20MC,PFOS,1.04E+04,3.14E+05,1
@@ -118,16 +118,16 @@ NIA F Sediment Spike,Spike,Lab,Sediment,NIA,PFOS,4.96E+05,2.94E+05,1
 NIA I Sediment field blank,Blank,Field,Sediment,NIA,PFOS,2.80E+04,2.75E+05,1
 NIA I Sediment FIeld Spike,Spike,Field,Sediment,NIA,PFOS,7.52E+03,2.16E+05,1
 NIA MeOH Blank,Blank,Lab,N/A,NIA,PFOS,2.98E+04,1.63E+03,1
-NIA_0 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOS,1.07E+04,3.21E+05,1
-NIA_0.2 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOS,3.79E+04,3.28E+05,1
-NIA_0.4 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOS,6.60E+04,3.23E+05,1
-NIA_1 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOS,1.20E+05,3.30E+05,1
-NIA_2 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOS,1.85E+05,3.32E+05,1
-NIA_4 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOS,3.38E+05,3.32E+05,1
-NIA_10 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOS,8.28E+05,3.21E+05,1
-NIA_20 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOS,1.48E+06,3.00E+05,1
-NIA_40 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOS,2.54E+06,2.71E+05,1
-NIA_100 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOS,4.88E+06,1.88E+05,1
+NIA_0 ng/mL,Calibration curve,Lab,N/A,NIA,PFOS,1.07E+04,3.21E+05,1
+NIA_0.2 ng/mL,Calibration curve,Lab,N/A,NIA,PFOS,3.79E+04,3.28E+05,1
+NIA_0.4 ng/mL,Calibration curve,Lab,N/A,NIA,PFOS,6.60E+04,3.23E+05,1
+NIA_1 ng/mL,Calibration curve,Lab,N/A,NIA,PFOS,1.20E+05,3.30E+05,1
+NIA_2 ng/mL,Calibration curve,Lab,N/A,NIA,PFOS,1.85E+05,3.32E+05,1
+NIA_4 ng/mL,Calibration curve,Lab,N/A,NIA,PFOS,3.38E+05,3.32E+05,1
+NIA_10 ng/mL,Calibration curve,Lab,N/A,NIA,PFOS,8.28E+05,3.21E+05,1
+NIA_20 ng/mL,Calibration curve,Lab,N/A,NIA,PFOS,1.48E+06,3.00E+05,1
+NIA_40 ng/mL,Calibration curve,Lab,N/A,NIA,PFOS,2.54E+06,2.71E+05,1
+NIA_100 ng/mL,Calibration curve,Lab,N/A,NIA,PFOS,4.88E+06,1.88E+05,1
 NIA H sunfish water blank,Blank,Homogenizer,Biota,NIA,PFOS,1.32E+04,2.98E+05,1
 NIA H sunfish homogenizer blank,Blank,Homogenizer,Biota,NIA,PFOS,1.33E+04,2.95E+05,1
 NIA H sunfish sample 1 2x,Sample,Homogenizer,Biota,NIA,PFOS,3.59E+06,2.12E+05,1.418
@@ -165,16 +165,16 @@ NIA I Sunfish sample 4 2x,Sample,Homogenizer,Biota,NIA,PFOS,5.66E+05,3.21E+05,0.
 20MC B5 Crayfish MTBE Sample,Sample,Pestle,Biota,20MC,PFHxA,1.81E+04,1.26E+06,0.7906
 20MC B6 Crayfish Spike,Spike,Pestle,Biota,20MC,PFHxA,1.36E+06,1.45E+06,1
 20MC MeOH Blank 1,Blank,Lab,N/A,20MC,PFHxA,-6.11E+04,3.80E+03,1
-20MC_0 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxA,-1.60E+04,1.25E+06,1
-20MC_0.2 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxA,9.52E+04,1.33E+06,1
-20MC_0.4 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxA,1.73E+05,1.39E+06,1
-20MC_1 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxA,3.24E+05,1.43E+06,1
-20MC_2 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxA,7.70E+05,1.38E+06,1
-20MC_4 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxA,1.32E+06,1.38E+06,1
-20MC_10 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxA,2.83E+06,1.23E+06,1
-20MC_20 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxA,6.95E+06,1.45E+06,1
-20MC_40 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxA,1.16E+07,1.29E+06,1
-20MC_100 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxA,2.45E+07,1.06E+06,1
+20MC_0 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,-1.60E+04,1.25E+06,1
+20MC_0.2 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,9.52E+04,1.33E+06,1
+20MC_0.4 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,1.73E+05,1.39E+06,1
+20MC_1 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,3.24E+05,1.43E+06,1
+20MC_2 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,7.70E+05,1.38E+06,1
+20MC_4 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,1.32E+06,1.38E+06,1
+20MC_10 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,2.83E+06,1.23E+06,1
+20MC_20 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,6.95E+06,1.45E+06,1
+20MC_40 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,1.16E+07,1.29E+06,1
+20MC_100 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxA,2.45E+07,1.06E+06,1
 20MC MeOH Blank 2,Blank,Lab,N/A,20MC,PFHxA,2.00E+04,4.15E+03,1
 20MC water lab blank,Blank,Lab,Water,20MC,PFHxA,-1.66E+04,1.40E+06,1
 20MC water field blank,Blank,Field,Water,20MC,PFHxA,-1.76E+04,1.54E+06,1
@@ -259,16 +259,16 @@ NIA F Sediment Spike,Spike,Lab,Sediment,NIA,PFHxA,2.48E+06,1.64E+06,1
 NIA I Sediment field blank,Blank,Field,Sediment,NIA,PFHxA,-1.83E+04,1.43E+06,1
 NIA I Sediment FIeld Spike,Spike,Field,Sediment,NIA,PFHxA,-5.07E+03,1.14E+06,1
 NIA MeOH Blank,Blank,Lab,N/A,NIA,PFHxA,2.65E+04,4.47E+03,1
-NIA_0 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxA,-3.92E+04,1.67E+06,1
-NIA_0.2 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxA,1.12E+05,1.75E+06,1
-NIA_0.4 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxA,2.20E+05,1.79E+06,1
-NIA_1 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxA,4.29E+05,1.82E+06,1
-NIA_2 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxA,9.52E+05,1.73E+06,1
-NIA_4 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxA,1.68E+06,1.73E+06,1
-NIA_10 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxA,4.15E+06,1.69E+06,1
-NIA_20 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxA,8.06E+06,1.65E+06,1
-NIA_40 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxA,1.35E+07,1.63E+06,1
-NIA_100 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxA,2.92E+07,1.26E+06,1
+NIA_0 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxA,-3.92E+04,1.67E+06,1
+NIA_0.2 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxA,1.12E+05,1.75E+06,1
+NIA_0.4 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxA,2.20E+05,1.79E+06,1
+NIA_1 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxA,4.29E+05,1.82E+06,1
+NIA_2 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxA,9.52E+05,1.73E+06,1
+NIA_4 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxA,1.68E+06,1.73E+06,1
+NIA_10 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxA,4.15E+06,1.69E+06,1
+NIA_20 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxA,8.06E+06,1.65E+06,1
+NIA_40 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxA,1.35E+07,1.63E+06,1
+NIA_100 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxA,2.92E+07,1.26E+06,1
 NIA H sunfish water blank,Blank,Homogenizer,Biota,NIA,PFHxA,-2.46E+04,1.60E+06,1
 NIA H sunfish homogenizer blank,Blank,Homogenizer,Biota,NIA,PFHxA,-6.78E+03,1.54E+06,1
 NIA H sunfish sample 1 2x,Sample,Homogenizer,Biota,NIA,PFHxA,-1.06E+05,1.52E+06,1.418
@@ -306,16 +306,16 @@ NIA I Sunfish sample 4 2x,Sample,Homogenizer,Biota,NIA,PFHxA,-3.78E+03,1.88E+06,
 20MC B5 Crayfish MTBE Sample,Sample,Pestle,Biota,20MC,PFHpA,2.49E+04,1.26E+06,0.7906
 20MC B6 Crayfish Spike,Spike,Pestle,Biota,20MC,PFHpA,1.87E+06,1.45E+06,1
 20MC MeOH Blank 1,Blank,Lab,N/A,20MC,PFHpA,2.31E+04,3.80E+03,1
-20MC_0 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHpA,1.45E+04,1.25E+06,1
-20MC_0.2 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHpA,1.02E+05,1.33E+06,1
-20MC_0.4 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHpA,1.89E+05,1.39E+06,1
-20MC_1 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHpA,3.89E+05,1.43E+06,1
-20MC_2 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHpA,7.75E+05,1.38E+06,1
-20MC_4 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHpA,1.48E+06,1.38E+06,1
-20MC_10 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHpA,2.91E+06,1.23E+06,1
-20MC_20 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHpA,6.98E+06,1.45E+06,1
-20MC_40 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHpA,1.15E+07,1.29E+06,1
-20MC_100 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHpA,2.44E+07,1.06E+06,1
+20MC_0 ng/mL,Calibration curve,Lab,N/A,20MC,PFHpA,1.45E+04,1.25E+06,1
+20MC_0.2 ng/mL,Calibration curve,Lab,N/A,20MC,PFHpA,1.02E+05,1.33E+06,1
+20MC_0.4 ng/mL,Calibration curve,Lab,N/A,20MC,PFHpA,1.89E+05,1.39E+06,1
+20MC_1 ng/mL,Calibration curve,Lab,N/A,20MC,PFHpA,3.89E+05,1.43E+06,1
+20MC_2 ng/mL,Calibration curve,Lab,N/A,20MC,PFHpA,7.75E+05,1.38E+06,1
+20MC_4 ng/mL,Calibration curve,Lab,N/A,20MC,PFHpA,1.48E+06,1.38E+06,1
+20MC_10 ng/mL,Calibration curve,Lab,N/A,20MC,PFHpA,2.91E+06,1.23E+06,1
+20MC_20 ng/mL,Calibration curve,Lab,N/A,20MC,PFHpA,6.98E+06,1.45E+06,1
+20MC_40 ng/mL,Calibration curve,Lab,N/A,20MC,PFHpA,1.15E+07,1.29E+06,1
+20MC_100 ng/mL,Calibration curve,Lab,N/A,20MC,PFHpA,2.44E+07,1.06E+06,1
 20MC MeOH Blank 2,Blank,Lab,N/A,20MC,PFHpA,2.83E+04,4.15E+03,1
 20MC water lab blank,Blank,Lab,Water,20MC,PFHpA,1.19E+04,1.40E+06,1
 20MC water field blank,Blank,Field,Water,20MC,PFHpA,1.81E+04,1.54E+06,1
@@ -400,16 +400,16 @@ NIA F Sediment Spike,Spike,Lab,Sediment,NIA,PFHpA,2.52E+06,1.64E+06,1
 NIA I Sediment field blank,Blank,Field,Sediment,NIA,PFHpA,2.57E+04,1.43E+06,1
 NIA I Sediment FIeld Spike,Spike,Field,Sediment,NIA,PFHpA,2.21E+04,1.14E+06,1
 NIA MeOH Blank,Blank,Lab,N/A,NIA,PFHpA,1.78E+04,4.47E+03,1
-NIA_0 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHpA,1.20E+04,1.67E+06,1
-NIA_0.2 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHpA,1.29E+05,1.75E+06,1
-NIA_0.4 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHpA,2.28E+05,1.79E+06,1
-NIA_1 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHpA,4.62E+05,1.82E+06,1
-NIA_2 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHpA,9.70E+05,1.73E+06,1
-NIA_4 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHpA,1.74E+06,1.73E+06,1
-NIA_10 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHpA,4.38E+06,1.69E+06,1
-NIA_20 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHpA,7.94E+06,1.65E+06,1
-NIA_40 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHpA,6.83E+06,1.63E+06,1
-NIA_100 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHpA,1.62E+07,1.26E+06,1
+NIA_0 ng/mL,Calibration curve,Lab,N/A,NIA,PFHpA,1.20E+04,1.67E+06,1
+NIA_0.2 ng/mL,Calibration curve,Lab,N/A,NIA,PFHpA,1.29E+05,1.75E+06,1
+NIA_0.4 ng/mL,Calibration curve,Lab,N/A,NIA,PFHpA,2.28E+05,1.79E+06,1
+NIA_1 ng/mL,Calibration curve,Lab,N/A,NIA,PFHpA,4.62E+05,1.82E+06,1
+NIA_2 ng/mL,Calibration curve,Lab,N/A,NIA,PFHpA,9.70E+05,1.73E+06,1
+NIA_4 ng/mL,Calibration curve,Lab,N/A,NIA,PFHpA,1.74E+06,1.73E+06,1
+NIA_10 ng/mL,Calibration curve,Lab,N/A,NIA,PFHpA,4.38E+06,1.69E+06,1
+NIA_20 ng/mL,Calibration curve,Lab,N/A,NIA,PFHpA,7.94E+06,1.65E+06,1
+NIA_40 ng/mL,Calibration curve,Lab,N/A,NIA,PFHpA,6.83E+06,1.63E+06,1
+NIA_100 ng/mL,Calibration curve,Lab,N/A,NIA,PFHpA,1.62E+07,1.26E+06,1
 NIA H sunfish water blank,Blank,Homogenizer,Biota,NIA,PFHpA,1.11E+04,1.60E+06,1
 NIA H sunfish homogenizer blank,Blank,Homogenizer,Biota,NIA,PFHpA,9.34E+03,1.54E+06,1
 NIA H sunfish sample 1 2x,Sample,Homogenizer,Biota,NIA,PFHpA,2.08E+04,1.52E+06,1.418
@@ -447,16 +447,16 @@ NIA I Sunfish sample 4 2x,Sample,Homogenizer,Biota,NIA,PFHpA,1.69E+04,1.88E+06,0
 20MC B5 Crayfish MTBE Sample,Sample,Pestle,Biota,20MC,PFOA,5.76E+04,1.03E+06,0.7906
 20MC B6 Crayfish Spike,Spike,Pestle,Biota,20MC,PFOA,1.71E+06,1.25E+06,1
 20MC MeOH Blank 1,Blank,Lab,N/A,20MC,PFOA,7.07E+04,3.35E+03,1
-20MC_0 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOA,2.41E+04,1.15E+06,1
-20MC_0.2 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOA,1.06E+05,1.22E+06,1
-20MC_0.4 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOA,1.71E+05,1.17E+06,1
-20MC_1 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOA,3.24E+05,1.22E+06,1
-20MC_2 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOA,6.59E+05,1.17E+06,1
-20MC_4 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOA,1.17E+06,1.19E+06,1
-20MC_10 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOA,2.30E+06,9.27E+05,1
-20MC_20 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOA,6.30E+06,1.26E+06,1
-20MC_40 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOA,1.07E+07,1.25E+06,1
-20MC_100 ng/mL,Calibration Curve,Lab,N/A,20MC,PFOA,2.49E+07,9.86E+05,1
+20MC_0 ng/mL,Calibration curve,Lab,N/A,20MC,PFOA,2.41E+04,1.15E+06,1
+20MC_0.2 ng/mL,Calibration curve,Lab,N/A,20MC,PFOA,1.06E+05,1.22E+06,1
+20MC_0.4 ng/mL,Calibration curve,Lab,N/A,20MC,PFOA,1.71E+05,1.17E+06,1
+20MC_1 ng/mL,Calibration curve,Lab,N/A,20MC,PFOA,3.24E+05,1.22E+06,1
+20MC_2 ng/mL,Calibration curve,Lab,N/A,20MC,PFOA,6.59E+05,1.17E+06,1
+20MC_4 ng/mL,Calibration curve,Lab,N/A,20MC,PFOA,1.17E+06,1.19E+06,1
+20MC_10 ng/mL,Calibration curve,Lab,N/A,20MC,PFOA,2.30E+06,9.27E+05,1
+20MC_20 ng/mL,Calibration curve,Lab,N/A,20MC,PFOA,6.30E+06,1.26E+06,1
+20MC_40 ng/mL,Calibration curve,Lab,N/A,20MC,PFOA,1.07E+07,1.25E+06,1
+20MC_100 ng/mL,Calibration curve,Lab,N/A,20MC,PFOA,2.49E+07,9.86E+05,1
 20MC MeOH Blank 2,Blank,Lab,N/A,20MC,PFOA,7.73E+04,3.30E+03,1
 20MC water lab blank,Blank,Lab,Water,20MC,PFOA,4.05E+04,1.17E+06,1
 20MC water field blank,Blank,Field,Water,20MC,PFOA,3.54E+04,1.40E+06,1
@@ -541,16 +541,16 @@ NIA F Sediment Spike,Spike,Lab,Sediment,NIA,PFOA,2.20E+06,1.32E+06,1
 NIA I Sediment field blank,Blank,Field,Sediment,NIA,PFOA,6.86E+04,1.29E+06,1
 NIA I Sediment FIeld Spike,Spike,Field,Sediment,NIA,PFOA,5.88E+04,1.28E+06,1
 NIA MeOH Blank,Blank,Lab,N/A,NIA,PFOA,9.42E+04,3.50E+03,1
-NIA_0 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOA,3.95E+04,1.38E+06,1
-NIA_0.2 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOA,1.40E+05,1.45E+06,1
-NIA_0.4 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOA,2.21E+05,1.43E+06,1
-NIA_1 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOA,4.17E+05,1.52E+06,1
-NIA_2 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOA,8.32E+05,1.48E+06,1
-NIA_4 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOA,1.50E+06,1.48E+06,1
-NIA_10 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOA,3.78E+06,1.47E+06,1
-NIA_20 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOA,6.78E+06,1.46E+06,1
-NIA_40 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOA,1.19E+07,1.41E+06,1
-NIA_100 ng/mL,Calibration Curve,Lab,N/A,NIA,PFOA,2.63E+07,1.11E+06,1
+NIA_0 ng/mL,Calibration curve,Lab,N/A,NIA,PFOA,3.95E+04,1.38E+06,1
+NIA_0.2 ng/mL,Calibration curve,Lab,N/A,NIA,PFOA,1.40E+05,1.45E+06,1
+NIA_0.4 ng/mL,Calibration curve,Lab,N/A,NIA,PFOA,2.21E+05,1.43E+06,1
+NIA_1 ng/mL,Calibration curve,Lab,N/A,NIA,PFOA,4.17E+05,1.52E+06,1
+NIA_2 ng/mL,Calibration curve,Lab,N/A,NIA,PFOA,8.32E+05,1.48E+06,1
+NIA_4 ng/mL,Calibration curve,Lab,N/A,NIA,PFOA,1.50E+06,1.48E+06,1
+NIA_10 ng/mL,Calibration curve,Lab,N/A,NIA,PFOA,3.78E+06,1.47E+06,1
+NIA_20 ng/mL,Calibration curve,Lab,N/A,NIA,PFOA,6.78E+06,1.46E+06,1
+NIA_40 ng/mL,Calibration curve,Lab,N/A,NIA,PFOA,1.19E+07,1.41E+06,1
+NIA_100 ng/mL,Calibration curve,Lab,N/A,NIA,PFOA,2.63E+07,1.11E+06,1
 NIA H sunfish water blank,Blank,Homogenizer,Biota,NIA,PFOA,4.47E+04,1.33E+06,1
 NIA H sunfish homogenizer blank,Blank,Homogenizer,Biota,NIA,PFOA,3.96E+04,1.22E+06,1
 NIA H sunfish sample 1 2x,Sample,Homogenizer,Biota,NIA,PFOA,5.69E+04,1.12E+06,1.418
@@ -588,16 +588,16 @@ NIA I Sunfish sample 4 2x,Sample,Homogenizer,Biota,NIA,PFOA,4.77E+04,1.58E+06,0.
 20MC B5 Crayfish MTBE Sample,Sample,Pestle,Biota,20MC,PFNA,2.07E+04,9.05E+05,0.7906
 20MC B6 Crayfish Spike,Spike,Pestle,Biota,20MC,PFNA,1.45E+06,1.07E+06,1
 20MC MeOH Blank 1,Blank,Lab,N/A,20MC,PFNA,-1.48E+03,1.72E+03,1
-20MC_0 ng/mL,Calibration Curve,Lab,N/A,20MC,PFNA,-5.55E+02,1.03E+06,1
-20MC_0.2 ng/mL,Calibration Curve,Lab,N/A,20MC,PFNA,6.49E+04,1.08E+06,1
-20MC_0.4 ng/mL,Calibration Curve,Lab,N/A,20MC,PFNA,1.28E+05,1.06E+06,1
-20MC_1 ng/mL,Calibration Curve,Lab,N/A,20MC,PFNA,2.40E+05,1.18E+06,1
-20MC_2 ng/mL,Calibration Curve,Lab,N/A,20MC,PFNA,5.26E+05,1.13E+06,1
-20MC_4 ng/mL,Calibration Curve,Lab,N/A,20MC,PFNA,9.39E+05,1.08E+06,1
-20MC_10 ng/mL,Calibration Curve,Lab,N/A,20MC,PFNA,1.80E+06,8.07E+05,1
-20MC_20 ng/mL,Calibration Curve,Lab,N/A,20MC,PFNA,4.63E+06,9.98E+05,1
-20MC_40 ng/mL,Calibration Curve,Lab,N/A,20MC,PFNA,7.70E+06,9.73E+05,1
-20MC_100 ng/mL,Calibration Curve,Lab,N/A,20MC,PFNA,1.61E+07,6.87E+05,1
+20MC_0 ng/mL,Calibration curve,Lab,N/A,20MC,PFNA,-5.55E+02,1.03E+06,1
+20MC_0.2 ng/mL,Calibration curve,Lab,N/A,20MC,PFNA,6.49E+04,1.08E+06,1
+20MC_0.4 ng/mL,Calibration curve,Lab,N/A,20MC,PFNA,1.28E+05,1.06E+06,1
+20MC_1 ng/mL,Calibration curve,Lab,N/A,20MC,PFNA,2.40E+05,1.18E+06,1
+20MC_2 ng/mL,Calibration curve,Lab,N/A,20MC,PFNA,5.26E+05,1.13E+06,1
+20MC_4 ng/mL,Calibration curve,Lab,N/A,20MC,PFNA,9.39E+05,1.08E+06,1
+20MC_10 ng/mL,Calibration curve,Lab,N/A,20MC,PFNA,1.80E+06,8.07E+05,1
+20MC_20 ng/mL,Calibration curve,Lab,N/A,20MC,PFNA,4.63E+06,9.98E+05,1
+20MC_40 ng/mL,Calibration curve,Lab,N/A,20MC,PFNA,7.70E+06,9.73E+05,1
+20MC_100 ng/mL,Calibration curve,Lab,N/A,20MC,PFNA,1.61E+07,6.87E+05,1
 20MC MeOH Blank 2,Blank,Lab,N/A,20MC,PFNA,1.26E+04,1.17E+03,1
 20MC water lab blank,Blank,Lab,Water,20MC,PFNA,6.91E+03,1.17E+06,1
 20MC water field blank,Blank,Field,Water,20MC,PFNA,5.78E+03,1.21E+06,1
@@ -682,16 +682,16 @@ NIA F Sediment Spike,Spike,Lab,Sediment,NIA,PFNA,1.79E+06,1.19E+06,1
 NIA I Sediment field blank,Blank,Field,Sediment,NIA,PFNA,1.16E+04,1.26E+06,1
 NIA I Sediment FIeld Spike,Spike,Field,Sediment,NIA,PFNA,1.25E+04,1.28E+06,1
 NIA MeOH Blank,Blank,Lab,N/A,NIA,PFNA,1.44E+04,1.48E+03,1
-NIA_0 ng/mL,Calibration Curve,Lab,N/A,NIA,PFNA,8.68E+03,1.35E+06,1
-NIA_0.2 ng/mL,Calibration Curve,Lab,N/A,NIA,PFNA,8.97E+04,1.36E+06,1
-NIA_0.4 ng/mL,Calibration Curve,Lab,N/A,NIA,PFNA,1.58E+05,1.42E+06,1
-NIA_1 ng/mL,Calibration Curve,Lab,N/A,NIA,PFNA,3.30E+05,1.43E+06,1
-NIA_2 ng/mL,Calibration Curve,Lab,N/A,NIA,PFNA,6.74E+05,1.38E+06,1
-NIA_4 ng/mL,Calibration Curve,Lab,N/A,NIA,PFNA,1.18E+06,1.34E+06,1
-NIA_10 ng/mL,Calibration Curve,Lab,N/A,NIA,PFNA,3.04E+06,1.30E+06,1
-NIA_20 ng/mL,Calibration Curve,Lab,N/A,NIA,PFNA,5.56E+06,1.22E+06,1
-NIA_40 ng/mL,Calibration Curve,Lab,N/A,NIA,PFNA,8.86E+06,1.06E+06,1
-NIA_100 ng/mL,Calibration Curve,Lab,N/A,NIA,PFNA,1.86E+07,7.88E+05,1
+NIA_0 ng/mL,Calibration curve,Lab,N/A,NIA,PFNA,8.68E+03,1.35E+06,1
+NIA_0.2 ng/mL,Calibration curve,Lab,N/A,NIA,PFNA,8.97E+04,1.36E+06,1
+NIA_0.4 ng/mL,Calibration curve,Lab,N/A,NIA,PFNA,1.58E+05,1.42E+06,1
+NIA_1 ng/mL,Calibration curve,Lab,N/A,NIA,PFNA,3.30E+05,1.43E+06,1
+NIA_2 ng/mL,Calibration curve,Lab,N/A,NIA,PFNA,6.74E+05,1.38E+06,1
+NIA_4 ng/mL,Calibration curve,Lab,N/A,NIA,PFNA,1.18E+06,1.34E+06,1
+NIA_10 ng/mL,Calibration curve,Lab,N/A,NIA,PFNA,3.04E+06,1.30E+06,1
+NIA_20 ng/mL,Calibration curve,Lab,N/A,NIA,PFNA,5.56E+06,1.22E+06,1
+NIA_40 ng/mL,Calibration curve,Lab,N/A,NIA,PFNA,8.86E+06,1.06E+06,1
+NIA_100 ng/mL,Calibration curve,Lab,N/A,NIA,PFNA,1.86E+07,7.88E+05,1
 NIA H sunfish water blank,Blank,Homogenizer,Biota,NIA,PFNA,8.40E+03,1.26E+06,1
 NIA H sunfish homogenizer blank,Blank,Homogenizer,Biota,NIA,PFNA,6.15E+03,1.19E+06,1
 NIA H sunfish sample 1 2x,Sample,Homogenizer,Biota,NIA,PFNA,1.65E+04,7.63E+05,1.418
@@ -729,16 +729,16 @@ NIA I Sunfish sample 4 2x,Sample,Homogenizer,Biota,NIA,PFNA,2.43E+04,1.36E+06,0.
 20MC B5 Crayfish MTBE Sample,Sample,Pestle,Biota,20MC,PFDA,1.35E+04,8.04E+05,0.7906
 20MC B6 Crayfish Spike,Spike,Pestle,Biota,20MC,PFDA,1.42E+06,9.12E+05,1
 20MC MeOH Blank 1,Blank,Lab,N/A,20MC,PFDA,1.20E+04,8.94E+02,1
-20MC_0 ng/mL,Calibration Curve,Lab,N/A,20MC,PFDA,-1.05E+03,8.06E+05,1
-20MC_0.2 ng/mL,Calibration Curve,Lab,N/A,20MC,PFDA,6.90E+04,1.02E+06,1
-20MC_0.4 ng/mL,Calibration Curve,Lab,N/A,20MC,PFDA,1.14E+05,9.21E+05,1
-20MC_1 ng/mL,Calibration Curve,Lab,N/A,20MC,PFDA,2.38E+05,9.70E+05,1
-20MC_2 ng/mL,Calibration Curve,Lab,N/A,20MC,PFDA,5.34E+05,1.02E+06,1
-20MC_4 ng/mL,Calibration Curve,Lab,N/A,20MC,PFDA,9.27E+05,9.77E+05,1
-20MC_10 ng/mL,Calibration Curve,Lab,N/A,20MC,PFDA,2.04E+06,8.01E+05,1
-20MC_20 ng/mL,Calibration Curve,Lab,N/A,20MC,PFDA,5.32E+06,1.02E+06,1
-20MC_40 ng/mL,Calibration Curve,Lab,N/A,20MC,PFDA,8.86E+06,9.42E+05,1
-20MC_100 ng/mL,Calibration Curve,Lab,N/A,20MC,PFDA,1.76E+07,8.14E+05,1
+20MC_0 ng/mL,Calibration curve,Lab,N/A,20MC,PFDA,-1.05E+03,8.06E+05,1
+20MC_0.2 ng/mL,Calibration curve,Lab,N/A,20MC,PFDA,6.90E+04,1.02E+06,1
+20MC_0.4 ng/mL,Calibration curve,Lab,N/A,20MC,PFDA,1.14E+05,9.21E+05,1
+20MC_1 ng/mL,Calibration curve,Lab,N/A,20MC,PFDA,2.38E+05,9.70E+05,1
+20MC_2 ng/mL,Calibration curve,Lab,N/A,20MC,PFDA,5.34E+05,1.02E+06,1
+20MC_4 ng/mL,Calibration curve,Lab,N/A,20MC,PFDA,9.27E+05,9.77E+05,1
+20MC_10 ng/mL,Calibration curve,Lab,N/A,20MC,PFDA,2.04E+06,8.01E+05,1
+20MC_20 ng/mL,Calibration curve,Lab,N/A,20MC,PFDA,5.32E+06,1.02E+06,1
+20MC_40 ng/mL,Calibration curve,Lab,N/A,20MC,PFDA,8.86E+06,9.42E+05,1
+20MC_100 ng/mL,Calibration curve,Lab,N/A,20MC,PFDA,1.76E+07,8.14E+05,1
 20MC MeOH Blank 2,Blank,Lab,N/A,20MC,PFDA,1.44E+04,1.41E+03,1
 20MC water lab blank,Blank,Lab,Water,20MC,PFDA,7.60E+03,1.01E+06,1
 20MC water field blank,Blank,Field,Water,20MC,PFDA,5.60E+03,1.12E+06,1
@@ -823,16 +823,16 @@ NIA F Sediment Spike,Spike,Lab,Sediment,NIA,PFDA,1.76E+06,1.16E+06,1
 NIA I Sediment field blank,Blank,Field,Sediment,NIA,PFDA,1.59E+04,1.08E+06,1
 NIA I Sediment FIeld Spike,Spike,Field,Sediment,NIA,PFDA,7.06E+03,1.17E+06,1
 NIA MeOH Blank,Blank,Lab,N/A,NIA,PFDA,1.21E+04,1.64E+03,1
-NIA_0 ng/mL,Calibration Curve,Lab,N/A,NIA,PFDA,4.88E+03,1.18E+06,1
-NIA_0.2 ng/mL,Calibration Curve,Lab,N/A,NIA,PFDA,8.45E+04,1.30E+06,1
-NIA_0.4 ng/mL,Calibration Curve,Lab,N/A,NIA,PFDA,1.51E+05,1.21E+06,1
-NIA_1 ng/mL,Calibration Curve,Lab,N/A,NIA,PFDA,2.86E+05,1.32E+06,1
-NIA_2 ng/mL,Calibration Curve,Lab,N/A,NIA,PFDA,6.28E+05,1.27E+06,1
-NIA_4 ng/mL,Calibration Curve,Lab,N/A,NIA,PFDA,1.21E+06,1.21E+06,1
-NIA_10 ng/mL,Calibration Curve,Lab,N/A,NIA,PFDA,3.14E+06,1.10E+06,1
-NIA_20 ng/mL,Calibration Curve,Lab,N/A,NIA,PFDA,5.94E+06,1.20E+06,1
-NIA_40 ng/mL,Calibration Curve,Lab,N/A,NIA,PFDA,9.73E+06,1.09E+06,1
-NIA_100 ng/mL,Calibration Curve,Lab,N/A,NIA,PFDA,2.03E+07,8.62E+05,1
+NIA_0 ng/mL,Calibration curve,Lab,N/A,NIA,PFDA,4.88E+03,1.18E+06,1
+NIA_0.2 ng/mL,Calibration curve,Lab,N/A,NIA,PFDA,8.45E+04,1.30E+06,1
+NIA_0.4 ng/mL,Calibration curve,Lab,N/A,NIA,PFDA,1.51E+05,1.21E+06,1
+NIA_1 ng/mL,Calibration curve,Lab,N/A,NIA,PFDA,2.86E+05,1.32E+06,1
+NIA_2 ng/mL,Calibration curve,Lab,N/A,NIA,PFDA,6.28E+05,1.27E+06,1
+NIA_4 ng/mL,Calibration curve,Lab,N/A,NIA,PFDA,1.21E+06,1.21E+06,1
+NIA_10 ng/mL,Calibration curve,Lab,N/A,NIA,PFDA,3.14E+06,1.10E+06,1
+NIA_20 ng/mL,Calibration curve,Lab,N/A,NIA,PFDA,5.94E+06,1.20E+06,1
+NIA_40 ng/mL,Calibration curve,Lab,N/A,NIA,PFDA,9.73E+06,1.09E+06,1
+NIA_100 ng/mL,Calibration curve,Lab,N/A,NIA,PFDA,2.03E+07,8.62E+05,1
 NIA H sunfish water blank,Blank,Homogenizer,Biota,NIA,PFDA,1.19E+04,1.09E+06,1
 NIA H sunfish homogenizer blank,Blank,Homogenizer,Biota,NIA,PFDA,8.92E+03,9.90E+05,1
 NIA H sunfish sample 1 2x,Sample,Homogenizer,Biota,NIA,PFDA,5.99E+04,8.20E+05,1.418
@@ -870,16 +870,16 @@ NIA I Sunfish sample 4 2x,Sample,Homogenizer,Biota,NIA,PFDA,1.72E+04,1.34E+06,0.
 20MC B5 Crayfish MTBE Sample,Sample,Pestle,Biota,20MC,PFHxS,6.86E+03,2.69E+05,0.7906
 20MC B6 Crayfish Spike,Spike,Pestle,Biota,20MC,PFHxS,6.20E+05,3.47E+05,1
 20MC MeOH Blank 1,Blank,Lab,N/A,20MC,PFHxS,1.07E+04,6.67E+02,1
-20MC_0 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxS,3.30E+03,3.07E+05,1
-20MC_0.2 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxS,2.58E+04,3.27E+05,1
-20MC_0.4 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxS,4.36E+04,3.32E+05,1
-20MC_1 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxS,8.56E+04,3.22E+05,1
-20MC_2 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxS,2.06E+05,3.34E+05,1
-20MC_4 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxS,3.42E+05,3.28E+05,1
-20MC_10 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxS,6.57E+05,2.34E+05,1
-20MC_20 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxS,1.63E+06,3.10E+05,1
-20MC_40 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxS,2.80E+06,2.84E+05,1
-20MC_100 ng/mL,Calibration Curve,Lab,N/A,20MC,PFHxS,4.94E+06,1.79E+05,1
+20MC_0 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxS,3.30E+03,3.07E+05,1
+20MC_0.2 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxS,2.58E+04,3.27E+05,1
+20MC_0.4 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxS,4.36E+04,3.32E+05,1
+20MC_1 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxS,8.56E+04,3.22E+05,1
+20MC_2 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxS,2.06E+05,3.34E+05,1
+20MC_4 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxS,3.42E+05,3.28E+05,1
+20MC_10 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxS,6.57E+05,2.34E+05,1
+20MC_20 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxS,1.63E+06,3.10E+05,1
+20MC_40 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxS,2.80E+06,2.84E+05,1
+20MC_100 ng/mL,Calibration curve,Lab,N/A,20MC,PFHxS,4.94E+06,1.79E+05,1
 20MC MeOH Blank 2,Blank,Lab,N/A,20MC,PFHxS,6.52E+03,4.23E+02,1
 20MC water lab blank,Blank,Lab,Water,20MC,PFHxS,3.03E+03,3.20E+05,1
 20MC water field blank,Blank,Field,Water,20MC,PFHxS,2.33E+03,3.53E+05,1
@@ -964,16 +964,16 @@ NIA F Sediment Spike,Spike,Lab,Sediment,NIA,PFHxS,5.78E+05,3.21E+05,1
 NIA I Sediment field blank,Blank,Field,Sediment,NIA,PFHxS,7.23E+03,3.10E+05,1
 NIA I Sediment FIeld Spike,Spike,Field,Sediment,NIA,PFHxS,2.14E+03,1.88E+05,1
 NIA MeOH Blank,Blank,Lab,N/A,NIA,PFHxS,7.10E+03,7.15E+02,1
-NIA_0 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxS,2.63E+03,3.58E+05,1
-NIA_0.2 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxS,2.61E+04,3.62E+05,1
-NIA_0.4 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxS,4.91E+04,3.73E+05,1
-NIA_1 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxS,9.99E+04,3.67E+05,1
-NIA_2 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxS,2.10E+05,3.69E+05,1
-NIA_4 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxS,3.89E+05,3.59E+05,1
-NIA_10 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxS,1.01E+06,3.58E+05,1
-NIA_20 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxS,1.80E+06,3.50E+05,1
-NIA_40 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxS,3.06E+06,3.14E+05,1
-NIA_100 ng/mL,Calibration Curve,Lab,N/A,NIA,PFHxS,5.65E+06,2.16E+05,1
+NIA_0 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxS,2.63E+03,3.58E+05,1
+NIA_0.2 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxS,2.61E+04,3.62E+05,1
+NIA_0.4 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxS,4.91E+04,3.73E+05,1
+NIA_1 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxS,9.99E+04,3.67E+05,1
+NIA_2 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxS,2.10E+05,3.69E+05,1
+NIA_4 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxS,3.89E+05,3.59E+05,1
+NIA_10 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxS,1.01E+06,3.58E+05,1
+NIA_20 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxS,1.80E+06,3.50E+05,1
+NIA_40 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxS,3.06E+06,3.14E+05,1
+NIA_100 ng/mL,Calibration curve,Lab,N/A,NIA,PFHxS,5.65E+06,2.16E+05,1
 NIA H sunfish water blank,Blank,Homogenizer,Biota,NIA,PFHxS,4.29E+03,3.38E+05,1
 NIA H sunfish homogenizer blank,Blank,Homogenizer,Biota,NIA,PFHxS,3.05E+03,3.08E+05,1
 NIA H sunfish sample 1 2x,Sample,Homogenizer,Biota,NIA,PFHxS,9.29E+03,3.05E+05,1.418
@@ -985,4 +985,5 @@ NIA G biota catfish 1C 2x,Sample,Homogenizer,Biota,NIA,PFHxS,1.46E+04,2.84E+05,0
 NIA I Sunfish sample 1 2x,Sample,Homogenizer,Biota,NIA,PFHxS,1.11E+04,2.96E+05,0.6278
 NIA I Sunfish sample 2 2x,Sample,Homogenizer,Biota,NIA,PFHxS,1.10E+04,3.32E+05,0.6168
 NIA I Sunfish sample 3 2x,Sample,Homogenizer,Biota,NIA,PFHxS,6.39E+03,4.67E+05,0.7001
+
 NIA I Sunfish sample 4 2x,Sample,Homogenizer,Biota,NIA,PFHxS,8.18E+03,3.71E+05,0.7001
