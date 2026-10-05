@@ -127,9 +127,6 @@ kable("your table name here", col.names = c("Compound", "LOD (ng/mL)", "LOQ (ng/
 How do these LOQ and LOD look? Are they reasonable for your compounds? Think about what this means for each of your measurements.
 
 
-***END OF DAY 1***
-
-
 ### Creating a Calibration Curve 
 
 Now that we have LOD and LOQ, let's move on to making our actual calibration curve. A more in-depth discussion of regressions for calibration curves can be found in Chapters 19 and 20. The first step is usually to try a linear fit for your compounds, so let's try that below. Create a calibration plot for one chemical over all the different concentrations along with the linear regression. 
@@ -183,7 +180,6 @@ Data <- full_join(#Your code here to add your calibration dataset to your main d
 
 Data <- #Your code here to calculate concentrations
 ```
-***END OF DAY 2***
 
 Next, let's use our LOD and LOQs. In general, you can think of values that are below the LOD as 0 and values that are below the LOQ as some value, but we can't be certain what it is. A common practice for samples that are above the LOD and below the LOQ is to set the concentration to 1/2 the LOQ. Using the above concepts, assign any value with a concentration < LOD to a concentration of 0 and any value with a concentration < LOQ to a concentration of 1/2LOQ. You might find the full_join function useful again, this time by combining the 'Data' and 'QA' datasets. You might also want to add another column that states that you've done this, i.e. it contains "<LOD" and "<LOQ" so that you have a record of these changes to your dataset. However, for future work we will need the 'concentration' column to be numeric, so we don't want to put these values in there directly.
 
@@ -259,7 +255,6 @@ write.csv(DataOut, 'Data/Clean_FieldTrip_Data_Analyzed.csv')
 write.csv(DataAll, 'Data/All_FieldTrip_Data_Analyzed.csv')
 ```
 
-***END OF DAY 3***
 
 ### Visualizations
 
@@ -281,8 +276,6 @@ For the purposes of the data analysis exercise, we will instead ask you to gener
 ```
 ***Your caption here***
 
-
-***END OF DAY 4***
 
 ### Next steps
 
